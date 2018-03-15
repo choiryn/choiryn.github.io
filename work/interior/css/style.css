@@ -79,6 +79,4 @@ ul,li {
 }
 .text_con a:hover {
 	background: rgba(255,255,255,0.2);
-	color: #000;
-	border: 0.8px solid #000;
 }

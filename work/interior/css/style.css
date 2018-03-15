@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+body {
+	width: 100%;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+ul,li {
+	list-style: none;
+}
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	color: #fff;
+	box-shadow: 1 0 0 red;
+	padding-top: 30px;
+}
+#header .wrap {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: 0 auto;
+}
+#header .logo a {
+	line-height: 30px;	
+}
+.gnb ul {
+	display: flex;
+}
+.gnb ul a {
+	margin-left: 40px;
+	font-size: 2vw;
+}
+.conA {
+	display: flex;
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(../image/image1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 90vh;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	color: #fff;
+	min-height: 500px;
+}
+.text_con {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.text_con h2 {
+	font-weight: bold;
+	font-size: 8vw;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.text_con p {
+	font-weight: 3;
+	margin-top: 1.5em;
+}
+.text_con a {
+	border: 0.5px solid #fff;
+	padding: 0.8em 1.8em;	
+	margin-top: 20px;
+	border-radius: 15px;
+}

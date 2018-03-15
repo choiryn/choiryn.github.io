@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Jekyll installed successfully!!"
 date:   2018-03-15 14:25:10 +0900
 categories: jekyll update
 ---

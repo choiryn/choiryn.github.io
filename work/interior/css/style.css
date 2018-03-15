@@ -58,25 +58,27 @@ ul,li {
 	min-height: 500px;
 }
 .text_con {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	-ms-align-items: center;
-	align-items: center;
+	text-align: center;
 }
 .text_con h2 {
 	font-weight: bold;
 	font-size: 8vw;
 	margin-top: 0;
-	margin-bottom: 10px;
 }
 .text_con p {
+	font-size: 1.5vw;
 	font-weight: 3;
-	margin-top: 1.5em;
+	margin-top: 0.1em;
+	margin-bottom: 5em;
 }
 .text_con a {
 	border: 0.5px solid #fff;
 	padding: 0.8em 1.8em;	
-	margin-top: 20px;
 	border-radius: 15px;
+	transition: all 0.5s;
+}
+.text_con a:hover {
+	background: rgba(255,255,255,0.2);
+	color: #000;
+	border: 0.8px solid #000;
 }

@@ -41,7 +41,7 @@ ul,li {
 }
 .gnb ul a {
 	margin-left: 40px;
-	font-size: 2vw;
+	font-size: 0.8em;
 }
 .conA {
 	display: flex;

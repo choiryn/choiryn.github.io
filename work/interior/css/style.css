@@ -77,6 +77,9 @@ ul,li {
 	transition: all 0.5s;
 	color: #fff;
 }
+.text_con button:hover {
+	background: rgba(255,255,255,0.2);
+}
 @media(max-width: 360px){
 	.text_con h2 {
 		font-size: 3em;
@@ -103,6 +106,3 @@ ul,li {
 		-webkit-transform: translate(-50%,0);
 		font-size: 0.8em;
 	}
-.text_con button:hover {
-	background: rgba(255,255,255,0.2);
-}

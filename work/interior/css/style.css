@@ -55,20 +55,20 @@ ul,li {
 	color: #fff;
 	min-height: 500px;
 }
-.conA .text_con {
+.text_con {
 	text-align: center;
 }
-.conA .text_con h2 {
+.text_con h2 {
 	font-weight: bold;
 	font-size: 100px;
 	margin-top: 0;
 }
-.conA .text_con p {
+.text_con p {
 	font-size: 20px;
 	font-weight: 3;
 	margin-bottom: 70px;
 }
-.conA .text_con button {
+.text_con button {
 	 background: transparent;
 	 font-weight: 100;
 	 font-style: normal;

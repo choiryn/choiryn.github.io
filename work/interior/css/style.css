@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+/*@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');*/
 
 * {
 	margin: 0;
@@ -9,6 +9,7 @@
 
 body {
 	width: 100%;
+	font-size: 16px;
 }
 a {
 	color: #fff;
@@ -18,39 +19,36 @@ ul,li {
 	list-style: none;
 }
 #header {
-	position: absolute;
-	top: 0;
-	left: 0;
+	position: fixed;
 	z-index: 100;
 	width: 100%;
 	color: #fff;
-	box-shadow: 1 0 0 red;
-	padding-top: 30px;
+	box-shadow: 0 3px 10px rgba(10,10,10,0.1);
 }
-#header .wrap {
+#header .container {
 	display: flex;
 	justify-content: space-between;
-	width: 90%;
+	-ms-align-items: center;
+	align-items: center;
+	width: 80%;
 	margin: 0 auto;
-}
-#header .logo a {
-	line-height: 30px;	
+	height: 70px;
 }
 .gnb ul {
 	display: flex;
+	font-size: 12px;
 }
-.gnb ul a {
-	margin-left: 40px;
-	font-size: 0.8em;
+.gnb ul a:not(.not_mar) {
+	margin-left: 50px;
 }
 .conA {
 	display: flex;
 	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(../image/image1.jpg);
 	background-position: center;
 	background-size: cover;
-	height: 90vh;
+	background-repeat: no-repeat;
+	height: 100vh;
 	width: 100%;
-	margin: 0 auto;
 	justify-content: center;
 	-ms-align-items: center;
 	align-items: center;
@@ -62,21 +60,49 @@ ul,li {
 }
 .text_con h2 {
 	font-weight: bold;
-	font-size: 8vw;
+	font-size: 100px;
 	margin-top: 0;
 }
 .text_con p {
-	font-size: 1.5vw;
+	font-size: 20px;
 	font-weight: 3;
-	margin-top: 0.1em;
-	margin-bottom: 5em;
+	margin-bottom: 70px;
 }
-.text_con a {
-	border: 0.5px solid #fff;
-	padding: 0.8em 1.8em;	
+.text_con button {
+	background: none;
+	display: inline-block;
+	padding: 0.8em 1.8em;
+	border: 0.5px solid #fff;	
 	border-radius: 15px;
 	transition: all 0.5s;
+	color: #fff;
 }
-.text_con a:hover {
+@media(max-width: 360px){
+	.text_con h2 {
+		font-size: 3em;
+	}
+	.text_con p {
+		font-size: 1em;
+		width: 250px;
+	}
+}
+@media(max-width: 767px){
+	.text_con h2 {
+		font-size: 3em;
+	}
+	.text_con p {
+		font-size: 1em;
+		width: 250px;
+	}
+	.gnb {
+		display: none;
+	}
+	.logo {
+		position: absolute;
+		left: 50%;
+		-webkit-transform: translate(-50%,0);
+		font-size: 0.8em;
+	}
+.text_con button:hover {
 	background: rgba(255,255,255,0.2);
 }

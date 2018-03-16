@@ -122,6 +122,11 @@ ul,li {
 .conB .box {
 	position: relative;
 }
+.conB .box:hover {
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+	transform: translate(-1px, -1px);
+	color: orangered;
+}
 .conB .box .text_left {
 	position: absolute;
 	top: 5px;
@@ -155,9 +160,10 @@ ul,li {
 		font-size: 1em;
 		width: 250px;
 	}
-	.conB p {
+	.conB .box p {
 		margin-top: 10px;
 		margin-bottom: 40px;
+		font-size: 14px;
 	}
 	.conB .container {
 		display: block;
@@ -175,7 +181,7 @@ ul,li {
 		display: none;
 	}
 }
-@media screen and (min-width: 415px){
+@media screen and (min-width: 415px) and (max-width: 1023px){
 	.text_con h2 {
 		font-size: 3em;
 	}

@@ -140,7 +140,7 @@ ul,li {
 
 
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 414px){
 	.text_con h2 {
 		font-size: 3em;
 	}
@@ -159,7 +159,7 @@ ul,li {
 		margin-top: 20px;
 	}
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
 	.text_con h2 {
 		font-size: 3em;
 	}

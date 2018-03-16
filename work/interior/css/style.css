@@ -80,7 +80,7 @@ ul,li {
 .text_con button:hover {
 	background: rgba(255,255,255,0.2);
 }
-@media(max-width: 360px){
+@media screen and (max-width: 360px){
 	.text_con h2 {
 		font-size: 3em;
 	}
@@ -89,7 +89,7 @@ ul,li {
 		width: 250px;
 	}
 }
-@media(max-width: 767px){
+@media screen and (max-width: 767px){
 	.text_con h2 {
 		font-size: 3em;
 	}

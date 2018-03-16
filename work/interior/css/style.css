@@ -147,7 +147,7 @@ ul,li {
 
 
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 414px){/*스마트폰*/
 	.text_con h2 {
 		font-size: 3em;
 	}
@@ -165,8 +165,17 @@ ul,li {
 	.conB .box {
 		margin-top: 20px;
 	}
+	.logo {
+		position: absolute;
+		left: 50%;
+		-webkit-transform: translate(-50%,0);
+		font-size: 1.5em;
+	}
+	.gnb {
+		display: none;
+	}
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 415px){
 	.text_con h2 {
 		font-size: 3em;
 	}
@@ -175,13 +184,7 @@ ul,li {
 		width: 250px;
 	}
 	.gnb {
-		display: none;
-	}
-	.logo {
-		position: absolute;
-		left: 50%;
-		-webkit-transform: translate(-50%,0);
-		font-size: 1.5em;
+		display: block;
 	}
 	.conB .box p {
 		font-size: 16px;

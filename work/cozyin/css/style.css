@@ -110,13 +110,13 @@ header {
 }
 
 .con_A .one {
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)), url(../image/image1.jpg);
+  background-image: url(../image/image1.jpg);
 }
 .con_A .two {
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)), url(../image/water.jpg);
+  background-image: url(../image/water.jpg);
 }
 .con_A .three {
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)), url(../image/aurora.jpg);
+  background-image: url(../image/aurora.jpg);
 }
 .swiper-button-next {
   margin: 0 1em;

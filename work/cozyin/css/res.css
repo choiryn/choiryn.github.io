@@ -23,4 +23,29 @@
 		width: 90%;
 		margin: 0 auto;
 	}
+
+	.con_A .swiper-container {
+		height: 60vh;
+	}
+
+	header {
+		position: relative;
+		height: 80px;
+	}
+
+	.wrap {
+		height: 80px;
+	}
+
+	.logo {
+		color: #000;
+	}
+	
+	.button-wrapper {
+		top: 25px;
+	}
+
+	.nav div {
+		background-color: #000;
+	}
 }

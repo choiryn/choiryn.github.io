@@ -1,0 +1,26 @@
+@media screen and (max-width: 767px) {
+	.gnb {
+		display: none;
+	}
+
+	.button-wrapper {
+		visibility: visible;
+	}
+
+	.swiper-button-next {
+		display: none;
+	}
+
+	.swiper-button-prev {
+		display: none;
+	}
+
+	.swiper-slide h1 {
+		font-size: .8em;
+	}
+
+	.swiper-slide p {
+		width: 90%;
+		margin: 0 auto;
+	}
+}

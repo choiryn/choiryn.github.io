@@ -14,21 +14,32 @@
 
 <body>
   <!-- Swiper -->
-  <section class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide one">creative</div>
-      <div class="swiper-slide two">We offer cozy place</div>
-      <div class="swiper-slide three">I love ya</div>
-
+  <header>
+    <h1><a href="" class="logo">cozy.in</a></h1>
+    <nav class="button-wrapper">
+      <a href="#" class="nav">
+        <div class="btn_one"></div>
+        <div class="btn_two"></div>
+        <div class="btn_three"></div>
+      </a>
+    </nav>
+  </header>
+  <section class="con_A">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide one"><p>creative</p></div>
+        <div class="swiper-slide two"><p>We offer cozy place</p></div>
+        <div class="swiper-slide three"><p>I love ya</p></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination swiper-pagination-white"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next swiper-button-white"></div>
+      <div class="swiper-button-prev swiper-button-white"></div>
     </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination swiper-pagination-white"></div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next swiper-button-white"></div>
-    <div class="swiper-button-prev swiper-button-white"></div>
-  </<section></section>>
+  </section>
+
   <section>
-    d
   </section>
 
   <!-- Swiper JS -->
@@ -38,10 +49,10 @@
   <script>
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
-      spaceBetween: 30,
+      spaceBetween: 0,
       loop: true,
       autoplay: {
-        delay: 2500,
+        delay: 4000,
         disableOnInteraction: false,
       },
       pagination: {

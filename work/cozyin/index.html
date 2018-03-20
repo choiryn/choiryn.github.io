@@ -9,13 +9,22 @@
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.min.css">
   <link rel="stylesheet" href="css/style.css">
-
+  <script>
+    $(document).on("touchstart", function(){});
+  </script>
 </head>
 
 <body>
-  <!-- Swiper -->
   <header>
     <h1><a href="" class="logo">cozy.in</a></h1>
+    <nav class="gnb">
+      <ul>
+        <li><a href="">Brand</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Magazine</a></li>
+      </ul>
+    </nav>
     <nav class="button-wrapper">
       <a href="#" class="nav">
         <div class="btn_one"></div>
@@ -27,9 +36,12 @@
   <section class="con_A">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide one"><p>고객이 먼저다.</p></div>
-        <div class="swiper-slide two"><p>We offer cozy place</p></div>
-        <div class="swiper-slide three"><p>I love ya</p></div>
+        <div class="swiper-slide one">
+          <h2>고객을 먼저 생각하는 마음</h2>
+          <p>Cozy.In은 항상 고객을 먼저 우선시하여 올바른 제품을 만들 것을 약속드립니다.</p>
+        </div>
+        <div class="swiper-slide two"><h2>우리는 혁신적인 제품을 위해 끊임없이 노력합니다.</h2></div>
+        <div class="swiper-slide three"><h2>아늑하고 편안한 공간을 드립니다.</h2></div>
       </div>
       <!-- Add Pagination -->
       <div class="swiper-pagination swiper-pagination-white"></div>
@@ -38,10 +50,18 @@
       <div class="swiper-button-prev swiper-button-white"></div>
     </div>
   </section>
-
-  <section>
+  <section class="con_B">
+    <div class="text_container">
+      <h2>About Us</h2>
+      <p>In publishing and graphic design, lorem ipsum is a filler text or greeking commonly used to demonstrate the textual elements of a graphic document or visual presentation. Replacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced.</p>
+    </div>
   </section>
-
+  <section class="con_C">
+    <h1>What is problem?</h1>
+  </section>
+  <footer>
+    <p>&copy;All Rights Reserved.</p>
+  </footer>
   <!-- Swiper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.min.js"></script>
 

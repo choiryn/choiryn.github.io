@@ -171,24 +171,31 @@ header {
 .con_B {
   width: 100%;
   height: 80vh;
-   /*background: linear-gradient(rgba(255,255,0,0.9),rgba(0,255,3,0.9));*/
-  background: rgb(247,252,255); /* Old browsers */
-  background: -moz-linear-gradient(-45deg, rgba(247,252,255,1) 1%, rgba(239,239,239,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, rgba(247,252,255,1) 1%,rgba(239,239,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, rgba(247,252,255,1) 1%,rgba(239,239,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fcff', endColorstr='#efefef',GradientType=1 ); 
+  background: yellowgreen;
+  -webkit-user-select: none;
+  color: #fff;
 }
 .text_container {
   width: 90%;
   margin: 0 auto;
+  text-align: center;
+}
+.text_container span {
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  margin-bottom: 1em;
 }
 .text_container h2 {
-  padding: 50px 10px 0 0;
   font-size: 3em;
-  color: #333;
-  width: 270px;
-  padding-bottom: 2px;
-  border-bottom: 2px solid lightblue;
+  padding-top: 2em;
+  padding-bottom: .3em;
+}
+.text_container p {
+  font-weight: 500;
+  font-size: 2em;
 }
 .con_C {
   width: 100%;

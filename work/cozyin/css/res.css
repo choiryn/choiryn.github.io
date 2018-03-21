@@ -37,6 +37,7 @@
 	header {
 		position: relative;
 		height: 60px;
+		box-shadow: 10px 0 10px rgba(50,50,50,0.9);
 	}
 
 	.wrap {

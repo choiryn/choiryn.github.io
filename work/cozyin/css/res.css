@@ -36,11 +36,11 @@
 
 	header {
 		position: relative;
-		height: 80px;
+		height: 60px;
 	}
 
 	.wrap {
-		height: 80px;
+		height: 60px;
 	}
 
 	.logo {
@@ -48,10 +48,14 @@
 	}
 	
 	.button-wrapper {
-		top: 25px;
+		top: 17px;
 	}
 
-	.nav div {
+	.button-wrapper .btn_nav div {
 		background-color: #000;
 	}
+
+/*	.button-wrapper:active .side-wrapper {
+		display: block;
+	}*/
 }

@@ -31,13 +31,11 @@
 	}
 
 	.con_A .swiper-container {
-		height: 60vh;
+		height: 80vh;
 	}
 
 	header {
-		position: relative;
 		height: 60px;
-		box-shadow: 10px 0 10px rgba(50,50,50,0.9);
 	}
 
 	.wrap {
@@ -45,7 +43,6 @@
 	}
 
 	.logo {
-		color: #000;
 	}
 	
 	.button-wrapper {
@@ -53,7 +50,6 @@
 	}
 
 	.button-wrapper .btn_nav div {
-		background-color: #000;
 	}
 
 /*	.button-wrapper:active .side-wrapper {

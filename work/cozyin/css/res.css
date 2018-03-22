@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 @media screen and (max-width: 767px) {
-	body {
-		font-family: 'Roboto', sans-serif;
-	}
-
+	
 	.gnb {
 		display: none;
 	}
@@ -52,7 +48,7 @@
 	}
 
 	.wrap .logo {
-		padding-top: 20px;
+		padding-top: 30px;
 		width: 45px;
 	}
 

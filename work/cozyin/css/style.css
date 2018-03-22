@@ -48,7 +48,7 @@ header {
   cursor: pointer;
 }
 .wrap .logo:hover .st5, .wrap .logo:active .st5{
-  fill: #B79A20;
+  fill: #B7444A;
 }
 
 /*.gnb {
@@ -58,12 +58,15 @@ header {
   display: flex;
 }
 .gnb ul a {
+  font-size: 12px;
   margin-left: 50px;
   transition: .2s;
 }
 .gnb ul a:hover {
+  font-weight: bold;
+  color: #B7444A;
   padding-bottom: 3px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 2.5px solid #B7444A;
 }
 /*.logo {
   margin-left: 2em;
@@ -118,8 +121,7 @@ header {
   margin-right: auto;
 }
 .con_A .swiper-slide {
-  text-align: center;  
-   /*Center slide text vertically */
+ /* text-align: center;  
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -133,17 +135,23 @@ header {
   -webkit-align-items: center;
   align-items: center;
   -webkit-user-select: none;
-  flex-wrap: wrap;
+  flex-wrap: wrap;*/
+  position: relative;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.con_A .small-size {
-  font-size: 14px;
+.con_A .swiper-slide .text-wrapper {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
 }
-.con_A .swiper-slide h2 {
-  font-size: 1.3em;
-  font-weight: 300;
+.con_A h2 {
+  font-family: 'Ramabhadra', sans-serif;
+  font-size: 4em;
 }
 .con_A .one {
   background-image: url(../image/img3.jpg);
@@ -193,6 +201,20 @@ header {
 .con_C {
   width: 100%;
   height: 100vh;
+}
+.con_C .parallax {
+  background-image: url(../image/img4.jpg);
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.con_C .parallax p {
+  text-align: center;
+  font-size: 3em;
+  color: #fff;
 }
 
 footer {

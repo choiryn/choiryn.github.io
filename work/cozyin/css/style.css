@@ -190,7 +190,7 @@ article {
 
 .con_B {
   width: 100%;
-  height: 100vh;
+  height: auto;
   -webkit-user-select: none;
   color: #000;
   text-align: center;
@@ -200,7 +200,7 @@ article {
 }
 .con_B .article-wrap {
   width: 90%;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 .con_B article {
   float: left;
@@ -210,6 +210,29 @@ article {
   background-position: center;
   background-size: cover;
   transition: all .9s;
+}
+.con_B .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #344e70;
+  position: relative;
+  opacity: 0;
+  transition: all .5s;
+}
+.con_B .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: #fff;
+}
+.con_B .text h3 {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #fff;
+}
+.con_B .text p {
+  margin-top: 1em;
 }
 .con_B article:nth-child(1) {
   width: 30%;
@@ -231,9 +254,8 @@ article {
   width: 50%;
   background-image: url(../image/light5.jpg);
 }
-.con_B article:hover {
-  mix-blend-mode: color;
-  opacity: .5;
+.con_B article:hover .overlay, .con_B article:active .overlay{
+  opacity: .7;
 }
 
 .con_C {
@@ -291,7 +313,6 @@ footer {
 }
 
 .foot_wrap {
-
   width: 90%;
   margin: 30px auto;
   border-top: 1px solid #ccc;

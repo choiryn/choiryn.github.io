@@ -50,6 +50,11 @@
 		top: 17px;
 	}
 
+	.wrap .logo {
+		padding-top: 10px;
+		width: 40px;
+	}
+
 /*	.button-wrapper:active .side-wrapper {
 		display: block;
 	}*/

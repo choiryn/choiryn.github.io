@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +25,7 @@ a {
 }
 
 header {
+  font-family: 'Roboto', sans-serif;
   position: absolute;
   top: 0;
   left: 0;
@@ -40,6 +42,10 @@ header {
   height: 100px;
   margin: 0 auto;
 }
+.wrap .logo {
+  width: 55px;
+  cursor: pointer;
+}
 /*.gnb {
   margin-right: 3.5em;
 }*/
@@ -51,7 +57,8 @@ header {
   transition: .2s;
 }
 .gnb ul a:hover {
-  border-bottom: 2px solid #E6E9FF;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #fff;
 }
 /*.logo {
   margin-left: 2em;
@@ -68,7 +75,7 @@ header {
   width: 40px;
 }
 .button-wrapper .btn_nav div {
-  height: 3.3px;
+  height: 2.5px;
   background: #fff;
   margin: 5px 0;
   border-radius: 40px;
@@ -76,7 +83,7 @@ header {
 }
 
 .btn_one {
-  width: 30px;
+  width: 25px;
 }
 .btn_two {
   width: 15px;
@@ -153,13 +160,13 @@ header {
   font-size: 12px;
 }
 .con_A .one {
-  background-image: url(../image/image1.jpg);
+  background-image: url(../image/img3.jpg);
 }
 .con_A .two {
-  background-image: url(../image/water.jpg);
+  background-image: url(../image/img2.jpg);
 }
 .con_A .three {
-  background-image: url(../image/aurora.jpg);
+  background-image: url(../image/img1.jpg);
 }
 .swiper-button-next {
   margin: 0 1em;

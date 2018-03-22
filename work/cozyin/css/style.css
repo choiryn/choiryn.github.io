@@ -2,12 +2,12 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Nanum Gothic', sans-serif;
-  font-weight: lighter;
 }
 html, body {
   position: relative;
   height: 100%;
+  font-family: 'Nanum Gothic', 'Montserrat', sans-serif;
+  /*font-weight: lighter;*/
  }
 body {
   width: 100%;
@@ -25,7 +25,6 @@ a {
 }
 
 header {
-  font-family: 'Roboto', sans-serif;
   position: absolute;
   top: 0;
   left: 0;
@@ -45,6 +44,7 @@ header {
 .wrap .logo {
   width: 55px;
   cursor: pointer;
+  margin-top: 20px;
 }
 .wrap .logo:hover .st4, .wrap .logo:active .st5{
   fill: #B7444A;
@@ -147,10 +147,27 @@ header {
   left: 50%;
   transform: translate(-50%,-50%);
   width: 100%;
+  /*text-shadow: 1px 1px 1px #EDEDED;*/
 }
 .con_A h2 {
-  font-family: 'Ramabhadra', sans-serif;
-  font-size: 4em;
+  display: inline;
+  font-family: 'Muli', sans-serif;
+  /*letter-spacing: 1px;*/
+  font-size: 6vw;
+  opacity: 1;
+  border-bottom: .2px solid #fff;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+.con_A p {
+  font-size: 2.5vw;
+  /*text-shadow: 1px 1px 2px gray;*/
+}
+.con_A .text-small {
+  margin-top: 30px;
+  font-size: 1.3vw;
+  font-weight: lighter;
+  letter-spacing: 3px;
 }
 .con_A .one {
   background-image: url(../image/img3.jpg);

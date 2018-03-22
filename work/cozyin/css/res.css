@@ -48,11 +48,27 @@
 	}
 
 	.wrap .logo {
-		padding-top: 30px;
+		padding-top: 10px;
 		width: 45px;
 	}
 
 /*	.button-wrapper:active .side-wrapper {
 		display: block;
 	}*/
+
+	.con_A h2 {
+		font-size: 10vw;
+		opacity: 1;
+	}
+
+	.con_A p {
+		font-size: 5vw;
+	}
+
+	.con_A .text-small {
+		margin-top: 20px;
+		font-size: 3vw;
+		font-weight: lighter;
+		letter-spacing: 1.2px;
+	}
 }

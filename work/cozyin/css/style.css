@@ -43,9 +43,14 @@ header {
   margin: 0 auto;
 }
 .wrap .logo {
+  padding-top: 15px;
   width: 55px;
   cursor: pointer;
 }
+.wrap .logo:hover .st5, .wrap .logo:active .st5{
+  fill: #B79A20;
+}
+
 /*.gnb {
   margin-right: 3.5em;
 }*/
@@ -66,7 +71,7 @@ header {
 .button-wrapper {
   visibility: hidden;
   position: fixed;
-  top: 38px;
+  top: 43px;
   right: 1.5em;
   z-index: 100;
 }
@@ -81,7 +86,6 @@ header {
   border-radius: 40px;
   transition: .1s;
 }
-
 .btn_one {
   width: 25px;
 }

@@ -36,6 +36,7 @@
 
 	header {
 		height: 60px;
+		position: fixed;
 	}
 
 	header .wrap .logo {
@@ -51,8 +52,8 @@
 	}
 
 	.wrap .logo {
-		padding-top: 10px;
-		width: 40px;
+		padding-top: 20px;
+		width: 45px;
 	}
 
 /*	.button-wrapper:active .side-wrapper {

@@ -43,7 +43,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'Noto Sans CJK kr';
+	font-family: 'Noto Sans CJK kr',sans-serif;
+	font-weight: lighter;
 }
 ol, ul {
 	list-style: none;
@@ -184,6 +185,11 @@ button {
 }*/
 
 /*.............///////////////////////*/
+section {
+	font-family: 'Noto Sans CJK kr',sans-serif;	
+	font-weight: lighter;
+}
+
 .next, .prev {
   font-size: 18px;
 }

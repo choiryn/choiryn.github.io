@@ -5,9 +5,9 @@
 	src: url(../font/NotoSansCJKkr-Thin.Truetype);
 }*/
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-@font-face {
+/*@font-face {
 	src: url(../font/NotoSansCJKkr-Thin.woff);
-}
+}*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -45,7 +45,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Noto Sans Kr', sans-serif;
 	font-weight: lighter;
 }
 ol, ul {
@@ -190,7 +190,7 @@ button {
 
 /*.............///////////////////////*/
 section {
-	font-family: 'Noto Sans KR', sans-serif;	
+	font-family: 'Noto Sans Kr', sans-serif;	
 	font-weight: lighter;
 }
 
@@ -228,20 +228,26 @@ section p {
   width: 100%;
   transform: translateX(100%);
   transition: transform 0.5s;
- /* background-position: center;
-  background-size: 100%;*/
+  background-position: center;
+  background-size: 100%;
 }
 
 .slides li:nth-of-type(1) {
   background: url(../img/backimg1.jpg) no-repeat;
+  height: 100%;
+  width: 100%;
 }
 
 .slides li:nth-of-type(2) {
   background: url(../img/backimg2.jpg) no-repeat;
+  height: 100%;
+  width: 100%;
 }
 
 .slides li:nth-of-type(3) {
   background: url(../img/backimg3.jpg) no-repeat;
+  height: 100%;
+  width: 100%;
 }
 
 .slides li.selected {

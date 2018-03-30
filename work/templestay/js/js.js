@@ -57,7 +57,7 @@
     var self = this;
     this.intervalId = setInterval(function(){
       self.showNewSlide(self.selectedSlide + 1);
-    }, 2000);
+    }, 4000);
   }
 
   slider.prototype.showNewSlide = function(index) {

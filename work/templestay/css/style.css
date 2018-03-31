@@ -93,11 +93,12 @@ table {
 }
 
 .logo a {
+	cursor: pointer;
 	position: absolute;
 	top: 50%;
 	margin-top: -24px;
 	left: 10%;
-	display: block;
+	/*display: block;*/
 	width: 99px;
 	height: 48px;
 	background: url(../img/logo.svg) no-repeat;
@@ -192,9 +193,6 @@ table {
 	transition: all .2s;
 }
 
-.lang:hover {
-	box-shadow: 1px 1px 5px rgba(206,206,206,1);
-}
 
 /*.............///////////////////////*/
 section {
@@ -372,13 +370,62 @@ section img {
 }
 /*/////////////////////////////////////////*/
 
+/*/////////////section2 - reserv///////////////*/
 
-#button {
-	/*position: absolute;
-	top: 100%;
-	left: 0;*/
-	color: #000;
+#reserv {
+	background-color: #f8f8f8;
 }
+
+#reserv .container {
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+	/*background: lightgreen;*/
+}
+
+.line {
+	display: inline-block;
+	margin: 0 10px 5px 0;
+	width: 10px;
+	height: 1px;
+	transform: rotate(-40deg);
+	background: #333;
+	transition: all .5s;
+}
+
+h2:hover .line {
+	transform: rotate(320deg);
+}
+
+#reserv h2 {
+	padding: 23px 0 0 0;
+}
+
+mark {
+	display: inline-block;
+	margin: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////*/
 
 
 

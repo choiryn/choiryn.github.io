@@ -1,14 +1,6 @@
-/*@font-face {
-	font-family: 'Noto Sans CJK kr';
-	src: url(../font/NotoSansCJKkr-Thin.otf.eot);
-	src: url(../font/NotoSansCJKkr-Thin.woff);
-	src: url(../font/NotoSansCJKkr-Thin.Truetype);
-}*/
+
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
-/*@font-face {
-  font-family: "HS겨울눈꽃체";
-  src: url(../font/"HS겨울눈꽃체.woff");
-}*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -37,7 +29,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	box-sizing: border-box;
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -54,7 +46,7 @@ body {
 	/*font-family: 'Noto Sans Kr', sans-serif;*/
 	/*font-family: 'Noto Sans Gothic', sans-serif;*/
 	/*font-family: 'Noto Sans KR', sans-serif;*/
-	font-family: 'Nanum Gothic', serif;
+	font-family: '맑은 고딕', 'Nanum Gothic', serif;
 }
 ol, ul {
 	list-style: none;
@@ -77,26 +69,26 @@ table {
 /*///////////header////////////////////////////////*/
 
 #header {
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 90px;
+	height: 70px;
 	z-index: 100;
 	/*background-color: yellow;*/
 }
 
 .header-wrap {
 	width: 100%;
-	height: 90px;
+	height: 70px;
 	margin: 0 auto;
-	background-color: transparent;
-	position: relative;
+	background-color: #fff;
+	position: fixed;
 	transition: all .5s;
 }
 
 .header-wrap:hover {
-	background-color: rgba(46,84,27,0.7);
+	box-shadow: 0 3px 10px rgba(144,144,144,0.8);
 }
 
 .logo a {
@@ -107,7 +99,7 @@ table {
 	display: block;
 	width: 99px;
 	height: 48px;
-	background: url(../img/logo.svg) no-repeat;
+	background: url(../img/logoBlack-01.svg) no-repeat;
 	background-position: center;
 	background-size: contain;
 }
@@ -118,12 +110,12 @@ table {
 	left: 50%;
 	transform: translateX(-50%);
 	width: 100%;
-	height: 90px;
+	height: 70px;
 	/*background-color: cyan;	*/
 }
 
 #nav ul {
-	height: 90px;
+	height: 70px;
 	overflow: hidden;
 	width: 80%;
 	margin: 0 auto;
@@ -133,9 +125,14 @@ table {
 }
 
 #nav ul .first {
-	line-height: 90px;
+	line-height: 70px;
 	display: inline-block;
-	padding: 0 20px;
+	padding: 0 10px;
+}
+
+#nav ul a:hover {
+	padding-bottom: 24px;
+	border-bottom: 3px solid #753838;
 }
 
 .menu-Out-wrap {
@@ -148,7 +145,7 @@ table {
 	/*float: left;*/
 	width: 100% !important;
 	height: 60px;
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,0.8);
 	text-align: center;	
 }
 
@@ -165,6 +162,7 @@ table {
 .menu-Out-wrap a {
 	color: #000;
 	opacity: .8;
+	border-bottom: 0px !important;
 }
 
 .menu-Out-wrap a:hover {
@@ -194,21 +192,11 @@ table {
 }
 
 .lang:hover {
-	box-shadow: 1px 1px 5px rgba(165,165,165,1);
+	box-shadow: 1px 1px 5px rgba(206,206,206,1);
 }
-
-
-/*section {
-	background-color: red;
-	width: 100%;
-	height: 100vh;
-}*/
 
 /*.............///////////////////////*/
 section {
-	/*font-family: 'Noto Sans Gothic', sans-serif;*/
-	/*font-family: 'Noto Sans Kr', sans-serif;	*/
-	/*font-family: 'Noto Sans KR', sans-serif;*/
 	font-family: 'Nanum Gothic', serif;
 	font-weight: lighter;
 }
@@ -229,7 +217,7 @@ section img {
 .full-width-slider {
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 500px;
   overflow: hidden;
 }
 
@@ -240,13 +228,10 @@ section img {
 }
 
 .slides li {
-  display: table;
   position: absolute;
   z-index: 1;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
   background-position: center;
   background-size: cover;
   transform: translateX(100%);
@@ -255,7 +240,7 @@ section img {
 
 .slides li:nth-of-type(1) {
   background: url(../img/backimg3.jpg) no-repeat;
-  height: 100%;
+  height: 500px;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -263,7 +248,7 @@ section img {
 
 .slides li:nth-of-type(2) {
   background: url(../img/backimg2.jpg) no-repeat;
-  height: 100vh;
+  height: 500px;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -271,7 +256,7 @@ section img {
 
 .slides li:nth-of-type(3) {
   background: url(../img/backimg1.jpg) no-repeat;
-  height: 100vh;
+  height: 500px;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -321,7 +306,7 @@ section img {
   width: 48px;
   color: #fff;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 2em;
   font-weight: 100;
   opacity: 0.5;
   transition: opacity 0.3s, visibility 0.3s;
@@ -387,7 +372,13 @@ section img {
 /*/////////////////////////////////////////*/
 
 
-
+#button {
+	/*position: absolute;
+	top: 100%;
+	left: 0;*/
+	z-index: 2000;
+	color: #000;
+}
 
 
 

@@ -102,3 +102,22 @@
     }(i));
   }
 })();
+
+// scroll event //////////////////////////////////////
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+    var scroll =$(window).scrollTop();
+    if(scroll>550){
+      $(".header-wrap").css("background","#264a63");
+      $(".header-wrap").css("position","fixed");
+
+    }
+    else{
+      $(".header-wrap").css("background","transparent");
+      $(".header-wrap").css("position","absolute");
+    }
+  })
+})
+
+// //////////////////////////////////////////////////////

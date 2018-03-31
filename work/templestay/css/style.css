@@ -41,6 +41,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	height: 2000px;
 	line-height: 1;
 	/*font-family: 'Noto Sans Kr', sans-serif;*/
 	/*font-family: 'Noto Sans Gothic', sans-serif;*/
@@ -82,12 +83,12 @@ table {
 	height: 70px;
 	margin: 0 auto;
 	background-color: transparent;
-	position: fixed;
-	transition: all .5s;
+	position: absolute;
+	transition: all .5s ease-out;
 }
 
 .header-wrap:hover {
-	background-color: rgba(59,83,108,0.8);
+	background-color: rgba(59,83,108,0.9) !important;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.1);
 }
 
@@ -179,13 +180,13 @@ table {
 	margin-top: -12px;
 	position: absolute;
 	right: 10%;
-	width: 70px;
+	width: 90px;
 	padding: 3px 5px;
-	background-color: #fff;
+	background: transparent;
+	/*background-position: left top;*/
 	border: 0.5px solid #fff;
-	border-radius: 20px;
 	height: 24px;
-	color: #333;
+	color: #fff;
 	outline: none;	
 	cursor: pointer;
 	transition: all .2s;

@@ -5,7 +5,10 @@
 	src: url(../font/NotoSansCJKkr-Thin.Truetype);
 }*/
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-/*@font-face {
+	
+/*@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);*/
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face {
 	src: url(../font/NotoSansCJKkr-Thin.woff);
 }*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -45,7 +48,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'Noto Sans Kr', sans-serif;
+	/*font-family: 'Noto Sans Kr', sans-serif;*/
+	/*font-family: 'Noto Sans Gothic', sans-serif;*/
+	font-family: 'Noto Sans KR', sans-serif;
 	font-weight: lighter;
 }
 ol, ul {
@@ -88,7 +93,7 @@ table {
 }
 
 .header-wrap:hover {
-	background-color: #2e541b;
+	background-color: rgba(46,84,27,0.7);
 }
 
 .logo a {
@@ -138,7 +143,6 @@ table {
 	width: 100% !important;
 	height: 80px;
 	background-color: white;
-	opacity: 1 !important;
 	border-top: 1px solid grey;
 	text-align: center;	
 }
@@ -190,7 +194,9 @@ button {
 
 /*.............///////////////////////*/
 section {
-	font-family: 'Noto Sans Kr', sans-serif;	
+	/*font-family: 'Noto Sans Gothic', sans-serif;*/
+	/*font-family: 'Noto Sans Kr', sans-serif;	*/
+	font-family: 'Noto Sans KR', sans-serif;
 	font-weight: lighter;
 }
 

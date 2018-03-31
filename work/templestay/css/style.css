@@ -322,11 +322,6 @@ section img {
 .slider-navigation a:hover {
   opacity: 1;
 }
-@media (max-width: 500px) {
-  .slider-navigation a {
-    display: none;
-  }
-}
 
 .slider-navigation a.next {
   left: auto;
@@ -422,6 +417,10 @@ mark {
 
 
 
+		
+
+
+
 
 
 
@@ -429,7 +428,43 @@ mark {
 
 
 
+@media (max-width: 500px) {
+	.container {
+		width: 100%;
+	}
+	section img {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	margin-top: -90px;
+}
+  .slides li:nth-of-type(1) {
+  background: url(../img/backimg3.jpg) no-repeat;
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
 
+.slides li:nth-of-type(2) {
+  background: url(../img/backimg2.jpg) no-repeat;
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.slides li:nth-of-type(3) {
+  background: url(../img/backimg1.jpg) no-repeat;
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+  }
+}
 
 
 

@@ -393,17 +393,10 @@ section img {
 .form-content {
     background-color: #fefefe;
     margin: 5% auto 3% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #3b536c;
+    border: 1px solid #fff;
     width: 40%; /* Could be more or less, depending on screen size */
-    height: 400px;
-}
-
-form h1 {
-	color: #3b536c;
-	font-size: 1.2em;
-	text-align: center;
-	font-weight: bold;
-	margin-top: 30px;
+    /*height: 400px;*/
+    box-shadow:0px 2px 12px 0px rgba(0,13,57,0.5);
 }
 
 .wrap {
@@ -412,30 +405,48 @@ form h1 {
 	box-sizing: border-box;
 }
 
-.wrap .top1 {
+.wrap h1 {
+	color: #3b536c;
+	font-size: 1.2em;
 	text-align: center;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.wrap .top {
 	padding-bottom: 20px;
 	box-sizing: border-box;
+}
+
+.wrap .top1 {
+	text-align: center;
 	float: left;
 }
 
 .wrap .top2 {
 	text-align: right;
-	padding-bottom: 10px;
-	box-sizing: border-box;
+}
+
+.wrap .fa-search {
+	font-size: 10px;
+	color: #3b536c;
 }
 
 .wrap .top2 input {
+	margin-left: 2px;
 	border: 0px;
 	font-size: .9em;
+	outline: none;
 }
 
 .wrap .middle {
-	padding-left: 10px;
 	clear: both;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	box-sizing: border-box;
+	padding-bottom: 1.6em;
+}
+
+.wrap .middle .right {
+	margin-left: 30px;
 }
 
 .wrap .middle h3 {
@@ -449,7 +460,7 @@ form h1 {
 
 .wrap .middle input {
 	margin-left: 5px;
-	width: 35%;
+	width: 30%;
 	font-size: .9em;
 }
 
@@ -458,8 +469,8 @@ form h1 {
 }
 
 .bottom {
-	padding-left: 10px;
-	padding-bottom: 30px;
+	/*padding-left: 10px;*/
+	padding-bottom: 3em;
 }
 
 .bottom h3 {
@@ -471,16 +482,21 @@ form h1 {
 	color: #3b536c;
 }
 
-.bottom1, .bottom2 {
-	width: 100%;
-	height: 50px;
+.bottom1 {
+	padding-bottom: 1.6em;
+	height: 4.5em;
 }
 
-.middle, .bottom {
+.small-wrap {
+	width: 100%;
+	/*height: 200px;*/
 	background: #f7f8f9;
+	padding: 20px;
+	box-sizing: border-box;
 }
 
 .btn {
+	clear: both;
 	width: 100%;
 	height: 50px;
 	text-align: center;

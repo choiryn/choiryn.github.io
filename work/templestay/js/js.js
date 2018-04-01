@@ -108,7 +108,7 @@
 $(document).ready(function(){
   $(window).scroll(function(){
     var scroll =$(window).scrollTop();
-    if(scroll>550){
+    if(scroll>10){
       $(".header-wrap").css("background","#264a63");
       $(".header-wrap").css("position","fixed");
 

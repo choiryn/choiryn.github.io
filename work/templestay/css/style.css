@@ -367,17 +367,32 @@ section img {
 /*/////////////section2 - reserv///////////////*/
 
 #reserv {
+	margin-top: 20px;
 	background-color: #f8f8f8;
 }
 
 #reserv .container {
 	width: 1200px;
-	height: 400px;
+	height: 200px;
 	margin: 0 auto;
+	position: relative;
+}
+
+.container > button {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	height: 30px;
+	border: 0;
+	background: #3b536c;
+	background-position: 10% 10%;
+	color: #fff;
 }
 
 .reserv-form {
-	/*display: none;*/
+	display: none;
 	position: fixed; /* Stay in place */
     z-index: 200; /* Sit on top */
     left: 0;

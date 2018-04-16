@@ -28,11 +28,11 @@ ul.bxslider {
 /** THEME
 ===================================*/
 .bx-wrapper {
- /* -moz-box-shadow: 0 0 5px #ccc;
-  -webkit-box-shadow: 0 0 5px #ccc;
-  box-shadow: 0 0 5px #ccc;
-  border: 5px solid #fff;
-  background: #fff;*/
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: #fff;
 }
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
@@ -93,7 +93,7 @@ ul.bxslider {
   left: 40px;
   background-image: url('../img/prev.png');
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: contain;
   background-position: center center;
   opacity: 0.8;
 }
@@ -102,8 +102,12 @@ ul.bxslider {
   opacity: 1;
 }
 .bx-wrapper .bx-next {
-  right: 10px;
-  background: url('../img/next.png') no-repeat center center;
+  right: 40px;
+  background-image: url('../img/next.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  opacity: 0.8;
 }
 .bx-wrapper .bx-next:hover,
 .bx-wrapper .bx-next:focus {

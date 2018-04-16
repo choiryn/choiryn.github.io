@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="75px" height="77px" viewBox="0 0 75 77" enable-background="new 0 0 75 77" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-143" y="-29" width="359" height="252"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	
+		<ellipse clip-path="url(#SVGID_2_)" fill="none" stroke="#212121" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="22.876" cy="20.231" rx="14.721" ry="17.639"/>
+	
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#212121" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M70.76,4.674l0.01,19c-0.03,6.875-5.68,12.475-12.555,12.444c-6.875-0.03-12.475-5.68-12.445-12.554l-0.01-19"/>
+	
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#0463AA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="53.941" y1="4.776" x2="54.011" y2="25.468"/>
+	
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#0463AA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="62.543" y1="4.747" x2="62.612" y2="25.439"/>
+	
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#212121" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="23" y1="38.592" x2="23" y2="70.592"/>
+	
+		<line clip-path="url(#SVGID_2_)" fill="none" stroke="#212121" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="59" y1="36.592" x2="59" y2="70.592"/>
+	<use xlink:href="#SVGID_1_"  overflow="visible" fill="none" stroke="#212121" stroke-miterlimit="10"/>
+</g>
+</svg>

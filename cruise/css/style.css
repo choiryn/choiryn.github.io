@@ -100,7 +100,7 @@ body {
 }
 
 .nav ul li a {
-	font-size: 16px;
+	font-size: 15px;
 	color: #555;
 }
 
@@ -112,5 +112,59 @@ body {
 
 .visual {
 	width: 100%;
+}
+
+/*section-visual 끝*/
+
+/*content1*/
+
+.content1 {
+	width: 100%;
+	height: 200px;
+	background-color: yellow;
+}
+
+.wrap {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	border-bottom: 1px solid #f0f0f0;
+	background-color: lightyellow;
+}
+
+.text {
+	margin-bottom: 50px;
+}
+
+.text h3 {
+	color: #0463aa;
+	font-size: 18px;
+}
+
+.text h2 {
+	color: #333;
+	font-size: 22px;
+	line-height: 0.8;
+}
+
+.wrap ul {
+	background-color: red;
+}
+
+.wrap ul li {
+	float: left;
+	padding-left: 50px;
+	background-color: green;
+	width: 100px;
+	height: 100px;
+}
+
+.wrap img {
+	width: 60%;
+	height: 60%;
+}
+
+.wrap h5 {
+	text-align: center;
 }
 

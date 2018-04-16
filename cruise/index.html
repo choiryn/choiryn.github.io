@@ -4,19 +4,39 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+		$('.bxslider').bxSlider({
+			mode: 'fade',// 가로 방향 수평 슬라이드
+	        speed: 2000,        // 이동 속도를 설정
+	        pager: false,      // 현재 위치 페이징 표시 여부 설정
+	        moveSlides: 1,     // 슬라이드 이동시 개수
+	        // slideWidth: 100,   // 슬라이드 너비
+	        minSlides: 4,      // 최소 노출 개수
+	        maxSlides: 4,      // 최대 노출 개수
+	        slideMargin: 5,    // 슬라이드간의 간격
+	        auto: true,        // 자동 실행 여부
+	        autoHover: false,   // 마우스 호버시 정지 여부
+	        controls: true,   // 이전 다음 버튼 노출 여부
+	        adaptiveHeight: true
+		});
+		});
+  	</script>
 </head>
 <body>
 	<header>
 		<div class="header-wrap">
 			<div class="header">
-				<div class="logo">
-					<h1></h1>
-					<ul>
-						<li><a href="">LOGIN</a></li>
-						<li><a href="">JOIN</a></li>
-						<li><a href="">KOR</a></li>
-					</ul>
-				</div>
+				<h1 class="logo"></h1>
+				<ul>
+					<li><a href="">LOGIN</a></li>
+					<li><a href="">JOIN</a></li>
+					<li><a href="">KOR</a></li>
+				</ul>
 			</div>
 		</div>
 		<div class="nav-wrap">
@@ -33,7 +53,11 @@
 		</div>
 	</header>
 	<section class="visual">
-		
+		<ul class="bxslider">
+			<li><img src="./img/visual1.jpg" alt=""></li>
+			<li><img src="./img/visual2.jpg" alt=""></li>
+			<li><img src="./img/visual3.jpg" alt=""></li>
+		</ul>
 	</section>
 </body>
 </html>

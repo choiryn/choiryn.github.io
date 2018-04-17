@@ -187,5 +187,90 @@ body {
 /*content3*/
 
 .content3 {
-	background: #f0f0f0;
+	background: #f9f9f9;
+}
+
+.content3 .wrap {
+	padding-top: 30px;
+}
+
+.ra-contents {
+	display: none;	
+}
+
+.button-box {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	height: 50px;
+}
+
+.button-box label {
+	cursor: pointer;
+	margin: 20px;
+	font-size: 15px;
+}
+
+.allWrap {
+	clear: both;
+	width: 100%;
+	height: 600px;
+}
+
+.imgWrap {
+	width: 100%;
+	height: 100%;
+	clear: both;
+	margin-top: 20px;
+	display: none;
+}
+
+.bigImg {
+	width: 50%;
+	height: 600px;
+	float: left;
+}
+
+.bigImg > img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.midImg {
+	clear: both;
+	width: 100%;
+	height: 300px;
+}
+
+.content3 .textBox {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: lightblue;
+	text-align: center;
+}
+
+.textBox .title {
+	
+}
+
+#ra1:checked ~ .allWrap #tab1 {
+	display: block;
+}
+
+#ra2:checked ~ .allWrap #tab2 {
+	display: block;
+}
+
+#ra3:checked ~ .allWrap #tab3 {
+	display: block;
+}
+
+#ra4:checked ~ .allWrap #tab4 {
+	display: block;
+}
+
+#ra5:checked ~ .allWrap #tab5 {
+	display: block;
 }

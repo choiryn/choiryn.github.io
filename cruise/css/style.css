@@ -264,9 +264,28 @@ body {
 	width: 50%;
 	height: 100%;
 	float: left;
-	background: #ffca28;
 	text-align: center;
 	position: relative;
+}
+
+.content3 .t-bg1 {
+	background-color: #7e7b15;
+}
+
+.content3 .t-bg2 {
+	background-color: #b6452c;
+}
+
+.content3 .t-bg3 {
+	background-color: #1995ad;
+}
+
+.content3 .t-bg4 {
+	background-color: #db9501;
+}
+
+.content3 .t-bg5 {
+	background-color: #301b28;
 }
 
 .textBox .title {

@@ -264,17 +264,15 @@ body {
 	width: 50%;
 	height: 100%;
 	float: left;
-	background: #fff;
+	background: #ffca28;
 	text-align: center;
-}
-
-.textBox {
 	position: relative;
 }
 
 .textBox .title {
 	font-size: 20px;
 	padding-top: 60px;
+	color: #fff;
 }
 
 .textBox .comment {
@@ -282,20 +280,22 @@ body {
 	margin: 0 auto;
 	padding: 20px;
 	font-size: 14px;
+	color: #fff;
 }
 
 .textBox .more {
 	display: block;
+	color: #fff;
 }
 
 /*line Ani*/
 
 .lineAni {
-	width: 95%;
-	height: 285px;
+	width: 92%;
+	height: 280px;
 	position: absolute;
-	left: 2.5%;
-	top: 7.5px;
+	left: 4%;
+	top: 10px;
 	transition: 0.5s;
 }
 
@@ -307,7 +307,7 @@ body {
 
 .lineAni span {
 	display: block;
-	background: red;
+	background: #fff;
 	position: absolute;
 	transition: 0.6s;
 }

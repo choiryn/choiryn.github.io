@@ -187,13 +187,13 @@ body {
 	margin: 50px 0;
 }
 
-.content2 .button-box {/*지도를 배경 안에 넣기 위해 position값 줌*/
+.content2 .map-box {/*지도를 배경 안에 넣기 위해 position값 줌*/
 	position: relative;
 }
 
 /*map 요소 position: absolute */
 
-.content2  .button-box .map1 {
+.content2  .map-box .map1 {
 	position: absolute;
 	top: 300px;
 	left: 200px;

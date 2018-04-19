@@ -123,11 +123,10 @@ body {
 	width: 100%;
 	height: 200px;
 	margin-bottom: 50px;
-	/*background-color: yellow;*/
-}
-
-.content1 .wrap {
 	border-bottom: 1px solid #f0f0f0;
+	padding-bottom: 20px;
+
+	/*background-color: yellow;*/
 }
 
 /*밑에서도 참조*/
@@ -183,45 +182,135 @@ body {
 
 .content2 {
 	width: 100%;
-	height: 500px;
-	margin: 50px 0;
+	background-color: #ddf0f2;
+}
+
+.content2 .wrap {
+	padding: 50px 0;
 }
 
 .content2 .map-box {/*지도를 배경 안에 넣기 위해 position값 줌*/
+	width: 50%;
+	height: 100%;
+	float: left;
 	position: relative;
+	background-image: url(../img/map-01.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
 }
 
-/*map 요소 position: absolute */
+.map-box > label {
+	cursor: pointer;
+	color: #58585b;
+	font-size: 16px;
+}
+
+.map-box > label:hover {
+	color: red;
+}
+	
+/*지도 이름 position absolute*/
 
 .content2  .map-box .map1 {
 	position: absolute;
-	top: 300px;
-	left: 200px;
+	bottom: 170px;
+	left: 70px;
 }
 
-/*/////////////////////////////*/
+.content2  .map-box .map2 {
+	position: absolute;
+	top: 160px;
+	left: 150px;
+}
+
+.content2  .map-box .map3 {
+	position: absolute;
+	top: 250px;
+	left: 0px;
+}
+
+.content2  .map-box .map4 {
+	position: absolute;
+	top: 160px;
+	right: 110px;
+}
+
+.content2  .map-box .map5 {
+	position: absolute;
+	top: 260px;
+	right: 60px;
+}
+
+.content2  .map-box .map6 {
+	position: absolute;
+	bottom: 160px;
+	right: 30px;
+}
+
+.content2  .map-box .map7 {
+	position: absolute;
+	top: 235px;
+	left: 190px;
+}
+
+.content2  .map-box .map8 {
+	position: absolute;
+	top: 165px;
+	right: 260px;
+}
+
+/*///////////////////////*/
 
 .mapWrap {
+	width: 50%;
+	height: 100%;
 	display: none;
+	float: left;
+	background-repeat: no-repeat;
 }
 
+/*각 나라별 사진*/
+
 #map1 {
-	width: 100%;
-	height: 100%;
-	background: url(../img/aurora1.jpg);
+	background-image: url(../img/mapbg1.png);
 }
 
 #map2 {
-	width: 100%;
-	height: 100%;
-	background: url(../img/aurora2.jpg);
+	background-image: url(../img/aurora2.jpg);
 }
+
+#map3 {
+	background-image: url(../img/aurora3.jpg);
+}
+
+#map4 {
+	background-image: url(../img/aurora2.jpg);
+}
+
+#map5 {
+	background-image: url(../img/aurora2.jpg);
+}
+
+#map6 {
+	background-image: url(../img/aurora2.jpg);
+}
+
+#map7 {
+	background-image: url(../img/aurora2.jpg);
+}
+
+#map8 {
+	background-image: url(../img/aurora2.jpg);
+}
+
+/*////////////////////////////////*/
 
 #LA:checked ~ .allWrap #map1 {
 	display: block;
 }
 
-#CA:checked ~ .allWrap #map2 {
+#CA:checked ~ .allWrap #map2{
 	display: block;
 }
 
@@ -249,12 +338,17 @@ body {
 	display: block;
 }
 
+#LA:checked ~ .map-box .map1 {
+	color: red;
+}
+
 
 /*//////////////////////////////////////////////////*/
 
 /*content3//////////////////////////////////////////*/
 
 .content3 {
+	clear: both;
 	background: #f9f9f9;
 }
 

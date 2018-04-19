@@ -88,15 +88,18 @@ body {
 }
 
 .nav ul {
+	width: 70%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+	/*background: gold;*/
 }
 
 .nav ul li {
+	width: 16.6666%;
 	float: left;
-	padding-left: 50px;
+	text-align: center;
 }
 
 .nav ul li a {
@@ -182,7 +185,10 @@ body {
 
 .content2 {
 	width: 100%;
-	background-color: #ddf0f2;
+	/*background-color: #d8e6eb;*/
+	/*background-image: url(../img/bg2.png);*/
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .content2 .wrap {
@@ -200,14 +206,18 @@ body {
 	background-size: 100% 100%;
 }
 
+
 .map-box > label {
 	cursor: pointer;
 	color: #58585b;
 	font-size: 16px;
+	font-weight: bold;
+	opacity: 0.8;
+	transition: 0.2s;
 }
 
 .map-box > label:hover {
-	color: red;
+	opacity: 1;
 }
 	
 /*지도 이름 position absolute*/
@@ -273,7 +283,7 @@ body {
 /*각 나라별 사진*/
 
 #map1 {
-	background-image: url(../img/mapbg1.png);
+	background-color: #eee;
 }
 
 #map2 {
@@ -305,6 +315,8 @@ body {
 }
 
 /*////////////////////////////////*/
+
+/*지도 display:block*/
 
 #LA:checked ~ .allWrap #map1 {
 	display: block;
@@ -338,9 +350,53 @@ body {
 	display: block;
 }
 
-#LA:checked ~ .map-box .map1 {
-	color: red;
+/*/////////////////////////////*/
+
+/*국가 text color */
+
+#LA:checked ~ .allWrap .map1 {
+	color: #d66;
+	opacity: 1;
 }
+
+#CA:checked ~ .allWrap .map2{
+	color: #d66;
+	opacity: 1;
+}
+
+#AL:checked ~ .allWrap .map3 {
+	color: #d66;
+	opacity: 1;
+}
+
+#RU:checked ~ .allWrap .map4 {
+	color: #d66;
+	opacity: 1;
+}
+
+#EA:checked ~ .allWrap .map5 {
+	color: #d66;
+	opacity: 1;
+}
+
+#AU:checked ~ .allWrap .map6 {
+	color: #d66;
+	opacity: 1;
+}
+
+#TM:checked ~ .allWrap .map7 {
+	color: #d66;
+	opacity: 1;
+}
+
+#EU:checked ~ .allWrap .map8 {
+	color: #d66;
+	opacity: 1;
+}
+
+/*////////////////*/
+
+/*route*/
 
 
 /*//////////////////////////////////////////////////*/

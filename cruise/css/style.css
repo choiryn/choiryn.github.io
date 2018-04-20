@@ -332,6 +332,24 @@ body {
 	display: none;
 	float: left;
 	background-repeat: no-repeat;
+	position: relative;
+}
+
+.mapWrap .natname {
+	font-size: 100px;
+	font-weight: bold;
+	color: rgba(255,255,255,0.8);
+}
+
+.mapWrap .natexp {
+	color: #333;
+}
+
+.mapWrap span {
+	width: 30px;
+	height: 10px;
+	background-color: #000;
+	color: #333;
 }
 
 .route {

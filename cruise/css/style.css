@@ -333,7 +333,7 @@ body {
 
 #map7 .natname {
 	right: 100px;
-	top: 200px;
+	top: 230px
 }
 
 #map8 .natname {
@@ -529,11 +529,19 @@ body {
 }
 
 #map7 .natimg1 {
-	width: 357px;
-	height: 300px;
-	background-image: url(../img/la1.jpg);
+	width: 250px;
+	height: 250px;
+	background-image: url(../img/tm.jpg);
 	right: 0;
 	bottom: 0;
+}
+
+#map7 .natimg2 {
+	width: 250px;
+	height: 250px;
+	background-image: url(../img/tm2.jpg);
+	right: 180px;
+	bottom: 180px;
 }
 
 #map8 .natimg1 {

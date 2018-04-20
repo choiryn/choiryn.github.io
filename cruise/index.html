@@ -11,21 +11,22 @@
 
 	<script>
 		$(document).ready(function(){
-		$('.bxslider').bxSlider({
-			mode: 'fade',// 가로 방향 수평 슬라이드
-	        speed: 500,        // 이동 속도를 설정
-	        pager: false,      // 현재 위치 페이징 표시 여부 설정
-	        moveSlides: 1,     // 슬라이드 이동시 개수
-	        // slideWidth: 100,   // 슬라이드 너비
-	        minSlides: 4,      // 최소 노출 개수
-	        maxSlides: 4,      // 최대 노출 개수
-	        slideMargin: 5,    // 슬라이드간의 간격
-	        auto: true,        // 자동 실행 여부
-	        autoHover: false,   // 마우스 호버시 정지 여부
-	        controls: true,   // 이전 다음 버튼 노출 여부
-	        adaptiveHeight: true
+			$('.bxslider').bxSlider({
+				mode: 'fade',// 가로 방향 수평 슬라이드
+		        speed: 500,        // 이동 속도를 설정
+		        pager: false,      // 현재 위치 페이징 표시 여부 설정
+		        moveSlides: 1,     // 슬라이드 이동시 개수
+		        // slideWidth: 100%,   // 슬라이드 너비
+		        minSlides: 4,      // 최소 노출 개수
+		        maxSlides: 4,      // 최대 노출 개수
+		        slideMargin: 5,    // 슬라이드간의 간격
+		        auto: true,        // 자동 실행 여부
+		        autoHover: false,   // 마우스 호버시 정지 여부
+		        controls: true,   // 이전 다음 버튼 노출 여부
+		        adaptiveHeight: true
 			});
 		});
+
   	</script>
 </head>
 <body>
@@ -124,44 +125,113 @@
 					<label for="AU" class="map6"></label>
 					<label for="TM" class="map7"></label>
 					<label for="EU" class="map8"></label>
-				<!-- 	<img src="./img/route-01.svg" alt="" class="route route1">
-					<img src="./img/route-02.svg" alt="" class="route route2">
-					<img src="./img/route-03.svg" alt="" class="route route3">
-					<img src="./img/route-04.svg" alt="" class="route route4">
-					<img src="./img/route-05.svg" alt="" class="route route5">
-					<img src="./img/route-06.svg" alt="" class="route route6">
-					<img src="./img/route-07.svg" alt="" class="route route7">
-					<img src="./img/route-08.svg" alt="" class="route route8"> -->
 				</div><!-- map-box -->
 				<div class="mapWrap" id="map1">
 					<div class="natexp">
-						<h2>신비로운 매력을 지닌 <br/>미지의 대륙 남미</h2>
+						<h2>남미</h2>
 						<span></span>
 						<p>광활한 정글과 코스모폴리탄 도시들, 끝없이 펼쳐진 팜파스와 유럽풍 마을들, 그리고 산악지대에 이르기까지 남미에서 만나는 모습은 언제나 다양합니다.</p>
-						<a href="">예약하기</a>
+						<div class="resBtn">
+							<div class="eff"></div>
+							<a href="">예약하기</a>
+						</div>
 					</div>
 					<div class="natname">Latin<br/>America</div>
 					<div class="natimg1"></div>
-					<div class="natimg2"></div>
-					<div class="natexp"></div>
 				</div>
 				<div class="mapWrap" id="map2">
-					<h2>신비로운 매력을 지닌 미지의 대륙 남미</h2>
-					<span></span>
-					<p>광활한 정글과 코스모폴리탄 도시들, 끝없이 펼쳐진 팜파스와 유럽풍 마을들, 그리고 산악지대에 이르기까지 남미에서 만나는 모습은 언제나 다양합니다.</p>
-					<a href="">예약하기</a>
+					<div class="natexp">
+						<h2>캐나다</h2>
+						<span></span>
+						<p>드넓은 자연환경과 다양한 동물들, 그리고 아름다운 호수와 어우러진 오색빛의 단풍들을 만나볼 수 있습니다.</p>
+						<div class="resBtn">
+							<div class="eff"></div>
+							<a href="">예약하기</a>
+						</div>
+					</div>
+					<div class="natname">Canada</div>
+					<div class="natimg1"></div>
 				</div>
 				<div class="mapWrap" id="map3">
+					<div class="natexp">
+						<h2>알래스카</h2>
+						<span></span>
+						<p>오염되지 않은 공기와 물 그리고 청량함과 환상적인 경치를 느낄 수 있습니다.</p>
+						<div class="resBtn">
+							<div class="eff"></div>
+							<a href="">예약하기</a>
+						</div>
+					</div>
+					<div class="natimg1"></div>
+					<div class="natimg2"></div>
+					<div class="natname">Alaska</div>
 				</div>
 				<div class="mapWrap" id="map4">
+					<div class="natexp">
+						<h2>러시아</h2>
+						<span></span>
+						<p>인문적, 자연적으로 수많은 잠재적 관광자원을 보유하고 있는 나라인 러시아에서 여름에는 백야를 겨울에는 오로라를 감상해 보세요.</p>
+						<div class="resBtn">
+							<div class="eff"></div>
+							<a href="">예약하기</a>
+						</div>
+					</div>
+					<div class="natname">Russia</div>
+					<div class="natimg1"></div>
 				</div>
 				<div class="mapWrap" id="map5">
+					<div class="natexp">
+						<h2>동남아</h2>
+						<span></span>
+						<p>세계적인 도시인 홍콩과 싱가포르를 비롯하여 태국, 필리핀, 베트남 등 가까운 아시아 국가들을 크루즈로 새롭게 여행 할 수 있습니다.</p>
+						<div class="resBtn">
+							<div class="eff"></div>
+							<a href="">예약하기</a>
+						</div>
+					</div>
+					<div class="natname">Southeast<br/>Asia</div>
+					<div class="natimg1"></div>
+					<div class="natimg2"></div>
 				</div>
 				<div class="mapWrap" id="map6">
+					<div class="natexp">
+						<h2>호주, 뉴질랜드</h2>
+						<span></span>
+						<p>세계 8대 불가사의로 묘사할 만큼 멋진 경관을 자랑하는 뉴질랜드 남섬 해협의 밀포드사운드 뿐만 아니라 호주 최고의 문화 · 예술의 도시 멜버른 등 구석구설을 돌아 볼 수 있는 일정입니다.</p>
+						<div class="resBtn">
+							<div class="eff"></div>
+							<a href="">예약하기</a>
+						</div>
+					</div>
+					<div class="natname">Australia<br>New Zealand</div>
+					<div class="natimg1"></div>
+					<div class="natimg2"></div>
 				</div>
 				<div class="mapWrap" id="map7">
+					<div class="natexp">
+						<h2>지중해</h2>
+						<span></span>
+						<p>따사로운 태양과 잔잔한 바다를 느낄 수 있는 여유를 선사합니다.</p>
+						<div class="resBtn">
+							<div class="eff"></div>
+							<a href="">예약하기</a>
+						</div>
+					</div>
+					<div class="natname">The<br/>Mediterranean</div>
+					<div class="natimg1"></div>
 				</div>
 				<div class="mapWrap" id="map8">
+					<div class="natexp">
+						<h2>낭만과 사랑이 공존하는 유럽</h2>
+						<span></span>
+						<p>강을 따라 여유롭게 즐기는 여행, 도시의 야경과 로맨틱한 분위기를 만끽하세요.</p>
+						<div class="resBtn">
+							<div class="eff"></div>
+							<a href="">예약하기</a>
+						</div>
+					</div>
+					<div class="natname">Europe</div>
+					<div class="natimg1"></div>
 				</div>
 			</div><!-- allWrap  -->
 		</div><!-- wrap -->

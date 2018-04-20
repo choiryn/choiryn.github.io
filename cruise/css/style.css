@@ -182,7 +182,10 @@ body {
 
 .content2 {
 	width: 100%;
-	background-color: #e9e6da;
+	background: -moz-linear-gradient(-45deg, #f2f0eb 0%, #e5e5e5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #f2f0eb 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #f2f0eb 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f0eb', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .content2 .wrap {
@@ -196,7 +199,7 @@ body {
 	position: relative;
 	background-image: url(../img/map-01.svg);
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: left;
 	background-size: contain;
 }
 
@@ -275,151 +278,273 @@ body {
 
 /*///////////////////////*/
 
-/*route position absolute*/
-
-.content2  .map-box .route1 {
-	position: absolute;
-	bottom: 135px;
-	left: 115px;
-}
-
-.content2  .map-box .route2 {
-	position: absolute;
-	top: 210px;
-	left: 100px;
-}
-
-.content2  .map-box .route3 {
-	position: absolute;
-	top: 190px;
-	left: 50px;
-}
-
-.content2  .map-box .route4 {
-	position: absolute;
-	top: 180px;
-	right: 200px;
-}
-
-.content2  .map-box .route5 {
-	position: absolute;
-	top: 280px;
-	right: 130px;
-}
-
-.content2  .map-box .route6 {
-	position: absolute;
-	bottom: 220px;
-	right: 90px;
-}
-
-.content2  .map-box .route7 {
-	position: absolute;
-	top: 210px;
-	left:280px;
-}
-
-.content2  .map-box .route8 {
-	position: absolute;
-	top: 200px;
-	right: 260px;
-}
-
-/*///////////////////////*/
-
 .mapWrap {
 	width: 50%;
 	height: 100%;
 	display: none;
 	float: left;
-	background-repeat: no-repeat;
 	position: relative;
 }
 
 .mapWrap .natname {
-	font-size: 80px;
+	font-size: 70px;
 	font-weight: bolder;
-	color: rgba(255,255,255,0.8);
+	color: rgba(255,255,255,0.5);
 	line-height: 0.9;
 	position: absolute;
+	z-index: 100;
 }
 
+/*///// nationl name /////*/
+
 #map1 .natname {
+	right: 130px;
+	top: 200px;
+}
+
+#map2 .natname {
+	right: 60px;
+	top: 220px;
+}
+
+#map3 .natname {
+	right: 0px;
+	bottom: 100px;
+	font-size: 130px;
+}
+
+#map4 .natname {
+	right: 30px;
+	top: 250px;
+}
+
+#map5 .natname {
+	right: 0px;
+	bottom: 100px;
+	font-size: 60px;
+	text-align: right;
+}
+
+#map6 .natname {
+	right: 0px;
+	top: 170px;
+	font-size: 50px;
+}
+
+#map7 .natname {
 	right: 100px;
 	top: 200px;
 }
 
+#map8 .natname {
+	right: 0px;
+	bottom: 300px;
+	font-size: 110px;
+}
+
+/*/////////////////////*/
+
 .mapWrap .natexp {
+	margin-left: 30px;
 	color: #333;
+}
+
+#map5 p {
+	width: 40%;
+}
+
+#map2 .natexp {
+	margin-left: 95px;
+}
+
+#map4 .natexp {
+	margin-left: 95px;
+}
+
+#map5 .natexp {
+	margin-left: -5px;
+}
+
+#map6 .natexp {
+	margin-left: -5px;
+}
+
+#map8 .natexp {
+	margin-left: 75px;
 }
 
 .mapWrap h2 {
 	margin: 20px 0;
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: bolder;
+	color: #333;
 }
 
 .mapWrap span {
 	margin-bottom: 20px;
 	display: block;
-	width: 30px;
+	width: 40px;
 	height: 2px;
-	background-color: #000;
-	color: #333;
+	background-color: #333;
 }
 
 .mapWrap p {
-	width: 40%;
+	width: 50%;
 	text-align: justify;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 1.6;
 	margin-bottom: 20px;
+	color: #333;
 }
 
-.mapWrap a {
-	display: block;
-	width: 80px;
+.resBtn {
+	width: 100px;
 	height: 30px;
-	border: 0.5px solid #000;
-	border-radius: 20px;
+	border: 0.8px solid #000;
 	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.resBtn a {
+	display: block;
 	font-size: 12px;
 	line-height: 30px;
+	color: #333;
+	transition: all .5s ease;
+	z-index: 2;
+	position: relative;
 }
 
-/*.route {
-	display: none;
-	width: 120px;
-	height: 120px;
-}*/
-
-/*각 나라별 사진*/
-
-#map1 {
+.resBtn .eff {
+	width: 100px;
+	height: 30px;
+	top: 0;
+	left: -100px;
+	background: linear-gradient(to right,#c0954b,#e7bd74);
+	position: absolute;
+	transition: all .5s ease;
+	z-index: 1;
 }
 
-#map2 {
+.resBtn:hover .eff {
+	top: 0;
+	left: 0;
 }
 
-#map3 {
+.resBtn:hover a {
+	color: #fff;
 }
 
-#map4 {
+.resBtn:hover {
+	border-color: #c0954b;
 }
 
-#map5 {
+/*/////////national img position///////////*/
+
+.mapWrap .natimg1 {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
 }
 
-#map6 {
+.mapWrap .natimg2 {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
 }
 
-#map7 {
+#map1 .natimg1 {
+	width: 357px;
+	height: 300px;
+	background-image: url(../img/la1.jpg);
+	right: 0;
+	bottom: 0;
 }
 
-#map8 {
+#map2 .natimg1 {
+	width: 500px;
+	height: 300px;
+	background-image: url(../img/ca.jpg);
+	right: 0;
+	bottom: 30px;
 }
 
-/*////////////////////////////////*/
+#map3 .natimg1 {
+	width: 250px;
+	height: 300px;
+	background-image: url(../img/al-1.jpg);
+	right: 0;
+	top: 0;
+}
+
+#map3 .natimg2 {
+	width: 250px;
+	height: 350px;
+	background-image: url(../img/al-2.jpg);
+	left: 30px;
+	bottom: 0;
+}
+
+#map4 .natimg1 {
+	width: 500px;
+	height: 300px;
+	background-image: url(../img/ru.jpg);
+	right: 0;
+	bottom: 0;
+}
+
+#map5 .natimg1 {
+	width: 300px;
+	height: 300px;
+	background-image: url(../img/ea.jpg);
+	right: 0;
+	top: 0;
+}
+
+#map5 .natimg2 {
+	width: 300px;
+	height: 300px;
+	background-image: url(../img/ea2.jpg);
+	left: 0;
+	bottom: 0;
+}
+
+#map6 .natimg1 {
+	width: 300px;
+	height: 300px;
+	background-image: url(../img/au1.jpg);
+	right: 0;
+	bottom: 0;
+}
+
+#map6 .natimg2 {
+	width: 300px;
+	height: 300px;
+	background-image: url(../img/au2.jpg);
+	left: 0;
+	bottom: 0;
+}
+
+#map7 .natimg1 {
+	width: 357px;
+	height: 300px;
+	background-image: url(../img/la1.jpg);
+	right: 0;
+	bottom: 0;
+}
+
+#map8 .natimg1 {
+	width: 450px;
+	height: 250px;
+	background-image: url(../img/eu.jpg);
+	bottom: 0;
+	left: 80px;
+}
+
+/*//////////////////////*/
 
 /*지도 display:block*/
 
@@ -499,41 +624,6 @@ body {
 	opacity: 1;
 }
 
-/*////////////////*/
-
-/*route*/
-
-/*#LA:checked ~ .allWrap .route1 {
-	display: block;
-}
-
-#CA:checked ~ .allWrap .route2{
-	display: block;
-}
-
-#AL:checked ~ .allWrap .route3 {
-	display: block;
-}
-
-#RU:checked ~ .allWrap .route4 {
-	display: block;
-}
-
-#EA:checked ~ .allWrap .route5 {
-	display: block;
-}
-
-#AU:checked ~ .allWrap .route6 {
-	display: block;
-}
-
-#TM:checked ~ .allWrap .route7 {
-	display: block;
-}
-
-#EU:checked ~ .allWrap .route8 {
-	display: block;
-}*/
 
 /*//////////////////////////////////////////////////*/
 

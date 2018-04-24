@@ -1295,9 +1295,9 @@
 	/*content3//////////////////////////////////////////*/
 
 	.button-box label {
-		font-size: 12px;
-		height: 40px;
-		line-height: 40px;
+		font-size: 11px;
+		height: 35px;
+		line-height: 35px;
 	}
 
 	.button-box {
@@ -1367,15 +1367,24 @@
 		transition: 0.5s;
 	}
 
+	.galText img {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		width: 20px;
+		height: 20px;
+		transition: .3s;
+	}
+
 	/*/////////////footer//////////////////////*/
 
 	.ftRes p {
 		margin-bottom: 15px;
-		font-size: 14px;
+		font-size: 1.3vw;
 	}
 
 	.ftRes ul li a {
-		font-size: 11px;
+		font-size: 1.4vw;
 	}
 
 	/*//////////////////////////////////////////*/

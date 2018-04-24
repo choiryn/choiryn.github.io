@@ -1,0 +1,309 @@
+@media screen and (max-width: 1280px) {
+	.header-wrap {
+		height: 85px;
+	}
+
+	.logo {
+		background-size: 95% 95%;
+	}
+
+	.header ul {
+		right: 20px;
+	}
+
+	/*nav/////////////////////////////////////////*/
+
+	.nav-wrap {
+		height: 50px;
+	}
+
+	.nav ul {
+		width: 60%;
+	}
+
+	.nav ul li a {
+		margin-top: 15px;
+	}
+
+	.nav ul li a:after {
+		height: 2px;
+		margin-top: 10px;
+	}
+
+	/*/////////////////////////////////////////////*/
+
+	/*content1//////////////////////////////////////*/
+
+	.wrap {
+		width: 1100px;
+	}
+
+	.bottom-text {
+		font-size: 20px;
+	}
+
+	.iconbox a:hover {
+		-webkit-transform: translateY(-8px);
+		-o-transform: translateY(-8px);
+		-moz-transform: translateY(-8px);
+		-ms-transform: translateY(-8px);
+	}
+
+	.iconbox img {
+		width: 60px;
+		height: 60px;
+	}
+
+	.iconbox span {
+		font-size: 14px;
+	}
+
+	/*//////////////////////////////////////////////////*/
+
+	/*content2/////////////////////////////////////////*/
+
+	.content2 .map-box {/*지도를 배경 안에 넣기 위해 position값 줌*/
+		background-size: 90% 90%;
+	}
+
+	.map-box > label {
+		width: 20px;
+		height: 20px;
+	}
+		
+	/*지도 이름 position absolute*/
+
+	.content2  .map-box .map1 {
+		position: absolute;
+		bottom: 220px;
+		left: 100px;
+	}
+
+	.content2  .map-box .map2 {
+		position: absolute;
+		top: 150px;
+		left: 60px;
+	}
+
+	.content2  .map-box .map3 {
+		position: absolute;
+		top: 150px;
+		left: 10px;
+	}
+
+	.content2  .map-box .map4 {
+		position: absolute;
+		top: 150px;
+		right: 180px;
+	}
+
+	.content2  .map-box .map5 {
+		position: absolute;
+		top: 230px;
+		right: 120px;
+	}
+
+	.content2  .map-box .map6 {
+		position: absolute;
+		bottom: 200px;
+		right: 100px;
+	}
+
+	.content2  .map-box .map7 {
+		position: absolute;
+		top: 170px;
+		left: 200px;
+	}
+
+	.content2  .map-box .map8 {
+		position: absolute;
+		top: 160px;
+		right: 250px;
+	}
+
+	/*/////////////////////*/
+
+	#map2 .natexp {
+		margin-left: 0px;
+	}
+
+	#map4 .natexp {
+		margin-left: 0px;
+	}
+
+	.mapWrap span {
+		width: 30px;
+	}
+
+	/*/////////national img position///////////*/
+	
+	#map1 .natimg1 {
+		width: 357px;
+		height: 300px;
+		background-image: url(../img/la1.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map1 .natname {
+		left: 100px;
+		top: 250px;
+		font-size: 50px;
+	}
+
+	#map2 .natimg1 {
+		width: 480px;
+		height: 280px;
+		background-image: url(../img/ca.jpg);
+		left: 0;
+		bottom: 0;
+	}
+
+	#map3 .natimg1 {
+		width: 230px;
+		height: 230px;
+		background-image: url(../img/al-1.jpg);
+		right: 0;
+		top: 0;
+	}
+
+	#map3 .natimg2 {
+		width: 200px;
+		height: 300px;
+		background-image: url(../img/al-2.jpg);
+		left: 30px;
+		bottom: 0;
+	}
+
+	#map3 .natname {
+		right: 0px;
+		bottom: 100px;
+		font-size: 100px;
+	}
+
+	#map4 .natimg1 {
+		width: 450px;
+		height: 250px;
+		background-image: url(../img/ru.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map5 .natimg1 {
+		width: 250px;
+		height: 250px;
+		background-image: url(../img/ea.jpg);
+		right: 0;
+		top: 0px;
+	}
+
+	#map5 .natimg2 {
+		width: 250px;
+		height: 250px;
+		background-image: url(../img/ea2.jpg);
+		left: 0;
+		bottom: 0px;
+	}
+
+	#map6 .natimg1 {
+		width: 250px;
+		height: 250px;
+		background-image: url(../img/au1.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map6 .natimg2 {
+		width: 250px;
+		height: 250px;
+		background-image: url(../img/au2.jpg);
+		left: 0;
+		bottom: 0;
+	}
+
+	#map7 .natimg1 {
+		width: 190px;
+		height: 190px;
+		background-image: url(../img/tm.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map7 .natimg2 {
+		width: 190px;
+		height: 190px;
+		background-image: url(../img/tm2.jpg);
+		right: 150px;
+		bottom: 150px;
+	}
+
+	#map7 .natname {
+		right: 50px;
+		top: 230px;
+		font-size: 50px;
+	}
+
+	#map8 .natimg1 {
+		width: 450px;
+		height: 250px;
+		background-image: url(../img/eu.jpg);
+		bottom: 0;
+		left: 80px;
+	}
+
+	#map8 .natname {
+		right: 0px;
+		bottom: 250px;
+		font-size: 80px;
+	}
+
+	/*//////////////////////*/
+
+	/*////////////////////////////////////////////*/
+
+	/*content3//////////////////////////////////////////*/
+
+	.button-box {
+		width: 90%;/*990px*/
+	}
+
+	.allWrap {
+		width: 90%;
+		height: 495px;
+	}
+
+	.midImg > img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.midImg > .textBox + img {
+		display: block;
+		width: 50%;
+		height: 100%;
+	}
+
+	.textBox .title {
+		font-size: 18px;
+		padding-top: 50px;
+	}
+
+	.textBox .comment {
+		font-size: 12px;
+	}
+
+	.textBox .more {
+		font-size: 17px;
+	}
+
+	/*line Ani*/
+
+	.lineAni {
+		height: 227.5px;
+	}
+
+/*////////////////////////////////////////////////////////*/
+
+
+}

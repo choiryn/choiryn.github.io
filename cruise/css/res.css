@@ -305,5 +305,1087 @@
 
 /*////////////////////////////////////////////////////////*/
 
+/*/////////////////content4///////////////////////////*/
+	.content4 {
+		height: 450px;
+	}
+
+	.galWrap {
+		width: 100%;
+		height: 450px;
+	}
+
+	.gallery {
+		width: 25%;
+		height: 225px;
+		float: left;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+		transition: 0.5s;
+	}
+
+/*//////////////////////////////////////////////////////*/
+
 
 }
+
+@media screen and (max-width: 1024px) {
+	.header {
+		width: 900px;
+	}
+
+	.nav {
+		width: 900px;
+	}
+
+
+	/*content1//////////////////////////////////////*/
+
+	.wrap {
+		width: 900px;
+	}
+
+	.bottom-text {
+		font-size: 18px;
+	}
+
+	.iconbox img {
+		width: 50px;
+		height: 50px;
+	}
+
+	/*//////////////////////////////////////////////////*/
+
+	/*content2/////////////////////////////////////////*/
+		
+	/*지도 이름 position absolute*/
+
+	.content2  .map-box .map1 {
+		position: absolute;
+		bottom: 140px;
+		left: 80px;
+	}
+
+	.content2  .map-box .map2 {
+		position: absolute;
+		top: 140px;
+		left: 50px;
+	}
+
+	.content2  .map-box .map3 {
+		position: absolute;
+		top: 120px;
+		left: 10px;
+	}
+
+	.content2  .map-box .map4 {
+		position: absolute;
+		top: 30%;
+		right: 35%;
+	}
+
+	.content2  .map-box .map5 {
+		position: absolute;
+		top: 180px;
+		right: 100px;
+	}
+
+	.content2  .map-box .map6 {
+		position: absolute;
+		bottom: 155px;
+		right: 80px;
+	}
+
+	.content2  .map-box .map7 {
+		position: absolute;
+		top: 140px;
+		left: 200px;
+	}
+
+	.content2  .map-box .map8 {
+		position: absolute;
+		top: 130px;
+		right: 220px;
+	}
+
+	/*/////////////////////*/
+
+	.mapWrap h2 {
+		margin: 10px 0;
+	}
+
+	.mapWrap span {
+		margin-bottom: 10px;
+		height: 1px;
+	}
+
+	.mapWrap p {
+		font-size: 13px;
+	}
+
+	.resBtn {
+		width: 80px;
+	}
+
+	.resBtn .eff {
+		width: 80px;
+	}
+
+	/*/////////national img position///////////*/
+	
+	#map1 .natimg1 {
+		width: 257px;
+		height: 200px;
+		background-image: url(../img/la1.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map1 .natname {
+		left: 100px;
+		top: 260px;
+		font-size: 40px;
+	}
+
+	#map2 .natimg1 {
+		width: 380px;
+		height: 180px;
+		background-image: url(../img/ca.jpg);
+		left: 0;
+		bottom: 0;
+	}
+
+	#map2 .natname {
+		right: 60px;
+		top: 200px;
+		font-size: 50px;
+	}
+
+	#map3 .natimg1 {
+		width: 150px;
+		height: 200px;
+		background-image: url(../img/al-1.jpg);
+		right: 0;
+		bottom: 50px;
+	}
+
+	#map3 .natimg2 {
+		width: 130px;
+		height: 230px;
+		background-image: none;
+		right: 0;
+		bottom: 0;
+	}
+
+	#map3 .natname {
+		right: 0px;
+		bottom: 100px;
+		font-size: 80px;
+	}
+
+	#map4 .natimg1 {
+		width: 380px;
+		height: 180px;
+		background-image: url(../img/ru.jpg);
+		left: 0;
+		bottom: 0;
+	}
+
+	#map5 .natimg1 {
+		width: 180px;
+		height: 180px;
+		background-image: url(../img/ea.jpg);
+		right: 0;
+		top: 0px;
+	}
+
+	#map5 .natimg2 {
+		width: 180px;
+		height: 180px;
+		background-image: url(../img/ea2.jpg);
+		left: 0;
+		bottom: 0px;
+	}
+
+	#map5 .natname {
+		right: 0px;
+		bottom: 80px;
+		font-size: 40px;
+		text-align: right;
+	}
+
+	#map6 .natimg1 {
+		width: 150px;
+		height: 150px;
+		background-image: url(../img/au1.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map6 .natimg2 {
+		width: 150px;
+		height: 150px;
+		background-image: url(../img/au2.jpg);
+		right: 0px;
+		bottom: 0;
+	}
+
+	#map7 .natimg1 {
+		width: 150px;
+		height: 150px;
+		background-image: url(../img/tm.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map7 .natimg2 {
+		width: 150px;
+		height: 150px;
+		background-image: url(../img/tm2.jpg);
+		right: 100px;
+		bottom: 100px;
+	}
+
+	#map7 .natname {
+		right: 150px;
+		top: 230px;
+		font-size: 30px;
+	}
+
+	#map8 .natimg1 {
+		width: 370px;
+		height: 170px;
+		background-image: url(../img/eu.jpg);
+		bottom: 0;
+		left: 80px;
+	}
+
+	#map8 .natname {
+		right: 0px;
+		bottom: 180px;
+		font-size: 50px;
+	}
+
+	/*//////////////////////*/
+
+	/*////////////////////////////////////////////*/
+
+	/*content3//////////////////////////////////////////*/
+
+	.button-box label {
+		font-size: 13px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	.button-box {
+		width: 90%;
+	}
+
+	.allWrap {
+		width: 90%;
+		height: 405px;
+	}
+
+	.midImg > img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.midImg > .textBox + img {
+		display: block;
+		width: 50%;
+		height: 100%;
+	}
+
+	.textBox .title {
+		font-size: 15px;
+		padding-top: 30px;
+	}
+
+	.textBox .comment {
+		font-size: 11px;
+	}
+
+	.textBox .more {
+		font-size: 14px;
+	}
+
+	/*line Ani*/
+
+	.lineAni {
+		height: 182.5px;
+	}
+
+/*////////////////////////////////////////////////////////*/
+
+/*//////////////////content4///////////////////////////*/
+	.content4 {
+		height: 350px;
+	}
+
+	.galWrap {
+		width: 100%;
+		height: 350px;
+	}
+
+	.gallery {
+		width: 25%;
+		height: 175px;
+		float: left;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+		transition: 0.5s;
+	}
+
+/*////////////////////////////////////////////////////////*/
+
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		width: 700px;
+	}
+
+	.header ul {
+		display: none;
+	}
+
+	.nav-wrap {
+		display: none;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	/*content1//////////////////////////////////////*/
+
+	.wrap {
+		width: 700px;
+	}
+
+	.top-text {
+		font-size: 12px;
+	}
+
+	.bottom-text {
+		font-size: 15px;
+	}
+
+	/*//////////////////////////////////////////////////*/
+
+	/*content2/////////////////////////////////////////*/
+
+	.content2 {
+		height: 1000px;
+	}
+
+	.content2 .map-box {/*지도를 배경 안에 넣기 위해 position값 줌*/
+		width: 100%;
+		height: 100%;
+		position: relative;
+		background-image: url(../img/map-01.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 80% 80%;
+	}
+	
+	/*지도 이름 position absolute*/
+
+	.content2  .map-box .map1 {
+		position: absolute;
+		bottom: 100px;
+		left: 190px;
+	}
+
+	.content2  .map-box .map2 {
+		position: absolute;
+		top: 70px;
+		left: 135px;
+	}
+
+	.content2  .map-box .map3 {
+		position: absolute;
+		top: 50px;
+		left: 100px;
+	}
+
+	.content2  .map-box .map4 {
+		position: absolute;
+		top: 50px;
+		right: 35%;
+	}
+
+	.content2  .map-box .map5 {
+		position: absolute;
+		top: 140px;
+		right: 150px;
+	}
+
+	.content2  .map-box .map6 {
+		position: absolute;
+		bottom: 100px;
+		right: 120px;
+	}
+
+	.content2  .map-box .map7 {
+		position: absolute;
+		top: 70px;
+		left: 300px;
+	}
+
+	.content2  .map-box .map8 {
+		position: absolute;
+		top: 80px;
+		left: 330px;
+	}
+
+	/*/////////////////////*/
+
+	.mapWrap {
+		width: 100%;
+		height: 520px;
+	}
+
+	.mapWrap h2 {
+		margin: 15px 0;
+	}
+
+	.mapWrap span {
+		margin-bottom: 15px;
+		height: 0.9px;
+	}
+
+	.mapWrap p {
+		font-size: 13px;
+		width: 60%;
+	}
+
+	#map5 p {
+		width: 47%;
+	}
+	
+	.mapWrap .natexp {
+		margin-left: 0px;
+	}
+
+	#map2 .natexp {
+		margin-left: 0px;
+	}
+
+	#map4 .natexp {
+		margin-left: 0px;
+	}
+
+	#map5 .natexp {
+		margin-left: 0px;
+	}
+
+	#map6 .natexp {
+		margin-left: 0px;
+	}
+
+	#map8 .natexp {
+		margin-left: 0px;
+	}
+
+	.resBtn {
+		width: 100px;
+	}
+
+	.resBtn .eff {
+		width: 100px;
+	}
+
+	/*/////////national img position///////////*/
+	
+	#map1 .natimg1 {
+		width: 357px;
+		height: 300px;
+		background-image: url(../img/la1.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map1 .natname {
+		left: 100px;
+		top: 260px;
+		font-size: 80px;
+	}
+
+	#map2 .natimg1 {
+		width: 500px;
+		height: 300px;
+		background-image: url(../img/ca.jpg);
+		left: 50%;
+		bottom: 0;
+		margin-left: -250px;
+	}
+
+	#map2 .natname {
+		right: 60px;
+		top: 180px;
+		font-size: 60px;
+	}
+
+	#map3 .natimg1 {
+		width: 150px;
+		height: 200px;
+		background-image: none;
+		left: 0;
+		bottom: 0;
+	}
+
+	#map3 .natimg2 {
+		width: 230px;
+		height: 330px;
+		background-image: url(../img/al-2.jpg);
+		left: 0;
+		bottom: 0;
+	}
+
+	#map3 .natname {
+		right: 0px;
+		bottom: 0px;
+		font-size: 130px;
+	}
+
+	#map4 .natimg1 {
+		width: 500px;
+		height: 300px;
+		background-image: url(../img/ru.jpg);
+		left: 0;
+		bottom: 0;
+	}
+
+	#map4 .natname {
+		right: 0px;
+		top: 110px;
+		font-size: 100px;
+	}
+
+	#map5 .natimg1 {
+		width: 280px;
+		height: 280px;
+		background-image: url(../img/ea.jpg);
+		right: 0;
+		top: 0px;
+	}
+
+	#map5 .natimg2 {
+		width: 310px;
+		height: 310px;
+		background-image: url(../img/ea2.jpg);
+		left: 0;
+		bottom: 0px;
+	}
+
+	#map5 .natname {
+		right: 0px;
+		bottom: 50px;
+		font-size: 80px;
+		text-align: right;
+	}
+
+	#map6 .natimg1 {
+		width: 315px;
+		height: 315px;
+		background-image: url(../img/au1.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map6 .natimg2 {
+		width: 315px;
+		height: 315px;
+		background-image: url(../img/au2.jpg);
+		left: 0px;
+		bottom: 0;
+	}
+
+	#map6 .natname {
+		font-size: 40px;
+		text-align: right;
+		bottom: 0;
+		right: 0;
+	}
+
+	#map7 .natimg1 {
+		width: 240px;
+		height: 240px;
+		background-image: url(../img/tm.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map7 .natimg2 {
+		width: 240px;
+		height: 240px;
+		background-image: url(../img/tm2.jpg);
+		right: 140px;
+		bottom: 140px;
+	}
+
+	#map7 .natname {
+		right: 200px;
+		bottom: 10px;
+		font-size: 60px;
+	}
+
+	#map8 .natimg1 {
+		background-image: url(../img/eu.jpg);
+		width: 450px;
+		height: 250px;
+		left: 0;
+		bottom: 0;
+	}
+
+	#map8 .natname {
+		right: 0px;
+		bottom: 200px;
+		font-size: 90px;
+	}
+
+	/*//////////////////////*/
+
+	/*////////////////////////////////////////////*/
+
+	/*content3//////////////////////////////////////////*/
+
+	.button-box label {
+		font-size: 12px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	.button-box {
+		width: 90%;
+	}
+
+	.allWrap {
+		width: 90%;
+		height: 315px;
+	}
+
+	.midImg > img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.midImg > .textBox + img {
+		display: block;
+		width: 50%;
+		height: 100%;
+	}
+
+	.textBox .title {
+		font-size: 13px;
+		padding-top: 20px;
+	}
+
+	.textBox .comment {
+		font-size: 8px;
+		padding: 15px;
+	}
+
+	.textBox .more {
+		font-size: 10px;
+		margin: 0px;
+	}
+
+	/*line Ani*/
+
+	.lineAni {
+		width: 94%;
+		height: 147.5px;
+		top: 5px;
+		left: 3%;
+	}
+
+/*////////////////////////////////////////////////////////*/
+
+/*//////////////////content4///////////////////////////*/
+	.content4 {
+		height: 250px;
+	}
+
+	.galWrap {
+		width: 100%;
+		height: 250px;
+	}
+
+	.gallery {
+		width: 25%;
+		height: 125px;
+		float: left;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+		transition: 0.5s;
+	}
+
+	/*/////////////footer//////////////////////*/
+
+	.ftRes p {
+		margin-bottom: 15px;
+		font-size: 14px;
+	}
+
+	.ftRes ul li a {
+		font-size: 11px;
+	}
+
+	/*//////////////////////////////////////////*/
+
+	/*//////////////////toggle button//////////*/
+
+	.btnWrap {
+		display: block;/*//////////////////////mobile에서 block*/
+	}
+
+}
+
+/*////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 640px) {
+	.header {
+		width: 100%;
+	}
+
+	/*content1//////////////////////////////////////*/
+
+	.wrap {
+		width: 90%;
+	}
+
+	.iconbox img {
+		width: 45px;
+		height: 45px;
+	}
+
+	.iconbox span {
+		font-size: 12px;
+	}
+
+	/*//////////////////////////////////////////////////*/
+
+	/*content2/////////////////////////////////////////*/
+
+	.content2 .map-box {/*지도를 배경 안에 넣기 위해 position값 줌*/
+		width: 100%;
+		height: 100%;
+		position: relative;
+		background-image: url(../img/map-01.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 90% 90%;
+	}
+	
+	/*지도 이름 position absolute*/
+
+	.content2  .map-box .map1 {
+		position: absolute;
+		bottom: 100px;
+		left: 130px;
+	}
+
+	.content2  .map-box .map2 {
+		position: absolute;
+		top: 70px;
+		left: 85px;
+	}
+
+	.content2  .map-box .map3 {
+		position: absolute;
+		top: 50px;
+		left: 50px;
+	}
+
+	.content2  .map-box .map4 {
+		position: absolute;
+		top: 50px;
+		right: 35%;
+	}
+
+	.content2  .map-box .map5 {
+		position: absolute;
+		top: 140px;
+		right: 100px;
+	}
+
+	.content2  .map-box .map6 {
+		position: absolute;
+		bottom: 100px;
+		right: 80px;
+	}
+
+	.content2  .map-box .map7 {
+		position: absolute;
+		top: 70px;
+		left: 250px;
+	}
+
+	.content2  .map-box .map8 {
+		position: absolute;
+		top: 80px;
+		left: 270px;
+	}
+
+	/*/////////////////////*/
+
+
+	/*/////////national img position///////////*/
+	
+	#map1 .natimg1 {
+		width: 357px;
+		height: 300px;
+		background-image: url(../img/la1.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map1 .natname {
+		left: 100px;
+		top: 260px;
+		font-size: 80px;
+	}
+
+	#map2 .natimg1 {
+		width: 500px;
+		height: 300px;
+		background-image: url(../img/ca.jpg);
+		left: 50%;
+		bottom: 0;
+		margin-left: -250px;
+	}
+
+	#map2 .natname {
+		right: 60px;
+		top: 180px;
+		font-size: 60px;
+	}
+
+	#map3 .natimg1 {
+		width: 150px;
+		height: 200px;
+		background-image: none;
+		left: 0;
+		bottom: 0;
+	}
+
+	#map3 .natimg2 {
+		width: 230px;
+		height: 330px;
+		background-image: url(../img/al-2.jpg);
+		left: 0;
+		bottom: 0;
+	}
+
+	#map3 .natname {
+		right: 0px;
+		bottom: 0px;
+		font-size: 130px;
+	}
+
+	#map4 .natimg1 {
+		width: 500px;
+		height: 300px;
+		background-image: url(../img/ru.jpg);
+		left: 0;
+		bottom: 0;
+	}
+
+	#map4 .natname {
+		right: 0px;
+		top: 110px;
+		font-size: 100px;
+	}
+
+	#map5 .natimg1 {
+		width: 50%;
+		height: 50%;
+		background-image: url(../img/ea.jpg);
+		right: 0;
+		top: 0px;
+	}
+
+	#map5 .natimg2 {
+		width: 50%;
+		height: 50%;
+		background-image: url(../img/ea2.jpg);
+		left: 0;
+		bottom: 0px;
+	}
+
+	#map5 .natname {
+		right: 0px;
+		bottom: 50px;
+		font-size: 80px;
+		text-align: right;
+	}
+
+	#map6 .natimg1 {
+		width: 50%;
+		height: 50%;
+		background-image: url(../img/au1.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map6 .natimg2 {
+		width: 50%;
+		height: 50%;
+		background-image: url(../img/au2.jpg);
+		left: 0px;
+		bottom: 0;
+	}
+
+	#map6 .natname {
+		font-size: 40px;
+		text-align: right;
+		bottom: 0;
+		right: 0;
+	}
+
+	#map7 .natimg1 {
+		width: 240px;
+		height: 240px;
+		background-image: url(../img/tm.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map7 .natimg2 {
+		width: 240px;
+		height: 240px;
+		background-image: url(../img/tm2.jpg);
+		right: 140px;
+		bottom: 140px;
+	}
+
+	#map7 .natname {
+		right: 200px;
+		bottom: 10px;
+		font-size: 50px;
+	}
+
+	#map8 .natimg1 {
+		background-image: url(../img/eu.jpg);
+		width: 450px;
+		height: 250px;
+		left: 0;
+		bottom: 0;
+	}
+
+	#map8 .natname {
+		right: 0px;
+		bottom: 200px;
+		font-size: 90px;
+	}
+
+	/*//////////////////////*/
+
+	/*////////////////////////////////////////////*/
+
+	/*content3//////////////////////////////////////////*/
+
+	.button-box label {
+		font-size: 12px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	.button-box {
+		width: 90%;
+	}
+
+	.allWrap {
+		width: 90%;
+		height: 315px;
+	}
+
+	.midImg > img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.midImg > .textBox + img {
+		display: block;
+		width: 50%;
+		height: 100%;
+	}
+
+	.textBox .title {
+		font-size: 13px;
+		padding-top: 20px;
+	}
+
+	.textBox .comment {
+		font-size: 8px;
+		padding: 15px;
+	}
+
+	.textBox .more {
+		font-size: 10px;
+		margin: 0px;
+	}
+
+	/*line Ani*/
+
+	.lineAni {
+		width: 94%;
+		height: 147.5px;
+		top: 5px;
+		left: 3%;
+	}
+
+/*////////////////////////////////////////////////////////*/
+
+/*//////////////////content4///////////////////////////*/
+	.content4 {
+		height: 250px;
+	}
+
+	.galWrap {
+		width: 100%;
+		height: 250px;
+	}
+
+	.gallery {
+		width: 25%;
+		height: 125px;
+		float: left;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+		transition: 0.5s;
+	}
+
+	/*/////////////footer//////////////////////*/
+
+	.ftRes p {
+		margin-bottom: 15px;
+		font-size: 14px;
+	}
+
+	.ftRes ul li a {
+		font-size: 11px;
+	}
+
+	/*//////////////////////////////////////////*/
+
+	/*//////////////////toggle button//////////*/
+
+	.btnWrap {
+		display: block;/*//////////////////////mobile에서 block*/
+	}
+
+}
+
+/*////////////////////////////////////////////////////////*/

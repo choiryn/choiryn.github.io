@@ -25,6 +25,10 @@ body {
 
 /*header/////////////////////////////////////*/
 
+.none {
+	display: none;
+}
+
 .header-wrap {
 	width: 100%;
 	height: 100px;
@@ -1027,6 +1031,135 @@ footer {
 
 .ftRes .gold {
 	color: gold;
+}
+
+/*//////////////////////////////////////////*/
+
+/*//////////////////toggle button//////////*/
+
+.btnWrap {
+	position: absolute;
+	left: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	display: none;/*//////////////////////mobile에서 block*/
+}
+
+.btnWrap {
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+
+.btnWrap .btn {
+	height: 2px;
+	background-color: #333;
+	transition: 0.2s;
+}
+
+.btnWrap .btn:nth-child(1) {
+	width: 100%;
+}
+
+.btnWrap .btn:nth-child(2) {
+	width: 60%;
+	margin: 8px 0;
+}
+
+.btnWrap .btn:nth-child(3) {
+	width: 80%;
+}
+
+.btnWrap:hover .btn {
+	width: 100%;
+}
+
+#gnbMo {
+	width: 50%;
+	height: 100%;
+	background: #fff;
+	position: fixed;
+	left: 0px;
+	top: 0;
+	z-index: 500;
+	display: none; 
+	overflow: hidden;
+	box-shadow: 3px 0 15px rgba(100,100,100,0.5);
+}
+
+#gnbMo .btnWrap2 {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	z-index: 600;
+	cursor: pointer;
+}
+
+.btnWrap2 div {
+	width: 25px;
+	height: 1px;
+	background: #333;
+}
+
+.btnWrap2 div:first-child{
+	transform: rotate(45deg) translateY(1px);
+}
+
+.btnWrap2 div:last-child{
+	transform: rotate(-45deg);
+}
+
+#gnbMo .logo {
+	top: 100px;
+}
+
+#gnbMo .hdMo {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.hdMo li {
+	float: left;
+	margin-left: 10px;
+}
+
+.hdMo li a {
+	font-size: 14px;
+	text-align: center;
+	color: #333;
+}
+
+.hdMo li a span {
+	margin-left: 10px;
+}
+
+.navMo {
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	transform: translateY(-50%);
+}
+
+.navMo li a {
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+#toggle1:checked ~ #gnbMo {
+	display: block;
+}
+
+#toggle2:checked ~ #gnbMo {
+	display: none;
+}
+
+.none {
+	display: none;
 }
 
 /*//////////////////////////////////////////*/

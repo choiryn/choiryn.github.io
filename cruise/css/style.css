@@ -185,6 +185,7 @@ body {
 /*//////////////////*/
 
 .iconbox {
+	transition: 0.5s;	
 	margin-top: 30px;
 	text-align: center;
 	float: left;

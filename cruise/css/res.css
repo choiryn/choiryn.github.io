@@ -1427,7 +1427,17 @@
 	/*content2/////////////////////////////////////////*/
 
 	.content2 .map-box {/*지도를 배경 안에 넣기 위해 position값 줌*/
-		background-size: contain;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		background-image: url(../img/map-01.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 90% 90%;
+	}
+	.mapWrap {
+		width: 100%;
+		clear: both;
 	}
 	
 	/*지도 이름 position absolute*/
@@ -1645,7 +1655,7 @@
 	}
 
 	.button-box label {
-		font-size: 8px;
+		font-size: 11px;
 		height: 25px;
 		margin-bottom: 15px;
 		border: none;
@@ -1656,44 +1666,52 @@
 		border-left: none;
 	}
 
-	.allWrap {
-		width: 80%;
-		height: 345.6px;
-	}
-
 	.allWrap .bigImg:nth-child(1) {
 		display: none;
 	}
 
-	.bigImg {
-		float: left;
-	}
-
-	.midImg > img {
-		display: block;
-		width: 200%;
+	.content3 .allWrap {
 		height: 100%;
 	}
 
-	.content3 .textBox {
-		width: 172.759px;
-		height: 172.759px;
+	.imgWrap {
+		width: 90%;
+		height: 90%;
+		clear: both;
+		display: none;
+		box-sizing: border-box;
+		margin: 0 auto;
+
 	}
 
-	.midImg > .textBox + img {
-		display: block;
+	.bigImg {
+		width: 100%;
+		height: 100%;
+		float: none;
+	}
+
+	.midImg {
+		clear: both;
 		width: 100%;
 		height: 100%;
 	}
 
+	.content3 .textBox {
+		width: 50%;
+		height: 174.95px;
+		float: left;
+		text-align: center;
+		position: relative;
+	}
+
 	.textBox .title {
-		font-size: 13px;
-		padding-top: 30px;
+		font-size: 15px;
+		padding-top: 35px;
 	}
 
 	.textBox .comment {
 		display: block;
-		font-size: 7px;
+		font-size: 11px;
 		padding: 14px;
 	}
 

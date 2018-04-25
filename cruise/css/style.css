@@ -185,7 +185,7 @@ body {
 /*//////////////////*/
 
 .iconbox {
-	transition: 0.5s;	
+	transition: 0.5s;
 	margin-top: 30px;
 	text-align: center;
 	float: left;
@@ -233,7 +233,7 @@ body {
 
 .content2 .map-box {/*지도를 배경 안에 넣기 위해 position값 줌*/
 	width: 50%;
-	height: 100%;
+	height: 10%;
 	float: left;
 	position: relative;
 	background-image: url(../img/map-01.svg);

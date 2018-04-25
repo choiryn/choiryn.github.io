@@ -233,7 +233,7 @@ body {
 
 .content2 .map-box {/*지도를 배경 안에 넣기 위해 position값 줌*/
 	width: 50%;
-	height: 10%;
+	height: 100%;
 	float: left;
 	position: relative;
 	background-image: url(../img/map-01.svg);

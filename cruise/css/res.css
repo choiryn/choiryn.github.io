@@ -674,6 +674,11 @@
 
 	.bottom-text {
 		font-size: 15px;
+		font-weight: bolder;
+	}
+
+	.top-text {	
+		font-weight: bolder;
 	}
 
 	/*//////////////////////////////////////////////////*/
@@ -985,7 +990,7 @@
 
 	.textBox .title {
 		font-size: 13px;
-		padding-top: 20px;
+		padding-top: 30px;
 	}
 
 	.textBox .comment {
@@ -1301,12 +1306,12 @@
 	}
 
 	.button-box {
-		width: 90%;
+		width: 90%; 
 	}
 
 	.allWrap {
 		width: 90%;
-		height: 315px;
+		height: 259.2px;
 	}
 
 	.midImg > img {
@@ -1340,7 +1345,7 @@
 
 	.lineAni {
 		width: 94%;
-		height: 147.5px;
+		height: 119.6px;
 		top: 5px;
 		left: 3%;
 	}
@@ -1349,17 +1354,358 @@
 
 /*//////////////////content4///////////////////////////*/
 	.content4 {
-		height: 250px;
+		height: calc(94px*2);
 	}
 
 	.galWrap {
 		width: 100%;
-		height: 250px;
+		height: calc(94px*2);
 	}
 
 	.gallery {
 		width: 25%;
-		height: 125px;
+		height: 94px;
+		float: left;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center center;
+		transition: 0.5s;
+	}
+
+	.galText img {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		width: 20px;
+		height: 20px;
+		transition: .3s;
+	}
+
+	/*/////////////footer//////////////////////*/
+
+	.ftRes p {
+		margin-bottom: 15px;
+		font-size: 1.3vw;
+	}
+
+	.ftRes ul li a {
+		font-size: 1.4vw;
+	}
+
+	/*//////////////////////////////////////////*/
+
+	/*//////////////////toggle button//////////*/
+
+	.btnWrap {
+		display: block;/*//////////////////////mobile에서 block*/
+	}
+
+}
+
+/*////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 480px) {
+	.content1 {
+		height: 100%;
+	}
+
+	.iconbox {
+		width: 33.3333%;
+	}
+
+	.iconbox img {
+		width: 50px;
+		height: 50px;
+	}
+
+	.iconbox span {
+		font-size: 13px;
+	}
+
+	/*//////////////////////////////////////////////////*/
+
+	/*content2/////////////////////////////////////////*/
+
+	.content2 .map-box {/*지도를 배경 안에 넣기 위해 position값 줌*/
+		background-size: contain;
+	}
+	
+	/*지도 이름 position absolute*/
+
+	.content2  .map-box .map1 {
+		position: absolute;
+		bottom: 30%;
+		left: 23%;
+	}
+
+	.content2  .map-box .map2 {
+		position: absolute;
+		top: 18%;
+		left: 13%;
+	}
+
+	.content2  .map-box .map3 {
+		position: absolute;
+		top: 15%;
+		left: 4%;
+	}
+
+	.content2  .map-box .map4 {
+		position: absolute;
+		top: 15%;
+		right: 30%;
+	}
+
+	.content2  .map-box .map5 {
+		position: absolute;
+		top: 45%;
+		right: 13%;
+	}
+
+	.content2  .map-box .map6 {
+		position: absolute;
+		bottom: 30%;
+		right: 8%;
+	}
+
+	.content2  .map-box .map7 {
+		position: absolute;
+		top: 23%;
+		left: 50%;
+	}
+
+	.content2  .map-box .map8 {
+		position: absolute;
+		top: 20%;
+		left: 45%;
+	}
+
+	/*/////////////////////*/
+
+
+	/*/////////national img position///////////*/
+	
+	#map1 .natimg1 {
+		width: calc(357px*0.9);
+		height: calc(300px*0.9);
+		background-image: url(../img/la1.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map1 .natname {
+		left: 100px;
+		top: 260px;
+		font-size: calc(80px*0.9);
+	}
+
+	#map2 .natimg1 {
+		width: calc(500px*0.9);
+		height: calc(300px*0.9);
+		background-image: url(../img/ca.jpg);
+		left: 50%;
+		bottom: 0;
+		margin-left: calc(-250px*0.9);
+	}
+
+	#map2 .natname {
+		right: 60px;
+		top: 180px;
+		font-size: 60px;
+	}
+
+	#map3 .natimg1 {
+		width: calc(150px*0.9);
+		height: calc(200px*0.9);
+		background-image: none;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 0;
+	}
+
+	#map3 .natimg2 {
+		width: 230px;
+		height: 330px;
+		background-image: url(../img/al-2.jpg);
+		left: 0;
+		bottom: 0;
+	}
+
+	#map3 .natname {
+		right: 0px;
+		bottom: 0px;
+		font-size: 130px;
+	}
+
+	#map4 .natimg1 {
+		width: 500px;
+		height: 300px;
+		background-image: url(../img/ru.jpg);
+		left: 0;
+		bottom: 0;
+	}
+
+	#map4 .natname {
+		right: 0px;
+		top: 110px;
+		font-size: 100px;
+	}
+
+	#map5 .natimg1 {
+		width: 180px;
+		height: 180px;
+		background-image: url(../img/ea.jpg);
+		right: 0;
+		top: 100px;
+	}
+
+	#map5 .natimg2 {
+		width: 180px;
+		height: 180px;
+		background-image: url(../img/ea2.jpg);
+		left: 0;
+		bottom: 80px;
+	}
+
+	#map5 .natname {
+		right: 0px;
+		bottom: 50px;
+		font-size: 60px;
+		text-align: right;
+	}
+
+	#map6 .natimg1 {
+		width: 195px;
+		height: 195px;
+		background-image: url(../img/au1.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map6 .natimg2 {
+		width: 195px;
+		height: 195px;
+		background-image: url(../img/au2.jpg);
+		left: 0px;
+		bottom: 0;
+	}
+
+	#map6 .natname {
+		font-size: 40px;
+		text-align: right;
+		bottom: 30px;
+		right: 0;
+	}
+
+	#map7 .natimg1 {
+		width: calc(240px*0.7);
+		height: calc(240px*0.7);
+		background-image: url(../img/tm.jpg);
+		right: 0;
+		bottom: 0;
+	}
+
+	#map7 .natimg2 {
+		width: calc(240px*0.7);
+		height: calc(240px*0.7);
+		background-image: url(../img/tm2.jpg);
+		right: 140px;
+		bottom: 140px;
+	}
+
+	#map7 .natname {
+		right: 30px;
+		bottom: 10px;
+		font-size: calc(50px*0.8);
+	}
+
+	#map8 .natimg1 {
+		background-image: url(../img/eu.jpg);
+		width: 450px;
+		height: 250px;
+		left: 50%;
+		bottom: 0;
+		transform: translateX(-50%);
+	}
+
+	#map8 .natname {
+		right: 0px;
+		bottom: 230px;
+		font-size: 90px;
+	}
+
+	/*//////////////////////*/
+
+	/*////////////////////////////////////////////*/
+
+	/*content3//////////////////////////////////////////*/
+
+	.button-box label {
+		font-size: 11px;
+		height: 35px;
+		line-height: 35px;
+	}
+
+	.button-box {
+		width: 90%; 
+	}
+
+	.allWrap {
+		width: 90%;
+		height: 259.2px;
+	}
+
+	.midImg > img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.midImg > .textBox + img {
+		display: block;
+		width: 50%;
+		height: 100%;
+	}
+
+	.textBox .title {
+		font-size: 13px;
+		padding-top: 20px;
+	}
+
+	.textBox .comment {
+		font-size: 8px;
+		padding: 15px;
+	}
+
+	.textBox .more {
+		font-size: 10px;
+		margin: 0px;
+	}
+
+	/*line Ani*/
+
+	.lineAni {
+		width: 94%;
+		height: 119.6px;
+		top: 5px;
+		left: 3%;
+	}
+
+/*////////////////////////////////////////////////////////*/
+
+/*//////////////////content4///////////////////////////*/
+	.content4 {
+		height: calc(94px*2);
+	}
+
+	.galWrap {
+		width: 100%;
+		height: calc(94px*2);
+	}
+
+	.gallery {
+		width: 25%;
+		height: 94px;
 		float: left;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;

@@ -30,6 +30,7 @@ body {
 }
 
 .header-wrap {
+	overflow: hidden;
 	width: 100%;
 	height: 100px;
 	background: #fff;
@@ -79,6 +80,7 @@ body {
 /*nav/////////////////////////////////////////*/
 
 .nav-wrap {
+	overflow: hidden;
 	width: 100%;
 	height: 60px;
 	background: #fff;
@@ -138,6 +140,10 @@ body {
 
 /*section-visual//////////////////////////////////*/
 
+.visual {
+	overflow: hidden;
+}
+
 .visual img {
 	width: 100%;
 	height: 100%;
@@ -148,6 +154,7 @@ body {
 /*content1//////////////////////////////////////*/
 
 .content1 {
+	overflow: hidden;
 	width: 100%;
 	height: 200px;
 	margin-bottom: 50px;
@@ -211,6 +218,7 @@ body {
 /*content2/////////////////////////////////////////*/
 
 .content2 {
+	overflow: hidden;
 	width: 100%;
 	background: -moz-linear-gradient(-45deg, #f2f0eb 0%, #e5e5e5 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(-45deg, #f2f0eb 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
@@ -674,6 +682,7 @@ body {
 /*content3//////////////////////////////////////////*/
 
 .content3 {
+	overflow: hidden;
 	clear: both;
 	background: #f9f9f9;
 }
@@ -924,6 +933,7 @@ body {
 
 /* content4 //////////////////////////////////////////////*/
 .content4 {
+	overflow: hidden;
 	margin: 50px 0;
 	width: 100%;
 	height: 500px;
@@ -1003,6 +1013,7 @@ body {
 /*/////////////footer//////////////////////*/
 
 footer {
+	overflow: hidden;
 	background-color: #333;
 	color: #fff;
 }
@@ -1075,7 +1086,7 @@ footer {
 }
 
 #gnbMo {
-	width: 50%;
+	width: 80%;
 	height: 100%;
 	background: #fff;
 	position: fixed;

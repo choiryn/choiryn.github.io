@@ -1,3 +1,12 @@
+@font-face { 
+	font-family: 'KBIZHanmaumMyungjo'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff') 
+	format('woff'); 
+	font-style: normal; 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1');
+
 /*css reset*/
 
 * { 
@@ -48,41 +57,126 @@
 
  }
 
- .hd_right select {
- 	display: none;
- }
-
  .bottom_hd {
  	width: 100%;
  	height: 90px;
  	background: #fff;
- 	box-shadow: 10px 0 15px rgba(0,0,0,0.7);
+ 	box-shadow: 0 3px 15px rgba(176,176,176,0.75);
  	position: relative;
  }
 
- .logo {
- 	position: absolute;
- 	top: 50%;
- 	left: 30px;
- 	transform: translateY(-40%);
- }
-
-#gnb {
-	position: absolute;
-	top: 50%;
- 	transform: translateY(-50%);
- 	right: 30px;
-	width: 100%;
-
+.hd_bt_wrap {
+	width: 95%;
+	margin: 0 auto;
 }
 
-#gnb ul {
-	width: 100%;
+ .logo {
+ 	line-height: 100px;
+ 	display: inline-block;
+ }
+
+ #gnb {
+	float: right;
 }
 
  #gnb li {
+ 	float: left;
+ 	position: relative;
+ 	background: url(../img/menudot.png) no-repeat right 43px;
+ 	padding: 0 50px;
+ 	line-height: 90px;
+ }
+
+ #gnb li:hover .sub {
+ 	background: rgba(233,233,233,0.5);
+ }
+
+ #gnb li:last-child {
+ 	background: none;
+ 	padding-right: 0;
+ }
+
+ #gnb li a {
+ 	font-family: 'KBIZHanmaumMyungjo';
+ 	color: #333;
+ 	font-size: 19px;
+ 	font-weight: 700;
+ 	width: 300px;
+ }
+
+ #gnb > ul > li > a:after {
+ 	content: '';
+ 	height: 3px;
+ 	width: 100%;
+ 	background-color: red;
+ 	display: block;
+ 	margin-top: 10px;
+ }
+
+ #gnb li span {
+ 	color: #bbb;
  }
 
  #gnb .sub {
+ 	position: absolute;
+ 	top: 91px;
+ 	left: 0;
+ 	width: 99.6%;
+ 	height: 200px;
+ 	display: block;
+ 	background: #fff;
+ 	z-index: 9999;
  	display: none;
  }
+
+ #gnb .sub li a {
+ 	text-indent: -15px;
+ 	display: block;
+ 	font-size: 14px;
+ 	font-weight: 600;
+ 	color: #4d4d4d;
+ 	line-height: 0;
+ 	margin-bottom: 30px;
+ 	font-family: 'Gothic A1', sans-serif;
+ 	opacity: 0.7;
+ }
+
+ #gnb .sub li a:hover {
+	color: #3f6306;
+ }
+
+ #gnb .sub li:first-child {
+ 	margin-top: 45px;
+ }
+
+
+ 
+
+ #gnb .sub li:first-child {
+ }
+
+.menuBg {
+	width: 100%;
+	background: #fff;
+	height: 200px;
+	position:absolute;
+	top: 90px;
+	left: 0;
+	display:none;
+	z-index: 999;
+	border-top: 1px solid #ddd;
+}
+
+/*visual*/
+
+figure {
+ 	width: 100%;
+}
+
+figure .visual {
+	width: 100%;
+	height: 625px;
+	background-image: url(../img/visual.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}

@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$(".main_menu").mouseover(function(){
+	   	$(".sub,.menuBg").not(":animated").slideDown(300);
+	});
+	$(".menuBg").mouseleave(function(){
+	    $(".sub,.menuBg").not(":animated").slideUp(300);
+	});
+	$(window).ready(function(){
+	    $(".visual_text").animate({"top":"40%","opacity":"1"},1200);
+	});
+});

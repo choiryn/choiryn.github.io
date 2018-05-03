@@ -6,17 +6,6 @@
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/main.js"></script>
 	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script>
-		  $(document).ready(function(){
-    		$(".main_menu").mouseover(function(){
-    			$(".sub,.menuBg").not(":animated").slideDown();
-    		$(".menuBg").mouseleave(function(){
-    			$(".sub,.menuBg").not(":animated").slideUp();
-    		});
-    	});
-    });
-    
-	</script>
 </head>
 <body>
 	<header>
@@ -120,5 +109,16 @@
 	<figure>
 		<div class="visual"></div>
 	</figure>
+	<script>
+		  $(document).ready(function(){
+    		$(".main_menu").mouseover(function(){
+    			$(".sub,.menuBg").not(":animated").slideDown(700);
+    		$(".menuBg").mouseleave(function(){
+    			$(".sub,.menuBg").not(":animated").slideUp(700);
+    		});
+    	});
+    });
+    
+	</script>
 </body>
 </html>

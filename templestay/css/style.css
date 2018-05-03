@@ -84,7 +84,10 @@
  	position: relative;
  	background: url(../img/menudot.png) no-repeat right 43px;
  	padding: 0 50px;
- 	line-height: 90px;
+ }
+
+ #gnb .main_menu {
+ 	padding-top: 36px;
  }
 
  #gnb li:hover .sub {
@@ -107,11 +110,18 @@
  #gnb > ul > li > a:after {
  	content: '';
  	height: 3px;
- 	width: 100%;
- 	background-color: red;
+ 	width: 0px;
  	display: block;
- 	margin-top: 10px;
+ 	margin: 29px auto;
+ 	transition: 0.4s;
+
  }
+
+ #gnb > ul > li > a:hover::after {
+	width: 100%;
+	background: #066063;
+ 	transform: translateZ(100px);
+}
 
  #gnb li span {
  	color: #bbb;
@@ -142,7 +152,7 @@
  }
 
  #gnb .sub li a:hover {
-	color: #3f6306;
+	color: #066063;
  }
 
  #gnb .sub li:first-child {

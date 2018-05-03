@@ -88,12 +88,18 @@
 						</li>
 						<li class="main_menu">
 							<a href="">마이페이지</a>
-							<ul class="sub noneline">
+							<ul class="sub">
 								<li>
 									<a href="">템플스테이 신청내역</a>
 								</li>
 								<li>
 									<a href="">관심사찰 즐겨찾기</a>
+								</li>
+								<li>
+									<a href="" class="color">로그인</a>
+								</li>
+								<li>
+									<a href="" class="color">회원가입</a>
 								</li>
 							</ul>
 						</li>
@@ -107,17 +113,87 @@
 		</div>
 	</header>
 	<figure>
-		<div class="visual"></div>
+		<div class="visual">
+			<div class="visual_text">
+				<img src="./img/visual_text.svg" alt="visual_text">
+			</div>
+			<!-- <div class="slide_visual">
+				<img src="./img/visual_slide.png" alt="slide_img">
+			</div> -->
+		</div>
 	</figure>
+	<section id="cnt_one">
+		<div class="temple_wrap">
+			<div class="temple">
+				<div class="temple_val">
+					<img src="" alt="">
+					<a href="">
+						<span>낙산사</span>
+					</a>
+				</div>
+			<div class="temple">
+				<div class="temple_val">
+					<img src="" alt="">
+					<a href="">
+						<span>봉황사</span>
+					</a>
+				</div>
+			<div class="temple">
+				<div class="temple_val">
+					<img src="" alt="">
+					<a href="">
+						<span></span>
+					</a>
+				</div>
+			<div class="temple">
+				<div class="temple_val">
+					<img src="" alt="">
+					<a href="">
+						<span></span>
+					</a>
+				</div>
+			<div class="temple">
+				<div class="temple_val">
+					<img src="" alt="">
+					<a href="">
+						<span></span>
+					</a>
+				</div>
+			<div class="temple">
+				<div class="temple_val">
+					<img src="" alt="">
+					<a href="">
+						<span></span>
+					</a>
+				</div>
+			<div class="temple">
+				<div class="temple_val">
+					<img src="" alt="">
+					<a href="">
+						<span></span>
+					</a>
+				</div>
+			<div class="temple">
+				<div class="temple_val">
+					<img src="" alt="">
+					<a href="">
+						<span></span>
+					</a>
+				</div>
+		</div>
+	</section>
 	<script>
-		  $(document).ready(function(){
-    		$(".main_menu").mouseover(function(){
-    			$(".sub,.menuBg").not(":animated").slideDown(700);
-    		$(".menuBg").mouseleave(function(){
-    			$(".sub,.menuBg").not(":animated").slideUp(700);
-    		});
-    	});
-    });
+	 $(document).ready(function(){
+	    $(".main_menu").mouseover(function(){
+	    	$(".sub,.menuBg").not(":animated").slideDown(300);
+	    });
+	    $(".menuBg").mouseleave(function(){
+	    	$(".sub,.menuBg").not(":animated").slideUp(300);
+	    });
+	    $(window).ready(function(){
+	    	$(".visual_text").animate({"top":"40%","opacity":"1"},1200);
+	    });
+	});
     
 	</script>
 </body>

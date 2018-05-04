@@ -124,6 +124,9 @@
 			</div>
 		</div>
 	</section>
+	<section id="section2">
+		
+	</section>
 
 	<script src="js/main.js"></script>
 	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -135,11 +138,16 @@
 		    $(".menuBg").mouseleave(function(){
 		    	$(".sub,.menuBg").not(":animated").slideUp(300);
 		    });
+		    $(window).scroll(function(){
+		    	var par = $(window).scrollTop();
+		    	if(par>=400){
+		    		$(".con1 p").fadeIn(1500,function(){
+		    			$(".media").animate({"opacity":"1","top":"350px"},800);
+		    		});
+		    	}
+		    });
 		    $(window).ready(function(){
 		    	$(".visual_text").animate({"top":"40%","opacity":"1"},1200);
-		    	$(".con1 p").fadeIn(1500,function(){
-		    		$(".media").animate({"opacity":"1","top":"350px"},800);
-		    	});
 		    });
 		});
 	</script>

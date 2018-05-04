@@ -49,11 +49,13 @@
  .hd_right li a {
  	color: rgba(255,255,255,0.8);
  	display: block;
- 	width: 130px;
+ 	width: 100px;
  	height: 100%;
  	text-align: center;
  	line-height: 50px;
  	border-left: 1px solid #fff;
+ 	font-size: 15px;
+ 	font-family: 'Gothic A1', sans-serif;
  }
 
  .hd_right li a:hover {
@@ -93,10 +95,6 @@
  	padding-top: 36px;
  }
 
- #gnb .main_menu .color {
- 	color: #af1515;
- }
-
  #gnb li:hover .sub {
  	background: rgba(233,233,233,0.4);
  }
@@ -127,7 +125,7 @@
 
  #gnb > ul > li > a:hover::after {
 	width: 100%;
-	background: #0097ad;
+	background: #e7b210;
 }
 
  #gnb li span {
@@ -223,21 +221,43 @@ figure .visual {
 
 /*section1*/
 
-#cnt_one {
+#section1 {
 	width: 100%;
-	height: 200px;
-	background: lightgreen;
+	height: 720px;
+	background: url(../img/section1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-.temple_wrap {
+.wrap {
 	width: 1200px;
 	height: 100%;
 	margin: 0 auto;
-	background: green;
 }
 
-.temple {
-	width: 150px;
-	background: red;
-	float: left;
+.con1 {
+	font-family: 'KBIZHanmaumMyungjo';
+	color: rgba(255,255,255,0.7);
+	text-align: center;
+	position: relative;
+}
+
+.con1 h1 {
+	padding: 55px 0;
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+.con1 p {
+	line-height: 1.8;
+	font-size: 18px;
+	display: none;
+}
+
+.media {
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	opacity: 0;
+	transform: translateX(-50%);
 }

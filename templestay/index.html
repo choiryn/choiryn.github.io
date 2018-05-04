@@ -4,8 +4,7 @@
 	<meta charset="UTF-8">
 	<title>참된 나를 찾아 떠나는 여행 - 템플스테이</title>
 	<link rel="stylesheet" href="css/style.css">
-	<script src="js/main.js"></script>
-	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
 	<header>
@@ -95,12 +94,6 @@
 								<li>
 									<a href="">관심사찰 즐겨찾기</a>
 								</li>
-								<li>
-									<a href="" class="color">로그인</a>
-								</li>
-								<li>
-									<a href="" class="color">회원가입</a>
-								</li>
 							</ul>
 						</li>
 						<li class="main_menu">
@@ -122,79 +115,34 @@
 			</div> -->
 		</div>
 	</figure>
-	<section id="cnt_one">
-		<div class="temple_wrap">
-			<div class="temple">
-				<div class="temple_val">
-					<img src="" alt="">
-					<a href="">
-						<span>낙산사</span>
-					</a>
-				</div>
-			<div class="temple">
-				<div class="temple_val">
-					<img src="" alt="">
-					<a href="">
-						<span>봉황사</span>
-					</a>
-				</div>
-			<div class="temple">
-				<div class="temple_val">
-					<img src="" alt="">
-					<a href="">
-						<span></span>
-					</a>
-				</div>
-			<div class="temple">
-				<div class="temple_val">
-					<img src="" alt="">
-					<a href="">
-						<span></span>
-					</a>
-				</div>
-			<div class="temple">
-				<div class="temple_val">
-					<img src="" alt="">
-					<a href="">
-						<span></span>
-					</a>
-				</div>
-			<div class="temple">
-				<div class="temple_val">
-					<img src="" alt="">
-					<a href="">
-						<span></span>
-					</a>
-				</div>
-			<div class="temple">
-				<div class="temple_val">
-					<img src="" alt="">
-					<a href="">
-						<span></span>
-					</a>
-				</div>
-			<div class="temple">
-				<div class="temple_val">
-					<img src="" alt="">
-					<a href="">
-						<span></span>
-					</a>
-				</div>
+	<section id="section1">
+		<div class="wrap con1">
+			<h1>01</h1>
+			<p>떠나고 싶을 때, 쉬고 싶을 때 우리가 꿈꾸는 바로 그 여행<br>떠나고 싶습니다. 쉬고 싶습니다. 혼자여도 좋고, 함께라면 더욱 좋습니다.<br>대한민국 구석구석 아름다운 산사에서 만나는 특별한 휴식 템플스테이는 <br>삶의 쉼표가 필요할 때 마음이 쉬어가는 곳입니다.</p>
+			<div class="media">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/yHIisCB5vhY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
 		</div>
 	</section>
+
+	<script src="js/main.js"></script>
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script>
-	 $(document).ready(function(){
-	    $(".main_menu").mouseover(function(){
-	    	$(".sub,.menuBg").not(":animated").slideDown(300);
-	    });
-	    $(".menuBg").mouseleave(function(){
-	    	$(".sub,.menuBg").not(":animated").slideUp(300);
-	    });
-	    $(window).ready(function(){
-	    	$(".visual_text").animate({"top":"40%","opacity":"1"},1200);
-	    });
-	});
-    
+		$(document).ready(function(){
+		    $(".main_menu").mouseover(function(){
+		    	$(".sub,.menuBg").not(":animated").slideDown(300);
+		    });
+		    $(".menuBg").mouseleave(function(){
+		    	$(".sub,.menuBg").not(":animated").slideUp(300);
+		    });
+		    $(window).ready(function(){
+		    	$(".visual_text").animate({"top":"40%","opacity":"1"},1200);
+		    	$(".con1 p").fadeIn(1500,function(){
+		    		$(".media").animate({"opacity":"1","top":"350px"},800);
+		    	});
+		    });
+		});
 	</script>
+
 </body>
 </html>

@@ -125,7 +125,12 @@
 		</div>
 	</section>
 	<section id="section2">
-		
+		<input type="radio" name="value" class="ra_item" id="exp" checked>
+		<input type="radio" name="value" class="ra_item" id="res">
+		<input type="radio" name="value" class="ra_item" id="day">
+		<div class="wrap con2">
+			<div class="title"></div>
+		</div>
 	</section>
 
 	<script src="js/main.js"></script>
@@ -141,9 +146,9 @@
 		    $(window).scroll(function(){
 		    	var par = $(window).scrollTop();
 		    	if(par>=400){
-		    		$(".con1 p").fadeIn(1500,function(){
-		    			$(".media").animate({"opacity":"1","top":"350px"},800);
-		    		});
+		    		$(".con1 h1").animate({"marginRight":"0","opacity":"1"},2000);
+		    		$(".con1 p").fadeIn(1500);
+		    		$(".media").delay(500).animate({"opacity":"1","top":"330px"},800);
 		    	}
 		    });
 		    $(window).ready(function(){

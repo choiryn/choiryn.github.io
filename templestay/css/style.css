@@ -4,8 +4,10 @@
 	format('woff'); 
 	font-style: normal; 
 }
-
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1');
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); 
+
 
 /*css reset*/
 
@@ -55,7 +57,9 @@
  	line-height: 50px;
  	border-left: 1px solid #fff;
  	font-size: 15px;
- 	font-family: 'Gothic A1', sans-serif;
+ 	/*font-family: 'Noto Sans KR', sans-serif;*/
+ 	/*font-family: 'Gothic A1', sans-serif;*/
+ 	font-family: 'Jeju Gothic', sans-serif;
  }
 
  .hd_right li a:hover {
@@ -148,11 +152,13 @@
  	text-indent: -15px;
  	display: block;
  	font-size: 14px;
- 	font-weight: 600;
+ 	font-weight: bold;
  	color: #4d4d4d;
  	line-height: 0;
  	margin-bottom: 35px;
- 	font-family: 'Gothic A1', sans-serif;
+ 	/*font-family: 'Gothic A1', sans-serif;*/
+ 	font-family: 'Jeju Gothic', sans-serif;
+ 	/*font-family: 'Noto Sans KR', sans-serif;*/
  	opacity: 0.7;
  }
 

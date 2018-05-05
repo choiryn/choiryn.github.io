@@ -275,17 +275,80 @@ figure .visual {
 
 #section2 {
 	width: 100%;
-	height: 400px;
-	background-color: #f3f3f3;
-	background-image: url(../img/notice.png);
-	background-repeat: no-repeat;
-	background-size: 5%;
-	background-position: 230px 20px;
+	height: 430px;
+	background-color: #fafafa;
+	font-family: 'Jeju Gothic', sans-serif;
 }
 
 #section2 input {
 	display: none;
 }
 
-.con2 {
+.notice_wrap {
+	width: 33.3333%;
+	height: 100%;
+	float: left;
 }
+
+.top_val {
+	width: 100%;
+	height: 60px;
+	border-bottom: 0.5px solid #333;
+}
+
+.top_val label {
+	font-size: 20px;
+	color: #333;
+	float: left;
+	margin-left: 6px;
+	margin-right: 15px;
+	margin-top: 14px;
+}
+
+.more {
+	float: right;
+	border: 0.5px solid #333;
+	width: 30px;
+	height: 30px;
+	margin-top: 14px;
+	margin-right: 10px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.more .more_wrap {
+	margin-top: 15px;
+	margin-left: 6px;
+}
+
+.more:hover {
+	background: rgba(150,150,150,0.1);
+}
+
+.more div {
+	width: 18px;
+	height: 0.5px;
+	background: #333;
+}
+
+.more div:last-child{
+	transform: rotate(90deg);
+}
+
+.event_wrap {
+	width: 66.6666%;
+	height: 100%;
+	background: green;
+	float: left;
+}
+
+.event_wrap:after {
+	content: "";
+	clear: both;
+}
+
+
+
+.
+
+

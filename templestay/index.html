@@ -129,11 +129,11 @@
 	<section id="section2">
 		<div class="wrap">
 			<div class="notice_wrap">
+				<input type="radio" name="value" class="ra_item" id="exp" checked>
+				<input type="radio" name="value" class="ra_item" id="res">
 				<div class="top_val">
-					<input type="radio" name="value" class="ra_item" id="exp" checked>
-					<input type="radio" name="value" class="ra_item" id="res">
-					<label for="exp">공지사항</label>
-					<label for="res">문의/건의</label>
+					<label for="exp" class="t_exp">공지사항</label>
+					<label for="res" class="t_res">문의/건의</label>
 					<div class="more">
 						<div class="more_wrap">
 							<div></div>
@@ -141,14 +141,70 @@
 						</div>
 					</div>
 				</div><!-- top-val -->
-				<div class="all_Wrap">
-					<div class="val_wrap">
-						<div class="item_wrap">
-							.
+				<div class="tab_wrap">
+					<div class="tab" id="tab1">
+						<div class="tab_text">
+							<ul>
+								<li>
+									<a href="#">평창동계올림픽, 패럴림픽과 함께하는 템플스테이 이벤트</a>
+									<span class="new"></span>
+									<span>2018-02-06</span>
+								</li>
+								<li>
+									<a href="">백담사 간화선 템플스테이</a>
+									<span class="new"></span>
+									<span>2018-01-19</span>
+								</li>
+								<li>
+									<a href="#">두근두근 고3을 위한 산사청춘캠프</a>
+									<span>2017-11-20</span>
+								</li>
+								<li>
+									<a href="#">해맞이 템플스테이(올해는 함께 해보자)</a>
+									<span>2017-12-04</span>
+								</li>
+								<li>
+									<a href="#">가을여행주간 템플스테이</a>
+									<span>2017-09-26</span>
+								</li>
+								<li>
+									<a href="#">가을여행주간 템플스테이</a>
+									<span>2017-09-26</span>
+								</li>
+							</ul>
 						</div>
 					</div>
-					<div class="val_wrap">
-						<div class="item_wrap"></div>
+					<div class="tab" id="tab2">
+						<div class="tab_text">
+							<ul>
+								<li>
+									<a href="#">문의드립니다.</a>
+									<span class="new"></span>
+									<span>2018-02-06</span>
+								</li>
+								<li>
+									<a href="">백담사 간화선 템플스테이</a>
+									<span class="new"></span>
+									<span>2018-01-19</span>
+								</li>
+								<li>
+									<a href="#">두근두근 고3을 위한 산사청춘캠프</a>
+									<span>2017-11-20</span>
+								</li>
+								<li>
+									<a href="#">해맞이 템플스테이(올해는 함께 해보자)</a>
+									<span>2017-12-04</span>
+								</li>
+								<li>
+									<a href="#">가을여행주간 템플스테이</a>
+									<span>2017-09-26</span>
+								</li>
+								<li>
+									<a href="#">가을여행주간 템플스테이</a>
+									<span>2017-09-26</span>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -176,6 +232,16 @@
 		    $(window).ready(function(){
 		    	$(".visual_text").animate({"top":"40%","opacity":"1"},1200);
 		    });
+		 //    $("#exp").click(function(){
+		 //    	$("#tab2").css("display","none");
+			// 	$("#tab1").css("display","block");
+			// });
+
+			// $("#res").click(function(){
+			// 	$("#tab1").css("display","none");
+			// 	$("#tab2").css("display","block");
+			// });
+
 		});
 	</script>
 

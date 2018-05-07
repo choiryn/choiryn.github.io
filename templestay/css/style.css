@@ -344,7 +344,6 @@ figure .visual {
 .event_wrap {
 	width: 66.6666%;
 	height: 100%;
-	background: green;
 	float: left;
 }
 
@@ -428,6 +427,22 @@ figure .visual {
 #res:checked ~ .top_val .t_res {
 	opacity: 1;
 }
+
+.e_title {
+	width: 50%;
+	float: left;
+	color: #333;
+	font-size: 20px;
+}
+
+.e_title .line{
+	display: inline-block;
+	width: 20px;
+	height: 0.5px;
+	background: #333;
+	margin: 0 10px 5px 10px;
+}
+
 
 
 

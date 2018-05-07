@@ -275,8 +275,8 @@ figure .visual {
 
 #section2 {
 	width: 100%;
-	height: 430px;
-	background-color: #fafafa;
+	height: 450px;
+	background-color: #f8f8f8;
 	font-family: 'Jeju Gothic', sans-serif;
 }
 
@@ -291,13 +291,13 @@ figure .visual {
 	padding-right: 20px;
 	padding-top: 45px;
 	box-sizing: border-box;
-
 }
 
 .top_val {
 	width: 100%;
 	height: 60px;
-	border-bottom: 0.5px solid #333;
+	/*border-bottom: 1.5px solid #ebeef3;*/
+	border-bottom: 1.5px solid #ddd;
 }
 
 .top_val label {
@@ -327,10 +327,6 @@ figure .visual {
 	margin-left: 6px;
 }
 
-.more:hover {
-	background: rgba(150,150,150,0.1);
-}
-
 .more div {
 	width: 18px;
 	height: 0.5px;
@@ -347,6 +343,21 @@ figure .visual {
 	float: left;
 }
 
+.icon_wrap {
+	padding-right: none;
+	box-sizing: content-box;
+	width: 100%;
+	height: 22%;
+}
+
+.icon_wrap div {
+	float: left;
+	width: 25%;
+	height: 100%;
+	border-radius: 50%;
+	background: aquamarine;
+}
+
 .event_wrap:after {
 	content: "";
 	clear: both;
@@ -361,18 +372,19 @@ figure .visual {
 .tab {
 	width: 100%;
 	height: 100%;
-	border-bottom: 0.5px solid #e1e1e1;
+	/*border-bottom: 0.5px solid #e1e1e1;*/
 	clear: both;
 	display: none;
 }
 
 .tab_text ul {
-	margin-top: 32px;
+	margin-top: 18px;
 }
 
 .tab_text a, .tab_text span {
 	color: #666;
-	font-size: 16px;
+	font-size: 14px;
+	font-weight: 600;
 	/*font-family: 'Jeju Gothic', sans-serif;*/
 	font-family: 'Gothic A1', sans-serif;
 	/*font-family: 'Noto Sans KR', sans-serif;*/
@@ -382,7 +394,7 @@ figure .visual {
 	display: inline-block;
 	float: left;
 	width: 65%;
-	height: 33px;
+	height: 32px;
 	-moz-text-overflow: ellipsis;
 	-o-text-overflow: ellipsis;
 	-ms-text-overflow: ellipsis;
@@ -400,16 +412,18 @@ figure .visual {
 .tab_text span {
 	float: right;
 	margin-right: 6px;
+	font-weight: 400;
 }
 
 .tab_text .new {
 	display: inline-block;
-	width: 23px;
-	height: 23px;
+	width: 20px;
+	height: 20px;
 	background: url(../img/new_icon.png) no-repeat;
 	background-size: cover;
 	background-position: center;
-	float: left;
+	float: none;
+	margin-right: 0;	
 }
 
 #exp:checked ~ .tab_wrap #tab1 {
@@ -473,6 +487,10 @@ figure .visual {
 	font-size: 20px;
 }
 
+.e_title span:first-child{
+	font-weight: 800;
+}
+
 .e_title .line{
 	display: inline-block;
 	width: 20px;
@@ -525,7 +543,6 @@ figure .visual {
 	width: 250px;
 	height: 290px;
 	background: white;
-	box-shadow: 1px 3px 10px rgba(117,117,117,0.5);
 	border-radius: 10px;
 	cursor: pointer;
 }
@@ -541,9 +558,13 @@ figure .visual {
 	transition: 0.5s;
 }
 
+.img_wrap:hover, .img_wrap:active {
+	box-shadow: 1px 5px 10px rgba(235,238,243,1);
+}
+
 .img_wrap:hover .back_img, .img_wrap:active .back_img{
 	top: 10%;
-	box-shadow: -10px 1px 20px rgba(0,0,0,0.3);
+	box-shadow: -10px 1px 20px rgba(199,200,201,1);
 }
 
 .img_wrap:hover img, .img_wrap:active img {
@@ -556,7 +577,7 @@ figure .visual {
 
 .back_img h1 {
 	font-size: 14px;
-	color: #555;
+	color: #666;
 	text-align: center;
 	margin-top: 13px;
 	transition: 0.5s;
@@ -570,19 +591,19 @@ figure .visual {
 	font-size: 13px;
 	color: #333;
 	line-height: 1.6;
-	opacity: 0.9;
-	font-weight: lighter;
+	opacity: 0.6;
+	font-weight: 800;
 }
 
 .back_img .ban_date {
 	font-size: 13px;
-	color: #333;
-	border-top: 0.5px solid #e1e1e1;
+	color: #777;
+	border-top: 1px solid #ebeef3;
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 13px;
-	font-weight: lighter;
+	font-weight: 800;
 }
 
 

@@ -209,16 +209,61 @@
 				</div>
 			</div>
 			<div class="event_wrap">
-				<div class="e_title">
-					<span>이벤트</span>
-					<span class="line"></span>
-					<span>event</span>
-				</div>
-				<div class="more">
-					<div class="more_wrap">
-						<div></div>
-						<div></div>
+				<div class="title_wrap">
+					<div class="e_title">
+						<span>이벤트</span>
+						<span class="line"></span>
+						<span>event</span>
 					</div>
+					<div class="icon_box">
+						<div class="prev">
+						</div>
+						<div class="next">
+						</div>
+						<div class="more">
+							<div class="more_wrap">
+								<div></div>
+								<div></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="banner_wrap">
+					<ul class ="banner">
+						<li>
+							<div class="img_wrap">
+								<div class="front_img">
+									<img src="./img/ban1.jpg" alt="">
+								</div>
+								<div class="back_img">
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="front_img">
+								<img src="./img/ban2.jpg" alt="">
+							</div>
+							<div class="back_img">
+								
+							</div>
+						</li>
+						<li>
+							<div class="front_img">
+								<img src="./img/ban3.jpg" alt="">
+							</div>
+							<div class="back_img">
+								
+							</div>
+						</li>
+						<li>
+							<div class="front_img">
+								<img src="./img/ban4.jpg" alt="">
+							</div>
+							<div class="back_img">
+								
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -244,16 +289,16 @@
 		    $(window).ready(function(){
 		    	$(".visual_text").animate({"top":"40%","opacity":"1"},1200);
 		    });
-		 //    $("#exp").click(function(){
-		 //    	$("#tab2").css("display","none");
-			// 	$("#tab1").css("display","block");
-			// });
-
-			// $("#res").click(function(){
-			// 	$("#tab1").css("display","none");
-			// 	$("#tab2").css("display","block");
-			// });
-
+		    // var intv = setTimeout(  , 1000);
+		    // function autoslide(){
+		    // 	$(".banner").animate({"marginLeft":"-266.6666px"});
+		    // }
+		    $(".next").click(function(){
+				$(".banner").animate({"marginLeft":"-266.6666px"});
+		    });
+		    $(".prev").click(function(){
+				$(".banner").animate({"marginLeft":"266.6666px"});
+		    });
 		});
 	</script>
 

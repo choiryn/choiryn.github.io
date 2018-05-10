@@ -505,69 +505,6 @@
 						<p class="button">後</p>
 					</div>
 				</div>
-
-				<!-- <div class="event_wrap">
-					<div class="banner_wrap">
-						<ul class ="banner">
-							<li>
-								<div class="img_wrap">
-									<div class="front_img">
-										<img src="./img/ban1.jpg" alt="">
-									</div>
-									<div class="back_img">
-										<h4>템플스테이<br>기차여행</h4>
-										<p class="ban_exp">
-											아름다운 봄날, 템플스테이 기차여행을 떠나볼까요? 참가자 모두에게는 사찰의 꽃살문을 담은 손수건을 드립니다.
-										</p>
-										<p class="ban_date">2018-03-26 ~ 2018-06-31</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="img_wrap">
-									<div class="front_img">
-										<img src="./img/ban2.jpg" alt="">
-									</div>
-									<div class="back_img">
-										<h4>템플스테이<br>'문화가 있는 날'</h4>
-										<p class="ban_exp">
-											아름다운 봄날, 템플스테이 기차여행을 떠나볼까요? 참가자 모두에게는 사찰의 꽃살문을 담은 손수건을 드립니다.
-										</p>
-										<p class="ban_date">2018-03-26 ~ 2018-06-31</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="img_wrap">
-									<div class="front_img">
-										<img src="./img/ban3.jpg" alt="">
-									</div>
-									<div class="back_img">
-										<h4>꽃을 품은<br>템플스테이</h4>
-										<p class="ban_exp">
-											아름다운 봄날, 템플스테이 기차여행을 떠나볼까요?<br>참가자 모두에게는 사찰의 꽃살문을 담은 손수건을 드립니다.
-										</p>
-										<p class="ban_date">2018-03-26 ~ 2018-06-31</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="img_wrap">
-									<div class="front_img">
-										<img src="./img/ban4.jpg" alt="">
-									</div>
-									<div class="back_img">
-										<h4>봄 행복만원<br>템플스테이</h4>
-										<p class="ban_exp">
-											아름다운 봄날, 템플스테이 기차여행을 떠나볼까요?<br>참가자 모두에게는 사찰의 꽃살문을 담은 손수건을 드립니다.
-										</p>
-										<p class="ban_date">2018-03-26 ~ 2018-06-31</p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</section>
@@ -594,7 +531,8 @@
 		    });
 		    $(window).scroll(function(){
 		    	var par = $(window).scrollTop();
-		    	if(par>=400){
+		    	if(par>=800){
+		    		$("#section2").css("background-repeat","repeat-y");
 		    		$(".con2 h1").animate({"marginRight":"0","opacity":"1"},2000);
 		    		$(".con2 p").fadeIn(1500);
 		    		$(".media").delay(500).animate({"opacity":"1","top":"330px"},800);

@@ -510,14 +510,14 @@ figure .visual {
 
 .event {
 	display: inline-block;
-	width: 750px;
+	width: 750px;/*화면에 실제로 보이는 슬라이드의 너비*/
 	float: left;
 	overflow: hidden;
 	box-sizing: border-box;
 }
 
 .event ul {
-	width: 1000px;
+	width: 1000px;/*각 슬라이드의 width를 합친 너비*/
 	height: 250px;
 	float: left;
 }
@@ -608,10 +608,10 @@ figure .visual {
 #section2 {
 	width: 100%;
 	height: 720px;
-	background: url(../img/section1.jpg) no-repeat;
-	background-size: cover;
+	background-image: url(../img/v_line.png);
+	background-color: #333;
+	background-repeat: no-repeat;
 	background-position: center;
-	background-attachment: fixed;
 }
 
 .con2 {

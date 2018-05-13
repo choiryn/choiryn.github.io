@@ -539,8 +539,16 @@
 	</section>
 	<section id="section3">
 		<div class="wrap">
+			<div class="sec3_title">
+				<a href="#day_wrap">당일형</a>
+				<span>/</span>
+				<a href="#exp_wrap">체험형</a>
+				<span>/</span>
+				<a href="#res_wrap">휴식형</a>
+				<h1>프로그램 유형</h1>
+			</div>
 			<div class="type_wrap">
-				<div class="res_wrap">
+				<div id="res_wrap">
 					<div class="type_title">
 						<?xml version="1.0" encoding="utf-8"?>
 						<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 193 106" style="enable-background:new 0 0 193 106;" xml:space="preserve">
@@ -590,23 +598,36 @@
 					</div>
 					<div class="type_image">
 						<ul class="box1">
-							<li>첫화면</li>
-							<li>두번째 화면</li>
+							<li>
+								<img src="./img/box1-1.jpg" alt="box1_image_1">
+							</li>
+							<li class="box_position">
+								<div class="box_text">
+									<p>말 그대로 사찰에 머물며 지친 몸과 마음을 잠시 쉴 수 있도록 도와주는 프로그램입니다. 일상에서 벗어나 자연과 호흡하고 참선과 예불 등을 통해 삶의 에너지를 재충전할 수 있습니다. </p>
+								</div>
+								<img src="./img/box1-2.jpg" alt="box1_image_2">
+							</li>
 						</ul>
 					</div>
 				</div>
-				<div class="exp_wrap">
+				<div id="exp_wrap">
 					<div class="type_image">
 						<ul class="box2">
-							<li>1111111</li>
-							<li>222222222222</li>
+							<li>
+								<img src="./img/box2-1.jpg" alt="box2_image_1">
+							</li>
+							<li class="box_position">
+								<div class="box_text">
+									<p>한국의 전통문화와 다양한 불교문화를 경험해 보는 프로그램이나 사찰 주변의 숲 체험, 갯벌 탐사, 야생녹차 만들기 등 자연환경을 이용한 다양한 체험을 할 수 있는 프로그램들이 있습니다.</p>
+								</div>
+								<img src="./img/box2-2.jpg" alt="box2_image_2">
+							</li>
 						</ul>
 					</div>
 					<div class="type_title">
 						<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 193 106" style="enable-background:new 0 0 193 106;" xml:space="preserve">
 						<style type="text/css">
-							.st1{fill:none;stroke:#333333;stroke-miterlimit:10;}
-							.st1{fill:none;stroke:#000000;}
+							.st1{fill:none;stroke:#333333;stroke-miterlimit:5;}
 						</style>
 						<g>
 							<path class="st1" d="M75.5,12.4v4.7h5.6l2-2.6c0.4-0.5,0.7-0.8,1-0.9c0.3,0,0.6,0.1,1,0.6l3.9,3c0.6,0.5,0.9,1.1,0.9,1.6
@@ -695,7 +716,7 @@
 
 					</div>
 				</div>
-				<div class="day_wrap">
+				<div id="day_wrap">
 					<div class="type_title">
 						<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 193 106" style="enable-background:new 0 0 193 106;" xml:space="preserve">
 					<style type="text/css">
@@ -736,8 +757,14 @@
 					</div>
 					<div class="type_image">
 						<ul class="box3">
-							<li>222222222</li>
-							<li>111111111</li>
+							<li class="box_position">
+								<div class="box_text">
+									<p>말 그대로 사찰에 머물며 지친 몸과 마음을 잠시 쉴 수 있도록 도와주는 프로그램입니다. 일상에서 벗어나 자연과 호흡하고 참선과 예불 등을 통해 삶의 에너지를 재충전할 수 있습니다.</p>
+								</div>
+							</li>
+							<li>
+							111111111
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -757,7 +784,6 @@
 		    // 스크롤 애니메이션 
 		    $(window).scroll(function(){
 		    	var par = $(window).scrollTop();
-		    	$(".box1 li").text(par);
 		    	// if(par>=800){
 		    	// 	$("#section2").css("background-repeat","repeat-y");
 		    	// 	$(".con2 h1").animate({"marginRight":"0","opacity":"1"},2000);

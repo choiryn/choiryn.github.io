@@ -740,16 +740,6 @@ figure .visual {
 	overflow: hidden;
 }
 
-.type_wrap svg {
-	width: 200px;
-	height: auto;
-}
-
-/*.type_title p {
-	font-size: 100px;
-	color: #333;
-}*/
-
 .box1 {
 	width: 1800px;
 	height: 100%;
@@ -787,6 +777,14 @@ figure .visual {
 	float: left;
 }
 
+/*svg css*/
+
+.type_wrap svg {
+	width: 200px;
+	height: auto;
+	padding-top: 110px;
+}
+
 .res_wrap path {
 	stroke-dasharray: 100;
 }
@@ -799,8 +797,8 @@ figure .visual {
 	stroke-dasharray: 100;
 }
 
-.st0 {
-	transition: 2s;
+.exp_wrap svg {
+	float: right;
 }
 
 

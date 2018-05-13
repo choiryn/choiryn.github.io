@@ -787,8 +787,21 @@ figure .visual {
 	float: left;
 }
 
+.res_wrap path {
+	stroke-dasharray: 100;
+}
 
+.exp_wrap path {
+	stroke-dasharray: 100;
+}
 
+.day_wrap path {
+	stroke-dasharray: 100;
+}
+
+.st0 {
+	transition: 2s;
+}
 
 
 

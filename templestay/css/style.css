@@ -864,7 +864,7 @@ figure .visual {
 }
 
 #exp_wrap path {
-	stroke-dasharray: 100;
+	stroke-dasharray: 50;
 }
 
 #day_wrap path {
@@ -875,6 +875,126 @@ figure .visual {
 	float: right;
 }
 
+/*section4*/
 
+#section4 {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	/*background: gold;*/
+	background: #faf9f6;
+	font-family: 'KBIZHanmaumMyungjo';
+}
 
+#section4 h1 {
+	font-size: 28px;
+	color: #333;
+	text-align: center;
+}
 
+#section4 h1:before {
+	content: '';
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	width: 620px;
+	height: 1px;
+	background: #333;
+}
+
+#section4 h1:after {
+	content: '';
+	display: inline-block;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	width: 620px;
+	height: 1px;
+	background: #333;
+}
+
+.rcm_nav {
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	/*background: red;*/
+	padding-top: 60px;
+}
+
+.rcm_nav li {
+	width: 20%;
+	text-align: center;
+	float: left;
+	color: #000;
+	font-size: 18px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+#section4 .rcm_image {
+	position: absolute;
+	background: url(../img/temple1.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	top: 50%;
+	left: 0;
+	margin-top: -150px;
+
+}
+
+#section4 .wrap {
+	height: 100%;
+	position: relative;
+	clear: both;
+}
+
+.rcm_title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 350px;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.8);
+}
+
+.title_line {
+	width: 93%;
+	height: 93%;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 1px solid #fff;
+	text-align: center;
+}
+
+.title_rcm {
+	font-size: 15px;
+	font-family: 'Jeju Gothic', sans-serif;
+	color: #96ffff;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.title_name {
+	font-size: 45px;
+	color: #fff;
+}
+
+.title_top {
+	color: #fff;
+	font-size: 20px;
+	padding-top: 40px;
+}
+
+.title_exp {
+	font-family: 'Jeju Gothic', sans-serif;
+	color: rgba(255,255,255,0.9);
+	font-size: 14px;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 25px;
+	line-height: 1.6;
+	font-weight: bold;
+}

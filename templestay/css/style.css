@@ -191,7 +191,6 @@ figure .visual {
 	background-repeat: no-repeat;
 	background-size: 120%;
 	background-position: center;
-	opacity: 0.5;
 }
 
 .visual_text {
@@ -203,7 +202,7 @@ figure .visual {
 }
 
 .inq_form {
-	display: none;
+	/*display: none;*/
 	position: absolute;
 	top: 50%;
 	right: 0;
@@ -272,6 +271,10 @@ figure .visual {
 .select {
 	cursor: pointer;
 	fill: rgba(40,40,40,0.5);
+}
+
+.toggle_color {
+	fill: gold;
 }
 
 /*section1*/
@@ -808,7 +811,7 @@ figure .visual {
 }
 
 #exp_wrap path {
-	stroke-dasharray: 50;
+	stroke-dasharray: 40;
 }
 
 #day_wrap path {

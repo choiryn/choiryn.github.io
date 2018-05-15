@@ -65,20 +65,20 @@ $(document).ready(function(){
 		//stroke-dasharray
 
 		if(par>=1450) {
-			$(".st0").animate({"stroke-dasharray":"500","fill":"#333"},5000,function(){
+			$(".st0").animate({"stroke-dasharray":"500"},2000,function(){
 					$(this).css({"fill":"#333","stroke":"#333"});
 				});	
 		    }
 
 		if(par>=1750) {
-			$(".st1").animate({"stroke-dasharray":"450"},5000,function() {
-				    	$(".st1").css("fill","#333");
+			$(".st1").animate({"stroke-dasharray":"450"},2000,function() {
+				    	$(".st1").css({"fill":"#333","stroke":"#333"});
 				});	
 		   	}
 
 		if(par>=2050) {
 			$(".st2").animate({"stroke-dasharray":"400"},2000,function() {
-				    $(".st2").css("fill","#333");
+				    $(".st2").css({"fill":"#333","stroke":"#333"});
 				});	
 		    }
 		});
@@ -86,7 +86,7 @@ $(document).ready(function(){
 	//window 로드될 때 animation
 
 	$(window).ready(function(){
-		$(".visual").animate({"opacity":"1","background-size":"105%"},6000);
+		$(".visual").animate({"background-size":"105%"},6000);
 	});
 
 	//slide 
@@ -131,16 +131,8 @@ $(document).ready(function(){
 	});
 
 	//지도 
-	var color = 1;
 	$(".select").click(function(){
-		if(color == 1){
-			$(this).css("opacity","0.5");
-			color = 0;
-		}
-		else {
-		    $(this).css("opacity","1");
-		    color = 1;
-		}
+		$(this).toggleClass("toggle_color");
 	});
 
 	//슬라이딩 이미지

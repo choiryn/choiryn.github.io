@@ -8,7 +8,20 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/main.js"></script>
-	<!-- <script src="http://code.jquery.com/jquery-latest.js"></script> -->
+	<script src="js/instafeed.min.js"></script>
+	<script type="text/javascript">    
+		var userFeed = new Instafeed({
+		    get: 'user',
+		    userId: 3613685325,
+		    sortBy: "most-recent",
+		    limit: 20,
+		    template: '<a href="{{link}}" target="_blank"><img src="{{image}}" />{{caption}}</a>', 
+		    // {{link}} : 게시물 링크, {{image}} : 사진 url, {{caption}} : 게시물 텍스트
+		    accessToken: '3613685325.a914cde.9c57842519da43a188a26aad6d38c63f'        
+		});
+		 
+		userFeed.run();
+</script>
 </head>
 <body>
 	<header>
@@ -773,7 +786,7 @@
 			</div>
 		</div>
 	</section>
-	<div id="section4">
+	<section id="section4">
 		<h1>이곳이 좋습니다</h1>
 		<div class="rcm_nav">
 			<ul>
@@ -797,8 +810,24 @@
 			</div>
 		</div>
 		</div>
-	</div>
-
-
+	</section>
+	<section id="instafeed"></section>
+	<footer id="footer">
+		<div class="wrap">
+			<div class="ft_top"></div>
+			<div class="ft_bottom">
+				<ul class="inf">
+					<li><a href="#">사업단소개</a></li>
+					<li><a href="#">서비스이용약관</a></li>
+					<li><a href="#" class="color">개인정보취급방침</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+				<ul class="sns">
+					<li><a href="https://www.facebook.com/templestay/" class="facebook">facebook</a></li>
+					<li><a href="https://blog.naver.com/templestaygo" class="naver">naver</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

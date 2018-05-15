@@ -72,9 +72,9 @@
  	line-height: 50px;
  	border-left: 1px solid #fff;
  	font-size: 15px;
- 	/*font-family: 'Noto Sans KR', sans-serif;*/
+ 	font-family: 'Noto Sans KR', sans-serif;
  	/*font-family: 'Gothic A1', sans-serif;*/
- 	font-family: 'Jeju Gothic', sans-serif;
+ 	/*font-family: 'Jeju Gothic', sans-serif;*/
  }
 
  .hd_right li a:hover {
@@ -173,8 +173,9 @@
  	line-height: 0;
  	margin-bottom: 35px;
  	/*font-family: 'Gothic A1', sans-serif;*/
- 	font-family: 'Jeju Gothic', sans-serif;
+ 	/*font-family: 'Jeju Gothic', sans-serif;*/
  	/*font-family: 'Noto Sans KR', sans-serif;*/
+ 	font-family: 'Noto Sans KR', sans-serif;
  	opacity: 0.7;
  }
 
@@ -233,7 +234,8 @@ figure .visual {
 	height: 550px;
 	background: #fff;
 	box-shadow: -10px 5px 10px rgba(0,0,0,0.3);
-	font-family: 'Jeju Gothic', sans-serif;
+	/*font-family: 'Jeju Gothic', sans-serif;*/
+	font-family: 'Noto Sans KR', sans-serif;
 }
 
 #form {
@@ -300,7 +302,8 @@ figure .visual {
 #section1 {
 	width: 100%;
 	height: 700px;
-	font-family: 'Jeju Gothic', sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
+	/*font-family: 'Jeju Gothic', sans-serif;*/
 }
 
 .wrap {
@@ -972,7 +975,8 @@ figure .visual {
 
 .title_rcm {
 	font-size: 15px;
-	font-family: 'Jeju Gothic', sans-serif;
+	/*font-family: 'Jeju Gothic', sans-serif;*/
+	font-family: 'Noto Sans KR', sans-serif;
 	color: #96ffff;
 	margin-top: 30px;
 	font-weight: bold;
@@ -990,7 +994,8 @@ figure .visual {
 }
 
 .title_exp {
-	font-family: 'Jeju Gothic', sans-serif;
+	/*font-family: 'Jeju Gothic', sans-serif;*/
+	font-family: 'Noto Sans KR', sans-serif;
 	color: rgba(255,255,255,0.9);
 	font-size: 14px;
 	width: 80%;

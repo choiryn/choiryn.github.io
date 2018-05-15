@@ -4,23 +4,6 @@
 	format('woff'); 
 }
 
-@font-face { 
-	font-family: 'GyeonggiBatang'; 
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') 
-	format('woff'); 
-	font-weight: normal; 
-	font-style: normal; 
-}
-
-@font-face { 
-	font-family: 'NotoSerifKR'; 
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') 
-	format('woff'); 
-	font-weight: normal; 
-	font-style: normal; }
-
-@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1');
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); 
 
 
@@ -73,8 +56,6 @@
  	border-left: 1px solid #fff;
  	font-size: 15px;
  	font-family: 'Noto Sans KR', sans-serif;
- 	/*font-family: 'Gothic A1', sans-serif;*/
- 	/*font-family: 'Jeju Gothic', sans-serif;*/
  }
 
  .hd_right li a:hover {
@@ -125,7 +106,6 @@
 
  #gnb li a {
  	font-family: 'KBIZHanmaumMyungjo';
- 	/*font-family: 'NotoSerifKR';*/
  	color: #333;
  	font-size: 18px;
  	font-weight: 900;
@@ -172,9 +152,6 @@
  	color: #4d4d4d;
  	line-height: 0;
  	margin-bottom: 35px;
- 	/*font-family: 'Gothic A1', sans-serif;*/
- 	/*font-family: 'Jeju Gothic', sans-serif;*/
- 	/*font-family: 'Noto Sans KR', sans-serif;*/
  	font-family: 'Noto Sans KR', sans-serif;
  	opacity: 0.7;
  }
@@ -235,7 +212,6 @@ figure .visual {
 	height: 550px;
 	background: #fff;
 	box-shadow: -10px 5px 10px rgba(0,0,0,0.3);
-	/*font-family: 'Jeju Gothic', sans-serif;*/
 	font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -307,7 +283,7 @@ figure .visual {
 }
 
 .wrap {
-	width: 1500px;/*//////////////////////////////////*/
+	width: 1500px;
 	height: 100%;
 	margin: 0 auto;
 }
@@ -407,7 +383,6 @@ figure .visual {
 	clear: both;
 	display: none;
 	padding-top: 10px;
-	/*background: #658452;*/
 }
 
 .tab_text ul {
@@ -418,7 +393,6 @@ figure .visual {
 	color: #666;
 	font-size: 14px;
 	font-weight: 600;
-	/*font-family: 'Jeju Gothic', sans-serif;*/
 	font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -459,29 +433,6 @@ figure .visual {
 	margin-right: 0;	
 }
 
-/*.tab_wrap .more {
-	position: absolute;
-	bottom: 8%;
-	left: 50%;
-	transform: translateX(-50%); 
-	width: 30px;
-	height: 30px;
-	cursor: pointer;
-}
-
-.tab_wrap .more div {
-	width: 100%;
-	height: 100%;
-	background: url(../img/plus.png) no-repeat;
-	background-size: cover;
-	background-position: center;
-	transition: 1s;
-}
-
-.tab_wrap .more div:hover {
-	transform: rotate(180deg);
-}
-*/
 #exp:checked ~ .tab_wrap #tab1 {
 	display: block;
 }
@@ -593,7 +544,6 @@ figure .visual {
 	margin: 30px auto;
 	margin-bottom: 20px;
 	font-family: 'Noto Sans KR', sans-serif;
-	/*border: 2px solid #fff;*/
 	padding: 5px;
 }
 
@@ -709,7 +659,6 @@ figure .visual {
 #section3 {
 	font-family: 'KBIZHanmaumMyungjo';
 	height: 1500px;
-	/*background: red;*/
 	background: #faf9f6;
 	position: relative;
 }
@@ -797,8 +746,6 @@ figure .visual {
 .box2 {
 	width: 100%;
 	height: 700px;
-	background: green;
-	/*margin-top: -350px;*/
 }
 
 .box2 li {
@@ -809,7 +756,6 @@ figure .visual {
 .box3 {
 	width: 1800px;
 	height: 100%;
-	background: peru;
 	margin-left: -900px;
 }
 
@@ -838,7 +784,6 @@ figure .visual {
 	height: 300px;
 	color: rgba(255,255,255,0.8);
 	font-size: 20px;
-	/*text-align: center;*/
 }
 
 .box_text p {
@@ -1001,7 +946,7 @@ figure .visual {
 	width: 100%;
 	height: 800px;
 	overflow: hidden;
-	background: #5e7273;
+	background: #5f6852;
 	font-family: 'KBIZHanmaumMyungjo';
 	position: relative;
 }

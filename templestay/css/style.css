@@ -210,10 +210,11 @@ figure .visual {
 	position: relative;
 	width: 100%;
 	height: 700px;
-	background-image: url(../img/visual_img2.jpg);
+	background-image: url(../img/visual2.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 120%;
 	background-position: center;
+	opacity: 0.5;
 }
 
 .visual_text {
@@ -593,7 +594,7 @@ figure .visual {
 	margin: 30px auto;
 	margin-bottom: 20px;
 	font-family: 'Noto Sans KR', sans-serif;
-	border: 2px solid #fff;
+	/*border: 2px solid #fff;*/
 	padding: 5px;
 }
 
@@ -937,8 +938,6 @@ figure .visual {
 #section4 .rcm_image {
 	position: absolute;
 	background: url(../img/temple1.jpg) no-repeat;
-	background-position: center;
-	background-size: cover;
 	width: 100%;
 	height: 300px;
 	top: 50%;
@@ -975,7 +974,6 @@ figure .visual {
 
 .title_rcm {
 	font-size: 15px;
-	/*font-family: 'Jeju Gothic', sans-serif;*/
 	font-family: 'Noto Sans KR', sans-serif;
 	color: #96ffff;
 	margin-top: 30px;
@@ -994,7 +992,6 @@ figure .visual {
 }
 
 .title_exp {
-	/*font-family: 'Jeju Gothic', sans-serif;*/
 	font-family: 'Noto Sans KR', sans-serif;
 	color: rgba(255,255,255,0.9);
 	font-size: 14px;

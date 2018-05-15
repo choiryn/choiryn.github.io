@@ -539,14 +539,14 @@ figure .visual {
 
 .event {
 	display: inline-block;
-	width: 750px;/*È­¸é¿¡ ½ÇÁ¦·Î º¸ÀÌ´Â ½½¶óÀÌµåÀÇ ³Êºñ*/
+	width: 750px;/*¤Ô¤¾¤É¤½Â­Â¸Ã©Â¿Â¡ Â½¤Ô¤¾¤É¤¼¤Ô¤¾¤É¤²Â¦Â·¤Ô¤¾¤Ê¤§ ÂºÂ¸¤Ô¤¾¤Ê¤¥Â´¤Ô¤¾¤É¤´ Â½Â½Â¶Ã³¤Ô¤¾¤Ê¤¥ÂµÃ¥¤Ô¤¾¤É¤¼ Â³¤Ô¤¾¤Ê¤¢ÂºÃ±*/
 	float: left;
 	overflow: hidden;
 	box-sizing: border-box;
 }
 
 .event ul {
-	width: 1000px;/*°¢ ½½¶óÀÌµåÀÇ width¸¦ ÇÕÄ£ ³Êºñ*/
+	width: 1000px;/*Â°Â¢ Â½Â½Â¶Ã³¤Ô¤¾¤Ê¤¥ÂµÃ¥¤Ô¤¾¤É¤¼ widthÂ¸Â¦ ¤Ô¤¾¤É¤¼¤Ô¤¾¤Ê¤°¤Ô¤¾¤É¤¸Â£ Â³¤Ô¤¾¤Ê¤¢ÂºÃ±*/
 	height: 250px;
 	float: left;
 }
@@ -638,7 +638,6 @@ figure .visual {
 	width: 100%;
 	height: 600px;
 	background-color: #6c6961;
-	/*background-image: url(../img/sec1_visual.png);*/
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	font-family: 'KBIZHanmaumMyungjo';
@@ -667,6 +666,7 @@ figure .visual {
 	text-align: center;
 	width: 100%;
 	height: 30px;
+	/*opacity: 0.1;*/
 	margin: 0 auto;
 }
 
@@ -1001,6 +1001,107 @@ figure .visual {
 	font-weight: bold;
 }
 
+/*section5*/
+#section5 {
+	width: 100%;
+	height: 800px;
+	overflow: hidden;
+	background: #5e7273;
+	font-family: 'KBIZHanmaumMyungjo';
+	position: relative;
+}
+
+#section5 .wrap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -315px;
+	margin-left: -750px;
+	height: 630px;
+}
+
+.insta_title {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.vertical_wrap {
+	width: 150px;
+	height: 300px;
+	margin-top: 20px;
+}
+
+.vertical_wrap span {
+	font-size: 28px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	width: 50px;
+	height: 30px;
+	margin: 0 auto;
+	border-right: 1.1px solid #fff;
+}
+
+.first_vertical {
+	float: left;
+}
+
+.first_vertical span:first-child, .first_vertical span:last-child {
+	height: 10px;
+}
+
+.second_vertical {
+	float: left;
+	padding-top: 20px;
+}
+
+.second_vertical span:first-child, .second_vertical span:last-child {
+	height: 15px;
+}
+
+.bottom_wrap {
+	width: 100%;
+	margin-top: 235px;
+	margin-left: 10px;
+}
+
+.bottom_wrap span {
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #fff;
+	font-size: 16px;
+	opacity: 0.8;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+#instafeed {
+	width: 80%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+#instafeed a {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 180px;
+	height: 180px;
+	display: inline-block;	
+	overflow: hidden;
+}
+
+#instafeed a:hover img {
+	opacity: 0.8;
+	transform: scale(1.1);
+}
+
+#instafeed img {
+	width: 100%;
+	height: 100%;
+	transition: 0.5s;
+}
+
 /*footer*/
 
 #footer {
@@ -1008,14 +1109,16 @@ figure .visual {
 	height: 400px;
 	background: #333;
 	font-family: 'Noto Sans KR', sans-serif;
+	overflow: hidden;
 }
 
-.ft_top {
+#footer .wrap .ft_top {
 	width: 100%;
 	height: 300px;
 	border-bottom: 1px solid #555;
 }
-.ft_bottom {
+
+#footer .wrap .ft_bottom {
 	width: 100%;
 	height: 100px;
 }

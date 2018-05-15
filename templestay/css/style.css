@@ -710,7 +710,8 @@ figure .visual {
 
 #section3 {
 	font-family: 'KBIZHanmaumMyungjo';
-	height: 1400px;
+	height: 1500px;
+	/*background: red;*/
 	background: #faf9f6;
 	position: relative;
 }
@@ -881,7 +882,6 @@ figure .visual {
 	position: relative;
 	width: 100%;
 	height: 700px;
-	/*background: gold;*/
 	background: #faf9f6;
 	font-family: 'KBIZHanmaumMyungjo';
 }
@@ -897,7 +897,7 @@ figure .visual {
 	display: inline-block;
 	margin-right: 30px;
 	margin-bottom: 10px;
-	width: 620px;
+	width: 630px;
 	height: 1px;
 	background: #333;
 }
@@ -907,7 +907,7 @@ figure .visual {
 	display: inline-block;
 	margin-left: 30px;
 	margin-bottom: 10px;
-	width: 620px;
+	width: 630px;
 	height: 1px;
 	background: #333;
 }
@@ -916,18 +916,19 @@ figure .visual {
 	width: 1000px;
 	height: 50px;
 	margin: 0 auto;
-	/*background: red;*/
-	padding-top: 60px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .rcm_nav li {
 	width: 20%;
 	text-align: center;
 	float: left;
-	color: #000;
-	font-size: 18px;
+	color: #666;
+	font-size: 16px;
 	cursor: pointer;
 	box-sizing: border-box;
+	font-weight: bold;
 }
 
 #section4 .rcm_image {
@@ -939,7 +940,7 @@ figure .visual {
 	height: 300px;
 	top: 50%;
 	left: 0;
-	margin-top: -150px;
+	margin-top: -110px;
 
 }
 

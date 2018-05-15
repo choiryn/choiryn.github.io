@@ -799,6 +799,14 @@
 	</div>
 	<script>
 			//temple recommend
+			$(".rcm_nav ul li").mouseover(function(){
+				$(this).css("color","#000");
+			});
+
+			$(".rcm_nav ul li").mouseleave(function(){
+				$(this).css("color","#555");
+			});
+
 			$(".temple1").mouseover(function() {
 				$(".rcm_image").css("background","url(./img/temple1.jpg)");
 				$(".title_top").text('"나만의 향기를 찾아서"');
@@ -855,14 +863,14 @@
 
 		    	if(par>=1450) {
 		    		//stroke-dasharray
-				    $(".st0").animate({"stroke-dasharray":"500"},2000,function() {
-				    	$(".st0").css({"fill":"#333","stroke":"#333"});
+				    $(".st0").animate({"stroke-dasharray":"500","fill":"#333"},5000,function(){
+				    	$(this).css({"fill":"#333","stroke":"#333"});
 				    });	
 		    	}
 
 		    	if(par>=1750) {
 		    		//stroke-dasharray
-				    $(".st1").animate({"stroke-dasharray":"450"},2000,function() {
+				    $(".st1").animate({"stroke-dasharray":"450"},5000,function() {
 				    	$(".st1").css("fill","#333");
 				    });	
 		    	}
@@ -952,7 +960,10 @@
 		    $(".type_image").mouseout(function() {
 		    	$(this).find(".box3").stop().animate({"margin-left":"-900px"},500);
 		    });
-
+		    //move
+		    function fnMove() {
+		    	$('html, body').animate({scrollTop:$(#).top-140},500);
+		    };
 		    
 	</script>
 

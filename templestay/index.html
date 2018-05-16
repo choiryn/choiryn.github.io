@@ -5,11 +5,14 @@
 	<title>참된 나를 찾아 떠나는 여행 - 템플스테이</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/jquery-ui.css">
 	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/instafeed.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
 	<script type="text/javascript">    
+		//인스타그램 연동
 		var userFeed = new Instafeed({
 		    get: 'user',
 		    userId: 3613685325,
@@ -21,6 +24,27 @@
 		});
 		 
 		userFeed.run();
+
+		//datepicker
+		$(function(){
+			$('#datepicker_start').datepicker({
+			dateFormat : 'yy-mm-dd',
+			onClose : function(selectDate) {
+				$('#datepicker_end').datepicker('option','minDate',selectDate);
+				}
+			});
+
+			$('#datepicker_end').datepicker({
+				dateFormat : 'yy-mm-dd',
+				onClose : function(selectDate) {
+					$('#datepicker_start').datepicker('option','maxDate',selectDate);
+				}
+			});
+		});
+
+
+
+
 </script>
 </head>
 <body>
@@ -130,10 +154,7 @@
 			<div class="inq_form">
 				<form action="" id="form">
 					<fieldset class="fis_1">
-						<legend>템플스테이 일정 조회</legend>
-					</fieldset>
-					<fieldset class="fis_2">
-						<legend>지도</legend>
+						<legend>1.지역을 선택해 주세요.</legend>
 						<div class="kr_map">
 							<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -369,20 +390,22 @@
 								M417.6,396.7l-3.1,6.7l0.3,3.3l-2,5.7l-0.7,6.1l11.7-2.4l12,0.8l-0.1,2.1l-0.8,1.9l-0.301,1.5l0.5,1.199l0.301,2L435.1,427.7
 								L434.4,429.6l-3.601-0.3l-17.5,4.8l-10.8,3l-14.4-2.899l1.4-4.101l2.4-2.3l-0.5-29.9l3.699-10.2L417.6,396.7L417.6,396.7z"/>
 							</svg>
-
 						</div>
 					</fieldset>
-					<fieldset class="fis_3">
-						<legend>옵션 검색</legend>
-						<input type="radio" id="ch_day" name="ra_item" checked>
-						<input type="radio" id="ch_res" name="ra_item">
-						<input type="radio" id="ch_exp" name="ra_item">
-						<label for="ch_day">당일형</label>
-						<label for="ch_res">휴식형</label>
-						<label for="ch_exp">체험형</label>
-						<input type="date">
-						<input type="date">
-						<input type="range">
+					<fieldset class="fis_2">
+						<legend>2.옵션을 선택해 주세요.</legend>
+						<div class="radio_option">
+							<input type="radio" id="ch_day" name="ra_item" checked>
+							<label for="ch_day">당일형</label>
+							<input type="radio" id="ch_res" name="ra_item">
+							<label for="ch_res">휴식형</label>
+							<input type="radio" id="ch_exp" name="ra_item">
+							<label for="ch_exp">체험형</label>
+						</div><!-- radio_option -->
+						<div class="date_option">
+							<input type="text" id="datepicker_start" placeholder="날짜를 선택해 주세요.">
+							<input type="text" id="datepicker_end" placeholder="날짜를 선택해 주세요.">
+						</div><!-- date_option -->
 						<div class="form_button">
 							<input type="reset" class="reset" value="리셋">
 							<input type="submit" class="submit" value="검색">

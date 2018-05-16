@@ -135,6 +135,10 @@ $(document).ready(function(){
 		$(this).toggleClass("toggle_color");
 	});
 
+	$(".inq_form").click(function(){
+		$(this).toggleClass("form_slide");
+	});
+
 	//슬라이딩 이미지
 	$(".type_image").mouseover(function() {
 		$(this).find(".box1").stop().animate({"margin-left":"-900px"},500);

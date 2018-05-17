@@ -89,7 +89,7 @@ $(document).ready(function(){
 //		$(".visual").animate({"background-size":"105%"},6000);
 //	});
 
-	//slide 
+	//배너 슬라이드
 
 	var wd = $(".banner li").width();
 	var cnt = $(".banner li").length;
@@ -134,10 +134,6 @@ $(document).ready(function(){
 	$(".select").click(function(){
 		$(this).toggleClass("toggle_color");
 	});
-
-//	$(".inq_form").click(function(){
-//		$(this).toggleClass("form_slide");
-//	});
     
     $(".form_first").mouseover(function(){
        $(this).find("legend").stop().animate({"border-color":"#85859e"},500); 
@@ -160,23 +156,26 @@ $(document).ready(function(){
     });
 
 	//슬라이딩 이미지
+
+	var slidewd = $(".type_image").width();
+
 	$(".type_image").mouseover(function() {
-		$(this).find(".box1").stop().animate({"margin-left":"-900px"},500);
+		$(this).find(".box1").stop().animate({"margin-left":-slidewd},500);
 	});
 	$(".type_image").mouseout(function() {
 		$(this).find(".box1").stop().animate({"margin-left":"0px"},500);
 	});
 	$(".type_image").mouseover(function() {
-		$(this).find(".box2").stop().animate({"margin-top":"-350px"},500);
+		$(this).find(".box2").stop().animate({"margin-left":-slidewd},500);
 	});
 	 $(".type_image").mouseout(function() {
-		$(this).find(".box2").stop().animate({"margin-top":"0px"},500);
+		$(this).find(".box2").stop().animate({"margin-left":"0px"},500);
 	});
 	$(".type_image").mouseover(function() {
 		$(this).find(".box3").stop().animate({"margin-left":"0px"},500);
 	});
 	$(".type_image").mouseout(function() {
-		$(this).find(".box3").stop().animate({"margin-left":"-900px"},500);
+		$(this).find(".box3").stop().animate({"margin-left":-slidewd},500);
 	});
 });
 		    

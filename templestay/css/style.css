@@ -210,7 +210,7 @@ figure .visual {
 
 aside {
     position: fixed;
-    top: 300px;
+    top: 100px;
     right: -400px;  
     transition: 0.5s;
     z-index: 9999;
@@ -776,7 +776,6 @@ path:hover {
 	margin: 30px auto;
 	margin-bottom: 20px;
 	font-family: 'Noto Sans KR', sans-serif;
-	padding: 5px;
 }
 
 .back_img .ban_exp {
@@ -890,16 +889,11 @@ path:hover {
 	font-family: 'KBIZHanmaumMyungjo';
 	height: 1500px;
 	background: #faf9f6;
-	position: relative;
 }
 
 #section3 .wrap {
-	position: absolute;
-	top: 50%;
-	left: 50%;
 	height: 1250px;
-	margin-top: -625px;
-	margin-left: -750px;
+	padding-top: 125px;
 }
 
 .sec3_title {
@@ -935,7 +929,7 @@ path:hover {
 
 .type_wrap {
 	width: 100%;
-	height: 1050px;
+	height: 1050px; /*변화*/
 }
 
 .type_wrap div {
@@ -974,13 +968,15 @@ path:hover {
 }
 
 .box2 {
-	width: 100%;
-	height: 700px;
+	width: 1800px;
+	height: 100%;
+	margin-left: 0px;
 }
 
 .box2 li {
-	width: 100%;
-	height: 350px;
+	width: 900px;
+	height: 100%;
+	float: left;
 }
 
 .box3 {
@@ -1013,7 +1009,6 @@ path:hover {
 	width: 100%;
 	height: 300px;
 	color: rgba(255,255,255,0.8);
-	font-size: 20px;
 }
 
 .box_text p {

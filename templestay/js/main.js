@@ -9,35 +9,35 @@ $(document).ready(function(){
 	});
 
 	$(".temple1").mouseover(function() {
-		$(".rcm_image").css("background","url(./img/temple1.jpg)");
+		$(".rcm_image").css({"background":"url(./img/temple1.jpg)","background-size":"cover"});
 		$(".title_top").text('"나만의 향기를 찾아서"');
 		$(".title_name").text("길상사");
 		$(".title_exp").text('평온을 주는 아름다운 자연과 숨쉬며 나를 너그럽게 바라 볼 수 있는 시간을 갖도록 합니다.');
 	});
 
 	$(".temple2").mouseover(function() {
-		$(".rcm_image").css("background","url(./img/temple2.jpg)");
+		$(".rcm_image").css({"background":"url(./img/temple2.jpg)","background-size":"cover"});
 		$(".title_top").text('"내 마음의 주인 되기"');
 		$(".title_name").text("화엄사");
 		$(".title_exp").text("푸른 자연이 살아있는 맑고 고요한 산사에서 내면을 들여다 보세요.")
 	});
 
 	$(".temple3").mouseover(function() {
-		$(".rcm_image").css("background","url(./img/temple3.jpg)");
+		$(".rcm_image").css({"background":"url(./img/temple3.jpg)","background-size":"cover"});
 		$(".title_top").text('"장기 휴식형 템플스테이"');
 		$(".title_name").text("낙산사");
 		$(".title_exp").text("산사에 길가 머물며 수행하면서 기도하고 싶으신 분들을 위해서 장기 템플스테이를 진행 합니다.")
 	});
 
 	$(".temple4").mouseover(function() {
-		$(".rcm_image").css("background","url(./img/temple4.jpg)");
+		$(".rcm_image").css({"background":"url(./img/temple4.jpg)","background-size":"cover"});
 		$(".title_top").text('"데일리 템플스테이"');
 		$(".title_name").text("백담사");
 		$(".title_exp").text("시간이 많지 않은 직장인 혹은 수학여행이나, 동호회 등을 마음 편하게 하고 싶은 분들께 권해드립니다.")
 	});
 
 	$(".temple5").mouseover(function() {
-		$(".rcm_image").css("background","url(./img/temple5.jpg)");
+		$(".rcm_image").css({"background":"url(./img/temple5.jpg)","background-size":"cover"});
 		$(".title_top").text('"반야로 가는 인연"');
 		$(".title_name").text("보현사");
 		$(".title_exp").text("내가 누구인가? 참 나를 밝히는 불법의 인연을 이어가보시길 바랍니다.")

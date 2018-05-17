@@ -290,9 +290,544 @@
         width: 180px;
         padding-top: 50px;
     }
+
+    /*section4*/
+
+    #section4 {
+        height: 700px;
+    }
+
+    #section4 h1 {
+        font-size: 23px;
+    }
+
+    #section4 h1:before {
+        width: 460px;
+    }
+
+    #section4 h1:after {
+        width: 460px;
+    }
+
+    .rcm_nav {
+        width: 800px;
+    }
+
+    .rcm_nav li {
+        font-size: 15px;
+    }
+
+    #section4 .rcm_image {
+        height: 266.68px;
+    }
+
+    .rcm_title {
+        width: 300px;
+        height: 300px;
+    }
+
+    .title_line {
+        border: 0.5px solid #fff;
+    }
+
+    .title_rcm {
+        font-size: 13px;
+    }
+
+    .title_name {
+        font-size: 40px;
+    }
+
+    .title_top {
+        font-size: 18px;
+    }
+
+    .title_exp {
+        font-size: 12px;
+    }
+
+    /*section5*/
+
+    #section5 {
+        height: 700px;
+    }
+
+    #section5 .wrap {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 0;
+        margin-left: 0;
+        height: 480px;
+    }
+
+    .vertical_wrap {
+        height: 160px;
+    }
+
+    .vertical_wrap span {
+        font-size: 23px;
+        width: 45px;
+        height: 24px;
+    }
+
+    .bottom_wrap span {
+        font-size: 12px;
+    }
+
+    #instafeed a {
+        width: 130px;
+        height: 130px;
+    }
+
+    /*footer*/
+
+    #footer {
+        height: 300px;
+    }
+
+    #footer .wrap .ft_top {
+        height: 200px;
+    }
+
+    #footer .wrap .ft_bottom {
+        height: 100px;
+    }
+
+    .ft_top p {
+        font-size: 15px;
+    }
+
+    .ft_top address {
+        display: inline-block;
+        margin-bottom: 1px;
+    }
+
+    .ft_top p:first-child {
+        padding-top: 50px;
+    }
+
+    .ft_bottom a {
+        font-size: 13px;
+    }
+
+    .sns a {
+        width: 20px;
+        height: 20px;
+    }
+
+    .sns .facebook {
+        background-size: cover;
+    }
+
+    .sns .naver {
+        background-size: cover;
+    }
 }
     
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     
+    /*header*/
+
+     #gnb li {
+        padding: 0 40px;
+        background: url(../img/menudot.png) no-repeat right 40px;
+     }
+
+     #gnb .main_menu {
+        padding-top: 30px;
+     }
+
+     #gnb li a {
+        font-size: 16px;
+     }
+
+     #gnb > ul > li > a:after {
+        margin: 25px auto;
+     }
+
+     #gnb .sub {
+        top: 81px;
+     }
+
+     #gnb .sub li a {
+        text-indent: -18px;
+        font-size: 13px;
+     }
+
+     #gnb .sub li:first-child {
+        margin-top: 45px;
+     }
+
+    .menuBg {
+        top: 80px;
+    }
+    
+    /*visual*/
+
+    figure .visual {
+        height: 535px;
+    }
+    
+    /*search form*/
+
+    aside {
+        top: 0px;
+    }
+
+    .form_toggle_btn {
+        margin-top: 120px;
+    }
+    
+    /*section1*/
+
+    #section1 {
+        height: 600px;
+    }
+    
+    .wrap {
+        width: 90%;
+    }
+
+    .contents_wrap {
+        height: 380px;
+        margin-top: -190px;
+    }
+    
+    .contents_wrap h1 {
+        font-size: 23px;
+    }
+
+    .contents_wrap h1:before {
+        width: 150px;
+    }
+
+    .contents_wrap h1:after {
+        width: 150px;
+    }
+    
+    .notice_wrap {
+        height: 200px;
+    }
+    
+    .top_val label {
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .tab_wrap {
+        height: 160px;
+    }
+
+    .tab_text ul {
+        margin-top: 5px;
+    }
+
+    .tab_text a, .tab_text span {
+        font-size: 12px;
+    }
+    
+    .tab_text a {
+        height: 28px;
+    }
+
+    .tab_text .new {
+        width: 18px;
+        height: 18px;
+    }
+
+    .event_wrap {
+        width: 700px;
+        height: 200px;
+    }
+    
+    .next, .prev {
+        width: 50px;
+        height: 200px;
+    }
+
+    .button {
+        font-size: 20px;
+        margin-top: 75px;
+    }
+    
+    .event {
+        width: 600px; /*화면에 보이는 너비-height에 맞추어서 줄어들음*/
+    }
+
+    .event ul {
+        /*width: 800px;*/
+        height: 200px;
+    }
+
+    .event ul li {
+        width: 200px;
+        height: 200px;
+    }
+
+    .img_wrap {
+        width: 200px;
+        height: 200px;
+    }
+
+    .back_img h4 {
+        font-size: 12px;
+        margin: 20px auto;
+    }
+
+    .back_img .ban_exp {
+        font-size: 11px;
+    }
+
+    .back_img .ban_date {
+        font-size: 10px;
+    }
+    
+    /*section2*/
+    
+    .prom_title {
+        width: 36px;
+    }
+    
+    .prom_title span {
+        font-size: 23px;
+        height: 25px;
+    }
+    
+    .prom_title span:nth-child(1) {
+        padding-top: 175px;
+    }
+
+    .prom_wrap {
+        width: 1100px;
+        height: 250px;
+        margin-top: -125px
+    }
+    
+    .prom_video iframe {
+        width: 448px;
+        height: 250px;
+    }
+    
+    .prom_text p {
+        font-size: 15px;
+        padding-left: 40px;
+        width: 90%;
+    }
+
+    /*section3*/
+
+    #section3 {
+        height: 1253px;
+    }
+
+    #section3 .wrap {
+        height: 1003px;
+        padding-top: 110px;
+    }
+
+    .sec3_title a {
+        font-size: 18px;
+    }
+
+    .sec3_title span {
+        font-size: 18px;
+    }
+
+    .sec3_title h1 {
+        font-size: 23px;
+        margin-top: 33px;
+    }
+
+    .type_wrap {
+        height: 804px;
+    }
+
+    .box1 {
+        width: 1382px;
+        height: 100%;
+    }
+
+    .box1 li {
+        width: 691px;
+        height: 100%;
+    }
+
+     .box2 {
+        width: 1382x;
+        height: 100%;
+    }
+
+    .box2 li {
+        width: 691px;
+        height: 100%;
+    }
+
+    .box3 {
+        width: 1382x;
+        margin-left: -691px;
+        height: 100%;
+    }
+
+    .box3 li {
+        width: 691px;
+        height: 100%;
+    }
+
+    .box_text {
+        margin-top: -80px;
+        height: 218px;
+    }
+
+    .box_text p {
+        font-size: 18px;
+    }
+
+    /*svg css*/
+
+    .type_wrap svg {
+        width: 180px;
+        padding-top: 50px;
+    }
+
+    /*section4*/
+
+    #section4 {
+        height: 700px;
+    }
+
+    #section4 h1 {
+        font-size: 23px;
+    }
+
+    #section4 h1:before {
+        width: 460px;
+    }
+
+    #section4 h1:after {
+        width: 460px;
+    }
+
+    .rcm_nav {
+        width: 800px;
+    }
+
+    .rcm_nav li {
+        font-size: 15px;
+    }
+
+    #section4 .rcm_image {
+        height: 266.68px;
+    }
+
+    .rcm_title {
+        width: 300px;
+        height: 300px;
+    }
+
+    .title_line {
+        border: 0.5px solid #fff;
+    }
+
+    .title_rcm {
+        font-size: 13px;
+    }
+
+    .title_name {
+        font-size: 40px;
+    }
+
+    .title_top {
+        font-size: 18px;
+    }
+
+    .title_exp {
+        font-size: 12px;
+    }
+
+    /*section5*/
+
+    #section5 {
+        height: 700px;
+    }
+
+    #section5 .wrap {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 0;
+        margin-left: 0;
+        height: 480px;
+    }
+
+    .vertical_wrap {
+        height: 160px;
+    }
+
+    .vertical_wrap span {
+        font-size: 23px;
+        width: 45px;
+        height: 24px;
+    }
+
+    .bottom_wrap span {
+        font-size: 12px;
+    }
+
+    #instafeed a {
+        width: 130px;
+        height: 130px;
+    }
+
+    /*footer*/
+
+    #footer {
+        height: 300px;
+    }
+
+    #footer .wrap .ft_top {
+        height: 200px;
+    }
+
+    #footer .wrap .ft_bottom {
+        height: 100px;
+    }
+
+    .ft_top p {
+        font-size: 15px;
+    }
+
+    .ft_top address {
+        display: inline-block;
+        margin-bottom: 1px;
+    }
+
+    .ft_top p:first-child {
+        padding-top: 50px;
+    }
+
+    .ft_bottom a {
+        font-size: 13px;
+    }
+
+    .sns a {
+        width: 20px;
+        height: 20px;
+    }
+
+    .sns .facebook {
+        background-size: cover;
+    }
+
+    .sns .naver {
+        background-size: cover;
+    }
+
+}
+      
     
     
     

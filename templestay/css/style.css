@@ -1102,6 +1102,7 @@ path:hover {
 #section4 .rcm_image {
 	position: absolute;
 	background: url(../img/temple1.jpg) no-repeat;
+	background-size: cover;
 	width: 100%;
 	height: 300px;
 	top: 50%;

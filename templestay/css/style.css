@@ -33,7 +33,7 @@
 /*header*/
 header {
     width: 100%;
-    height: 140px;
+    height: 150px;
 }
  .top_hd {
  	width: 100%;
@@ -67,7 +67,7 @@ header {
 
  .bottom_hd {
  	width: 100%;
- 	height: 90px;
+ 	height: 100px;/*////////???*/
  	background: #fff;
  	position: relative;
  }

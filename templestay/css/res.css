@@ -1,0 +1,163 @@
+@media screen and (min-width: 1280px) and (max-width: 1500px) {
+    /*header*/
+    header {
+        height: 120px;
+    }
+     .top_hd {
+        height: 40px;
+     }
+    
+     .hd_right li a {
+        line-height: 40px;
+        font-size: 15px;
+     }
+
+     .bottom_hd {
+        height: 80px;
+     }
+
+    .hd_bt_wrap {
+        width: 90%;
+    }
+    
+    .hd_bt_wrap img {
+        width: 90%;
+        height: 90%;
+    }
+
+     .logo {
+        line-height: 85px;
+     }
+
+     #gnb li {
+        padding: 0 40px;
+        background: url(../img/menudot.png) no-repeat right 40px;
+     }
+
+     #gnb .main_menu {
+        padding-top: 30px;
+     }
+
+     #gnb li a {
+        font-size: 16px;
+     }
+
+     #gnb > ul > li > a:after {
+        margin: 25px auto;
+     }
+
+     #gnb .sub {
+        top: 81px;
+     }
+
+     #gnb .sub li a {
+        text-indent: -18px;
+        font-size: 13px;
+     }
+
+     #gnb .sub li:first-child {
+        margin-top: 45px;
+     }
+
+    .menuBg {
+        top: 80px;
+    }
+    
+    /*visual*/
+
+    figure .visual {
+        height: 535px;
+    }
+    
+    /*search form*/
+
+    aside {
+        top: 200px;
+    }
+    
+    /*section2*/
+    
+    .wrap {
+        width: 90%;
+    }
+    
+    .contents_wrap h1 {
+        font-size: 25px;
+    }
+
+    .contents_wrap h1:before {
+        width: 170px;
+    }
+
+    .contents_wrap h1:after {
+        width: 170px;
+    }
+    
+    .notice_wrap {
+        width: 39%;
+    }
+    
+    .top_val label {
+        font-size: 18px;
+    }
+    
+    .event_wrap {
+        width: 630px;
+    }
+    
+    .next, .prev {
+        width: 65px;
+    }
+    
+    .event {
+        width: 500px;/*화면에 보이는 너비*/
+    }
+    
+    /*section2*/
+    
+    .prom_title {
+        width: 36px;
+    }
+    
+    .prom_title span {
+        font-size: 25px;
+        height: 28px;
+    }
+    
+    .prom_title span:nth-child(1) {
+        padding-top: 160px;
+    }
+
+    .prom_wrap {
+        width: 1100px;
+        height: 250px;
+        margin-top: -125px
+    }
+    
+    .prom_video iframe {
+        width: 448px;
+        height: 250px;
+    }
+    
+    .prom_text p {
+        font-size: 15px;
+        padding-left: 40px;
+        width: 90%;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

@@ -84,10 +84,10 @@ $(document).ready(function(){
 		});
 
 	//window 로드될 때 animation
-
-	$(window).ready(function(){
-		$(".visual").animate({"background-size":"105%"},6000);
-	});
+//
+//	$(window).ready(function(){
+//		$(".visual").animate({"background-size":"105%"},6000);
+//	});
 
 	//slide 
 
@@ -135,9 +135,29 @@ $(document).ready(function(){
 		$(this).toggleClass("toggle_color");
 	});
 
-	$(".inq_form").click(function(){
-		$(this).toggleClass("form_slide");
-	});
+//	$(".inq_form").click(function(){
+//		$(this).toggleClass("form_slide");
+//	});
+    
+    $(".form_first").mouseover(function(){
+       $(this).find("legend").stop().animate({"border-color":"#85859e"},500); 
+    });
+    
+    $(".form_first").mouseout(function(){
+       $(this).find("legend").stop().animate({"border-color":"#afadbc"},500); 
+    });
+    
+    $(".form_second").mouseover(function(){
+       $(this).find("legend").stop().animate({"border-color":"#85859e"},500); 
+    });
+    
+    $(".form_second").mouseout(function(){
+       $(this).find("legend").stop().animate({"border-color":"#afadbc"},500); 
+    });
+    
+    $(".form_toggle_btn").click(function(){
+       $("aside").toggleClass("toggle");
+    });
 
 	//슬라이딩 이미지
 	$(".type_image").mouseover(function() {

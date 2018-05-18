@@ -3,7 +3,7 @@
 
     * {
         margin: 0;
-        padding: 0;
+        padding: 
     }
 
      body, html { 
@@ -1856,6 +1856,10 @@
     }
     
     /*search form*/
+    
+    aside {
+        top: 0;
+    }
 
     .form_toggle_btn {
         margin-top: 110px;
@@ -2001,11 +2005,11 @@
     /*section3*/
 
     #section3 {
-        height: 1253px;
+        height: 1150px;
     }
 
     #section3 .wrap {
-        height: 1003px;
+        height: 900px;
         padding-top: 110px;
     }
 
@@ -2023,54 +2027,55 @@
     }
 
     .type_wrap {
-        height: 804px;
+        height: 696px; 
+        /*이미지의 높이+60px*/
     }
 
     .box1 {
-        width: 1382px;
+        width: 1088px;
         height: 100%;
     }
 
     .box1 li {
-        width: 691px;
+        width: 544px;
         height: 100%;
     }
 
      .box2 {
-        width: 1382x;
+        width: 1088x;
         height: 100%;
     }
 
     .box2 li {
-        width: 691px;
+        width: 544px;
         height: 100%;
     }
 
     .box3 {
-        width: 1382x;
-        margin-left: -691px;
+        width: 1088x;
+        margin-left: -544px;
         height: 100%;
     }
 
     .box3 li {
-        width: 691px;
+        width: 544px;
         height: 100%;
     }
 
     .box_text {
-        margin-top: -80px;
+        margin-top: -70px;
         height: 218px;
     }
 
     .box_text p {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     /*svg css*/
 
     .type_wrap svg {
-        width: 180px;
-        padding-top: 50px;
+        width: 150px;
+        padding-top: 40px;
     }
 
     /*section4*/

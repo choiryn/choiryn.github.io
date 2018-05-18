@@ -1753,6 +1753,7 @@
     .ft_top address {
         display: inline-block;
         margin-bottom: 1px;
+        font-size: 14px;
     }
 
     .ft_top p:first-child {
@@ -2081,19 +2082,19 @@
     /*section4*/
 
     #section4 {
-        height: 700px;
+        height: 500px;
     }
 
     #section4 h1 {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     #section4 h1:before {
-        width: 460px;
+        width: 350px;
     }
 
     #section4 h1:after {
-        width: 460px;
+        width: 350px;
     }
 
     .rcm_nav {
@@ -2101,16 +2102,16 @@
     }
 
     .rcm_nav li {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     #section4 .rcm_image {
-        height: 266.68px;
+        height: 210px;
     }
 
     .rcm_title {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 
     .title_line {
@@ -2118,25 +2119,27 @@
     }
 
     .title_rcm {
-        font-size: 13px;
+        font-size: 12px;
+        margin-top: 25px;
     }
 
     .title_name {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .title_top {
-        font-size: 18px;
+        font-size: 15px;
+        padding-top: 25px;
     }
 
     .title_exp {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     /*section5*/
 
     #section5 {
-        height: 700px;
+        height: 600px;
     }
 
     #section5 .wrap {
@@ -2146,17 +2149,18 @@
         transform: translate(-50%,-50%);
         margin-top: 0;
         margin-left: 0;
-        height: 480px;
+        height: 390px;
     }
 
     .vertical_wrap {
-        height: 160px;
+        height: 65px;
+        /*.bottm_wrap span의 위치 조절*/
     }
 
     .vertical_wrap span {
-        font-size: 23px;
+        font-size: 22px;
         width: 45px;
-        height: 24px;
+        height: 23px;
     }
 
     .bottom_wrap span {
@@ -2164,18 +2168,18 @@
     }
 
     #instafeed a {
-        width: 130px;
-        height: 130px;
+        width: 100px;
+        height: 100px;
     }
 
     /*footer*/
 
     #footer {
-        height: 300px;
+        height: 280px;
     }
 
     #footer .wrap .ft_top {
-        height: 200px;
+        height: 180px;
     }
 
     #footer .wrap .ft_bottom {
@@ -2183,16 +2187,17 @@
     }
 
     .ft_top p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .ft_top address {
         display: inline-block;
         margin-bottom: 1px;
+        font-size: 13px;
     }
 
     .ft_top p:first-child {
-        padding-top: 50px;
+        padding-top: 40px;
     }
 
     .ft_bottom a {

@@ -2455,17 +2455,17 @@
     }
 
     .visual_text {
-    width: 187px;
-    height: 233px;
+    width: 150px;
+    height: 187px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-20%,-50%);
+    transform: translate(-50%,-50%);
     background-image: url(../img/visual_text.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 1;
+    background-color: rgba(0,0,0,0.4);
 }
     
     /*search form*/

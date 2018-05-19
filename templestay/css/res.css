@@ -913,16 +913,6 @@
         height: 70%;
     }
 
-    /*mobile*/
-
-    #gnb {
-        display: none;
-    }
-
-    .nav_btn {
-        display: block;
-    }
-    
     /*visual*/
 
     figure .visual {
@@ -1347,6 +1337,17 @@
     .sns .naver {
         background-size: cover;
     }
+
+    /*mobile*/
+
+    #gnb {
+        display: none;
+    }
+
+    .nav_btn {
+        display: block;
+    }
+    
 }
       
 @media screen and (min-width: 640px) and (max-width: 779px) {
@@ -1354,16 +1355,12 @@
     /*header*/
 
     header {
-        height: 80px;
+        height: 50px;
     }
 
     .top_hd {
         height: 30px;
-    }
-
-    .hd_right li a {
-        font-size: 12px;
-        line-height: 30px;
+        display: none;
     }
 
     .bottom_hd {
@@ -1380,35 +1377,8 @@
         height: 70%;
     }
 
-     #gnb li {
-        padding: 0 20px;
-        background: url(../img/menudot.png) no-repeat right 24px;
-     }
-
-     #gnb .main_menu {
-        padding-top: 14px;
-     }
-
-     #gnb li a {
-        font-size: 14px;
-     }
-
-     #gnb > ul > li > a:after {
-        height: 3px;
-        margin: 13px auto;
-     }
-
-     #gnb .sub {
-        top: 51px;
-     }
-
-     #gnb .sub li a {
-        text-indent: -17px;
-        font-size: 10px;
-     }
-
-    .menuBg {
-        top: 50px;
+    #gnb {
+        display: none;
     }
     
     /*visual*/
@@ -1849,6 +1819,17 @@
     .sns .naver {
         background-size: cover;
     }
+
+    /*mobile*/
+
+    #gnb {
+        display: none;
+    }
+
+    .nav_btn {
+        display: block;
+    }
+    
 }
 
 @media screen and (min-width: 480px) and (max-width: 639px) {
@@ -1856,16 +1837,12 @@
     /*header*/
 
     header {
-        height: 80px;
+        height: 50px;
     }
 
     .top_hd {
+        display: none;
         height: 30px;
-    }
-
-    .hd_right li a {
-        font-size: 12px;
-        line-height: 30px;
     }
 
     .bottom_hd {
@@ -1882,37 +1859,6 @@
         height: 70%;
     }
 
-     #gnb li {
-        padding: 0 20px;
-        background: url(../img/menudot.png) no-repeat right 24px;
-     }
-
-     #gnb .main_menu {
-        padding-top: 14px;
-     }
-
-     #gnb li a {
-        font-size: 14px;
-     }
-
-     #gnb > ul > li > a:after {
-        height: 3px;
-        margin: 13px auto;
-     }
-
-     #gnb .sub {
-        top: 51px;
-     }
-
-     #gnb .sub li a {
-        text-indent: -17px;
-        font-size: 10px;
-     }
-
-    .menuBg {
-        top: 50px;
-    }
-    
     /*visual*/
 
     figure .visual {
@@ -2358,6 +2304,16 @@
     .sns .naver {
         background-size: cover;
     }
+
+   /*mobile*/
+
+    #gnb {
+        display: none;
+    }
+
+    .nav_btn {
+        display: block;
+    }
 }
     
 @media screen and (min-width: 414px) and (max-width: 479px) {
@@ -2365,16 +2321,12 @@
     /*header*/
 
     header {
-        height: 80px;
+        height: 50px;
     }
 
     .top_hd {
+        display: none;
         height: 30px;
-    }
-
-    .hd_right li a {
-        font-size: 12px;
-        line-height: 30px;
     }
 
     .bottom_hd {
@@ -2391,35 +2343,8 @@
         height: 70%;
     }
 
-     #gnb li {
-        padding: 0 20px;
-        background: url(../img/menudot.png) no-repeat right 24px;
-     }
-
-     #gnb .main_menu {
-        padding-top: 14px;
-     }
-
-     #gnb li a {
-        font-size: 14px;
-     }
-
-     #gnb > ul > li > a:after {
-        height: 3px;
-        margin: 13px auto;
-     }
-
-     #gnb .sub {
-        top: 51px;
-     }
-
-     #gnb .sub li a {
-        text-indent: -17px;
-        font-size: 10px;
-     }
-
-    .menuBg {
-        top: 50px;
+    #gnb {
+        display: none;
     }
     
     /*visual*/
@@ -2920,6 +2845,16 @@
     .sns .naver {
         background-size: cover;
     }
+
+   /*mobile*/
+
+    #gnb {
+        display: none;
+    }
+
+    .nav_btn {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 413px) {
@@ -2927,16 +2862,12 @@
     /*header*/
 
     header {
-        height: 80px;
+        height: 50px;
     }
 
     .top_hd {
+        display: none;
         height: 30px;
-    }
-
-    .hd_right li a {
-        font-size: 12px;
-        line-height: 30px;
     }
 
     .bottom_hd {
@@ -2953,37 +2884,10 @@
         height: 70%;
     }
 
-     #gnb li {
-        padding: 0 20px;
-        background: url(../img/menudot.png) no-repeat right 24px;
-     }
-
-     #gnb .main_menu {
-        padding-top: 14px;
-     }
-
-     #gnb li a {
-        font-size: 14px;
-     }
-
-     #gnb > ul > li > a:after {
-        height: 3px;
-        margin: 13px auto;
-     }
-
-     #gnb .sub {
-        top: 51px;
-     }
-
-     #gnb .sub li a {
-        text-indent: -17px;
-        font-size: 10px;
-     }
-
-    .menuBg {
-        top: 50px;
+    #gnb {
+        display: none;
     }
-    
+   
     /*visual*/
 
     figure .visual {
@@ -3484,6 +3388,16 @@
 
     .sns .naver {
         background-size: cover;
+    }
+
+   /*mobile*/
+
+    #gnb {
+        display: none;
+    }
+
+    .nav_btn {
+        display: block;
     }
 }
     

@@ -2904,13 +2904,13 @@
     }
 
     .ft_top p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .ft_top address {
         display: inline-block;
         margin-bottom: 1px;
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .ft_top p:first-child {

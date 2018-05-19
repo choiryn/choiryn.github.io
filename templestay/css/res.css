@@ -2946,6 +2946,571 @@
         background-size: cover;
     }
 }
+
+@media screen and (max-width: 413px) {
+    
+    /*header*/
+
+    header {
+        height: 80px;
+    }
+
+    .top_hd {
+        height: 30px;
+    }
+
+    .hd_right li a {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .bottom_hd {
+        height: 50px;
+    }
+    
+    .logo {
+        line-height: 50px;
+        width: 140px;
+    }
+
+    .logo img {
+        width: 70%;
+        height: 70%;
+    }
+
+     #gnb li {
+        padding: 0 20px;
+        background: url(../img/menudot.png) no-repeat right 24px;
+     }
+
+     #gnb .main_menu {
+        padding-top: 14px;
+     }
+
+     #gnb li a {
+        font-size: 14px;
+     }
+
+     #gnb > ul > li > a:after {
+        height: 3px;
+        margin: 13px auto;
+     }
+
+     #gnb .sub {
+        top: 51px;
+     }
+
+     #gnb .sub li a {
+        text-indent: -17px;
+        font-size: 10px;
+     }
+
+    .menuBg {
+        top: 50px;
+    }
+    
+    /*visual*/
+
+    figure .visual {
+        height: 348px;
+        background-image: url(../img/visual3.jpg);
+    }
+
+    .visual_text {
+    width: 150px;
+    height: 187px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(../img/visual_text.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    
+    /*search form*/
+    
+    aside {
+        top: 0;
+    }
+
+    .form_toggle_btn {
+        margin-top: 110px;
+    }
+    
+    /*section1*/
+
+    #section1 {
+        height: 800px;
+    }
+
+    .wrap {
+        width: 90%;
+    }
+    
+    .contents_wrap {
+        height: 630px;
+        margin-top: -315px;
+    }
+    
+    .contents_wrap h1 {
+        font-size: 23px;
+    }
+
+    .contents_wrap h1:before {
+        width: 150px;
+    }
+
+    .contents_wrap h1:after {
+        width: 150px;
+    }
+    
+    .notice_wrap {
+        width: 288px;
+        height: 200px;
+        margin: 0 auto;
+        float: inherit;
+    }
+
+    .top_val label {
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .tab_wrap {
+        height: 160px;
+    }
+
+    .tab {
+        height: 80%;
+        padding-top: 10px;
+    }
+
+    .tab_text ul {
+        margin-top: 10px;
+    }
+
+    .tab_text a, .tab_text span {
+        font-size: 13px;
+    }
+
+    .tab_text a{
+        height: 25px;
+    }
+
+    .event_wrap {
+        width: 288px;
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 50px;
+        float: inherit;
+    }
+    
+    .next, .prev {
+        width: 44px;
+        height: 200px;
+    }
+
+    .button {
+        font-size: 20px;
+        margin-top: 80px;
+    }
+    
+    .event {
+        width: 200px; /*화면에 보이는 너비-height에 맞추어서 줄어들음*/
+    }
+
+    .event ul {
+        /*width: 800px;*/
+        height: 200px;
+    }
+
+    .event ul li {
+        width: 200px;
+        height: 200px;
+    }
+
+    .img_wrap {
+        width: 200px;
+        height: 200px;
+    }
+
+    .back_img h4 {
+        font-size: 13px;
+        margin: 20px auto;
+    }
+
+    .back_img .ban_exp {
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+
+    .back_img .ban_date {
+        font-size: 10px;
+    }
+    
+    /*section2*/
+
+    #section2 {
+        height: 720px;
+    }
+    
+    #section2 .wrap {
+        position: relative;
+        padding-top: 60px;
+        height: 550px;
+        /*변화------------*/
+    }
+    
+    #section2 .wrap div {
+        float: none;
+    }
+    
+    .prom_title {
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .prom_title span {
+        font-size: 23px;
+        width: 17px;
+        line-height: 70px;
+        display: inline-block;
+    }
+    
+    .prom_title span:nth-child(1) {
+        padding-top: 0px;
+    }
+
+    .prom_title span:nth-child(7) {
+        width: 40px;
+        height: 1px;
+        background: #fff;
+        margin: 0 10px 8px 10px;
+    }
+
+    .prom_wrap {
+        position: static;
+        top: 0;
+        width: 100%;
+        height: 450px;
+        /*height 변화*/
+        margin-top: 0px;
+    }
+    
+    .prom_wrap div {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .prom_video {
+        border: none;
+        text-align: center;
+        padding-right: 0px;
+        box-sizing: border-box;
+    }
+    
+    .prom_video iframe {
+        width: 288px;
+        height: 155px;
+    }
+
+    .prom_text {
+        padding-bottom: 0px;
+        border-bottom: none;
+    }
+    
+    .prom_text p {
+        font-size: 17px;
+        padding-left: 0px;
+        width: 100%;
+        height: 100%;
+        line-height: 1.7;
+        float: left;
+        padding: 0 10px;
+        box-sizing: border-box;
+        text-align: justify;
+        margin-top: 0px;
+    }
+
+    .prom_text p:nth-child(1) {
+        display: none;
+        margin-top: 0px
+    }
+
+    /*section3*/
+
+    #section3 {
+        height: 600px;
+    }
+
+    #section3 .wrap {
+        width: 100%;
+        height: 500px;
+        padding-top: 35px;
+    }
+
+    .sec3_title {
+        width: 90%;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .sec3_title a {
+        font-size: 14px;
+    }
+
+    .sec3_title span {
+        font-size: 14px;
+    }
+
+    .sec3_title h1 {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+
+    .type_wrap {
+        width: 320px;
+        height: 372px;
+        margin: 0 auto; 
+    }
+
+    .type_wrap div .type_title {
+        display: none;
+    }
+
+    .type_wrap div .type_image {
+        width: 320px;
+    }
+
+    .type_image li {
+        border-bottom: none;
+    }
+
+    .box1 {
+        width: 640px;
+        height: 100%;
+    }
+
+    .box1 li {
+        width: 320px;
+        height: 100%;
+    }
+
+     .box2 {
+        width: 640px;
+        height: 100%;
+    }
+
+    .box2 li {
+        width: 320px;
+        height: 100%;
+    }
+
+    .box3 {
+        width: 640px;
+        margin-left: -320px;
+        height: 100%;
+    }
+
+    .box3 li {
+        width: 320px;
+        height: 100%;
+    }
+
+    .box_text {
+        margin-top: -70px;
+        height: 140px;
+    }
+
+    .box_text p {
+        width: 90%; 
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    /*svg css*/
+
+    .type_wrap svg {
+        width: 90px;
+        padding-top: 15px;
+    }
+
+    /*section4*/
+
+    #section4 {
+        height: 350px;
+    }
+
+    #section4 h1 {
+        font-size: 23px;
+    }
+
+    #section4 h1:before {
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    #section4 h1:after {
+        width: 50px;
+        margin-left: 15px;
+    }
+
+    .rcm_nav {
+        width: 300px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .rcm_nav li {
+        font-size: 12px;
+    }
+
+    #section4 .rcm_image {
+        height: 83px;
+        margin-top: -25px;
+    }
+
+    .rcm_title {
+        width: 120px;
+        height: 120px;
+    }
+
+    .title_line {
+        margin-top: 4px;
+        border: none;
+    }
+
+    .title_rcm {
+        font-size: 9px;
+        margin-top: 25px;
+    }
+
+    .title_name {
+        font-size: 22px;
+    }
+
+    .title_top {
+        font-size: 11px;
+        padding-top: 20px;
+    }
+
+    .title_exp {
+        display: none;
+    }
+
+    /*section5*/
+
+    #section5 {
+        height: 1000px;
+    }
+
+    #section5 .wrap {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 0;
+        margin-left: 0;
+        width: 99%;
+        height: 880px;
+    }
+
+    .vertical_wrap {
+        /*.bottm_wrap span의 위치 조절*/
+    }
+
+    .vertical_wrap span {
+        font-size: 20px;
+        width: 33px;
+        height: 20px;
+        border-right: 0.5px solid #fff;
+    }
+
+    .bottom_wrap span {
+        display: none;
+    }
+
+    #instafeed {
+        margin-top: 10px;
+        height: 880px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    
+    #instafeed a {
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        margin-left: 10px;
+        float: right;
+    }
+
+    /*footer*/
+
+    #footer {
+        height: 260px;
+    }
+
+    #footer .wrap .ft_top {
+        height: 180px;
+    }
+
+    #footer .wrap .ft_bottom {
+        height: 80px;
+    }
+
+    .ft_top p {
+        font-size: 12px;
+    }
+
+    .ft_top address {
+        display: inline-block;
+        margin-bottom: 1px;
+        font-size: 11px;
+    }
+
+    .ft_top p:first-child {
+        padding-top: 30px;
+    }
+
+    .ft_bottom ul {
+        margin-top: 28px;
+    }
+    
+    .ft_bottom a {
+        font-size: 10px;
+    }
+
+    .inf li {
+        margin-right: 13px;
+    }
+
+    .sns {
+        display: none;
+    }
+
+    .sns li {
+        margin-left: 10px;
+    }
+
+    .sns a {
+        width: 18px;
+        height: 18px;
+    }
+
+    .sns .facebook {
+        background-size: cover;
+    }
+
+    .sns .naver {
+        background-size: cover;
+    }
+}
     
     
         

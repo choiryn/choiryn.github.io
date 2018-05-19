@@ -179,16 +179,9 @@ $(document).ready(function(){
 	});
 
 	// mobile
-	var slide_sw = $(".mo_sub_depth").css("display");
 	$(".open_slide").click(function(){
 		$(this).find(".mo_sub_depth").slideToggle(300);
-		if(slide_sw) {
-			$(this).find(".open_icon").text("-");
-		}
-		else {
-			$(this).find(".open_icon").text("+");
-		}
-		slide_sw = !slide_sw;
+		$(this).find(".open_icon").toggleClass("open");
 	});
 
 	//mobile_slide

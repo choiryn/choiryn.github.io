@@ -194,7 +194,7 @@ $(document).ready(function(){
 	//mobile_slide
 
 	$(".nav_btn").click(function(){
-		$("#mo_nav").css("display","block");
+		$("#mo_nav").animate({"right":"0","opacity":"1"},300);
 	});
 
 	$(".mo_close").click(function(){

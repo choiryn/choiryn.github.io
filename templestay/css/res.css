@@ -2385,7 +2385,540 @@
     }
 }
     
+@media screen and (min-width: 414px) and (max-width: 479px) {
     
+    /*header*/
+
+    header {
+        height: 80px;
+    }
+
+    .top_hd {
+        height: 30px;
+    }
+
+    .hd_right li a {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .bottom_hd {
+        height: 50px;
+    }
+    
+    .logo {
+        line-height: 50px;
+        width: 140px;
+    }
+
+    .logo img {
+        width: 70%;
+        height: 70%;
+    }
+
+     #gnb li {
+        padding: 0 20px;
+        background: url(../img/menudot.png) no-repeat right 24px;
+     }
+
+     #gnb .main_menu {
+        padding-top: 14px;
+     }
+
+     #gnb li a {
+        font-size: 14px;
+     }
+
+     #gnb > ul > li > a:after {
+        height: 3px;
+        margin: 13px auto;
+     }
+
+     #gnb .sub {
+        top: 51px;
+     }
+
+     #gnb .sub li a {
+        text-indent: -17px;
+        font-size: 10px;
+     }
+
+    .menuBg {
+        top: 50px;
+    }
+    
+    /*visual*/
+
+    figure .visual {
+        height: 450px;
+        background-image: url(../img/visual3.jpg);
+    }
+
+    .visual_text {
+    width: 187px;
+    height: 233px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%,-50%);
+    background-image: url(../img/visual_text.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+    
+    /*search form*/
+    
+    aside {
+        top: 0;
+    }
+
+    .form_toggle_btn {
+        margin-top: 110px;
+    }
+    
+    /*section1*/
+
+    #section1 {
+        height: 900px;
+    }
+
+    .wrap {
+        width: 90%;
+    }
+    
+    .contents_wrap {
+        height: 750px;
+        margin-top: -375px;
+
+    }
+    
+    .contents_wrap h1 {
+        font-size: 25px;
+    }
+
+    .contents_wrap h1:before {
+        width: 160px;
+    }
+
+    .contents_wrap h1:after {
+        width: 160px;
+    }
+    
+    .notice_wrap {
+        width: 372.6px;
+        height: 250px;
+        margin: 0 auto;
+        float: inherit;
+    }
+
+    .top_val label {
+        font-size: 18px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .tab_wrap {
+        height: 200px;
+    }
+
+    .tab {
+        height: 80%;
+        padding-top: 10px;
+    }
+
+    .tab_text ul {
+        margin-top: 15px;
+    }
+
+    .tab_text a, .tab_text span {
+        font-size: 15px;
+    }
+
+    .tab_text a{
+        height: 33px;
+    }
+
+    .event_wrap {
+        width: 372.6px;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 50px;
+        float: inherit;
+    }
+    
+    .next, .prev {
+        width: 60.1px;
+        height: 250px;
+    }
+
+    .button {
+        font-size: 22px;
+        margin-top: 95px;
+    }
+    
+    .event {
+        width: 250px; /*화면에 보이는 너비-height에 맞추어서 줄어들음*/
+    }
+
+    .event ul {
+        /*width: 800px;*/
+        height: 250px;
+    }
+
+    .event ul li {
+        width: 250px;
+        height: 250px;
+    }
+
+    .img_wrap {
+        width: 250px;
+        height: 250px;
+    }
+
+    .back_img h4 {
+        font-size: 15px;
+        margin: 30px auto;
+    }
+
+    .back_img .ban_exp {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    .back_img .ban_date {
+        font-size: 10px;
+    }
+    
+    /*section2*/
+
+    #section2 {
+        height: 700px;
+    }
+    
+    #section2 .wrap {
+        position: relative;
+        height: 550px;
+        /*변화------------*/
+    }
+    
+    #section2 .wrap div {
+        float: none;
+    }
+    
+    .prom_title {
+        width: 100%;
+        height: 10%;
+        text-align: right;
+    }
+    
+    .prom_title span {
+        font-size: 25px;
+        width: 19px;
+        line-height: 70px;
+        display: inline-block;
+    }
+    
+    .prom_title span:nth-child(1) {
+        padding-top: 0px;
+    }
+
+    .prom_title span:nth-child(7) {
+        width: 40px;
+        height: 1.5px;
+        background: #fff;
+        margin: 0 10px 8px 10px;
+    }
+
+    .prom_wrap {
+        position: static;
+        top: 0;
+        width: 100%;
+        height: 90%;
+        /*height 변화*/
+        margin-top: 0px;
+    }
+    
+    .prom_wrap div {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .prom_video {
+        border: none;
+        text-align: center;
+        padding-right: 0px;
+        box-sizing: border-box;
+    }
+    
+    .prom_video iframe {
+        width: 372px;
+        height: 201px;
+    }
+
+    .prom_text {
+        padding-bottom: 10px;
+        border-bottom: 0.5px solid rgba(255,255,255,0.3);
+    }
+    
+    .prom_text p {
+        font-size: 14px;
+        padding-left: 0px;
+        width: 100%;
+        height: 50%;
+        line-height: 1.7;
+        float: left;
+        padding: 0 10px;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+
+    .prom_text p:nth-child(1) {
+        margin-top: 20px
+    }
+
+    /*section3*/
+
+    #section3 {
+        height: 780px;
+    }
+
+    #section3 .wrap {
+        height: 610px;
+        padding-top: 70px;
+    }
+
+    .sec3_title a {
+        font-size: 14px;
+    }
+
+    .sec3_title span {
+        font-size: 14px;
+    }
+
+    .sec3_title h1 {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+
+    .type_wrap {
+        width: 432px;
+        height: 408px; 
+        /*(이미지의 높이*3)+60px*/
+    }
+
+    .type_wrap div .type_title {
+        width: 130px;
+    }
+
+    .type_wrap div .type_image {
+        width: 302px;
+    }
+
+    .box1 {
+        width: 604px;
+        height: 100%;
+    }
+
+    .box1 li {
+        width: 302px;
+        height: 100%;
+    }
+
+     .box2 {
+        width: 604px;
+        height: 100%;
+    }
+
+    .box2 li {
+        width: 302px;
+        height: 100%;
+    }
+
+    .box3 {
+        width: 604px;
+        margin-left: -302px;
+        height: 100%;
+    }
+
+    .box3 li {
+        width: 302px;
+        height: 100%;
+    }
+
+    .box_text {
+        margin-top: -65px;
+        height: 218px;
+    }
+
+    .box_text p {
+        font-size: 11px;
+    }
+
+    /*svg css*/
+
+    .type_wrap svg {
+        width: 90px;
+        padding-top: 15px;
+    }
+
+    /*section4*/
+
+    #section4 {
+        height: 400px;
+    }
+
+    #section4 h1 {
+        font-size: 20px;
+    }
+
+    #section4 h1:before {
+        width: 120px;
+    }
+
+    #section4 h1:after {
+        width: 120px;
+    }
+
+    .rcm_nav {
+        width: 400px;
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .rcm_nav li {
+        font-size: 12px;
+    }
+
+    #section4 .rcm_image {
+        height: 125px;
+        margin-top: -35.5px;
+    }
+
+    .rcm_title {
+        width: 150px;
+        height: 150px;
+    }
+
+    .title_line {
+        margin-top: 4px;
+        border: 0.5px solid #fff;
+    }
+
+    .title_rcm {
+        font-size: 11px;
+        margin-top: 20px;
+    }
+
+    .title_name {
+        font-size: 25px;
+    }
+
+    .title_top {
+        font-size: 12px;
+        padding-top: 25px;
+    }
+
+    .title_exp {
+        display: none;
+    }
+
+    /*section5*/
+
+    #section5 {
+        height: 380px;
+    }
+
+    #section5 .wrap {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 0;
+        margin-left: 0;
+        height: 250px;
+    }
+
+    .vertical_wrap {
+        /*.bottm_wrap span의 위치 조절*/
+    }
+
+    .vertical_wrap span {
+        font-size: 15px;
+        width: 40px;
+        height: 15px;
+        border-right: 0.5px solid #fff;
+    }
+
+    .bottom_wrap span {
+        display: none;
+    }
+
+    #instafeed {
+        margin-top: 10px;
+        height: 225px;
+    }
+    
+    #instafeed a {
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    /*footer*/
+
+    #footer {
+        height: 250px;
+    }
+
+    #footer .wrap .ft_top {
+        height: 170px;
+    }
+
+    #footer .wrap .ft_bottom {
+        height: 80px;
+    }
+
+    .ft_top p {
+        font-size: 12px;
+    }
+
+    .ft_top address {
+        display: inline-block;
+        margin-bottom: 1px;
+        font-size: 11px;
+    }
+
+    .ft_top p:first-child {
+        padding-top: 40px;
+    }
+
+    .ft_bottom ul {
+        margin-top: 28px;
+    }
+    
+    .ft_bottom a {
+        font-size: 11px;
+    }
+
+    .sns a {
+        width: 20px;
+        height: 20px;
+    }
+
+    .sns .facebook {
+        background-size: cover;
+    }
+
+    .sns .naver {
+        background-size: cover;
+    }
+}
+    
+    
+        
     
     
     

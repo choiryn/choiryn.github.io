@@ -891,16 +891,12 @@
     /*header*/
 
     header {
-        height: 80px;
+        height: 50px;
     }
 
     .top_hd {
         height: 30px;
-    }
-
-    .hd_right li a {
-        font-size: 12px;
-        line-height: 30px;
+        display: none;
     }
 
     .bottom_hd {
@@ -917,37 +913,21 @@
         height: 70%;
     }
 
-     #gnb li {
-        padding: 0 20px;
-        background: url(../img/menudot.png) no-repeat right 24px;
-     }
+    /*mobile*/
 
-     #gnb .main_menu {
-        padding-top: 14px;
-     }
+    #gnb {
+        display: none;
+    }
 
-     #gnb li a {
-        font-size: 14px;
-     }
-
-     #gnb > ul > li > a:after {
-        height: 3px;
-        margin: 13px auto;
-     }
-
-     #gnb .sub {
-        top: 51px;
-     }
-
-     #gnb .sub li a {
-        text-indent: -17px;
-        font-size: 10px;
-     }
-
-    .menuBg {
-        top: 50px;
+    .nav_btn {
+        display: block;
     }
     
+    #mo_nav {
+        /*display: block;*/
+        /*right: -100%;*/
+    }
+
     /*visual*/
 
     figure .visual {

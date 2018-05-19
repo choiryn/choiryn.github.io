@@ -1373,13 +1373,21 @@ path:hover {
 
 /*mobile*/
 
+.nav_btn {
+	float: right;
+	line-height: 50px;
+	display: none;
+}
+
 #mo_nav {
+	display: block;
 	width: 100%;
 	height: 100%;
 	position: fixed;
 	top: 0;
-	left: 0;
+	right: 0;
 	z-index: 201;
+	opacity: 1;
 }
 
 .mo_header {

@@ -190,6 +190,16 @@ $(document).ready(function(){
 			$(this).find(".open_icon").text("-");
 		}
 	});
+
+	//mobile_slide
+
+	$(".nav_btn").click(function(){
+		$("#mo_nav").css("display","block");
+	});
+
+	$(".mo_close").click(function(){
+		$("#mo_nav").animate({"right":"-100%","opacity":"0"},300);
+	});
 });
 		    
 

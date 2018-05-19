@@ -179,9 +179,16 @@ $(document).ready(function(){
 	});
 
 	// mobile
-
+	var slide_sw = true;
 	$(".open_slide").click(function(){
-		$(this).find(".mo_sub_depth").slideDown(500);
+		$(this).find(".mo_sub_depth").slideToggle(300);
+		slide_sw = !slide_sw;
+		if(slide_sw) {
+			$(this).find(".open_icon").text("+");
+		}
+		else {
+			$(this).find(".open_icon").text("-");
+		}
 	});
 });
 		    

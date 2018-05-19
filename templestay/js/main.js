@@ -177,6 +177,12 @@ $(document).ready(function(){
 	$(".type_image").mouseout(function() {
 		$(this).find(".box3").stop().animate({"margin-left":-slidewd},500);
 	});
+
+	// mobile
+
+	$(".open_slide").click(function(){
+		$(this).find(".mo_sub_depth").slideDown(500);
+	});
 });
 		    
 
@@ -185,3 +191,4 @@ $(document).ready(function(){
 // SUPPORT EMAIL	mamiedoreen@naver.com
 // CLIENT STATUS	Sandbox Mode
 // https://choiryn.github.io/#access_token=3613685325.a914cde.9c57842519da43a188a26aad6d38c63f
+

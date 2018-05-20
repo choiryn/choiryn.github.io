@@ -84,10 +84,10 @@ $(document).ready(function(){
 		});
 
 	//window 로드될 때 animation
-//
-//	$(window).ready(function(){
-//		$(".visual").animate({"background-size":"105%"},6000);
-//	});
+
+	$(window).ready(function(){
+		$(".visual_text").animate({"top":"50%","opacity":"1"},2000);
+	});
 
 	//배너 슬라이드
 
@@ -193,6 +193,20 @@ $(document).ready(function(){
 	$(".mo_close").click(function(){
 		$("#mo_nav").animate({"right":"-100%","opacity":"0"},300);
 	});
+
+	//ease scroll
+    $(document).ready(function(){
+        var scrollHt = $(window).height();
+        $(window).on("mousewheel", function(e){//마우스휠은 독립 이벤트는 안됨(on을 이용하여 종합 이벤트를 해줘야 함.)
+            if(e.originalEvent.wheelDelta < 0) {//휠이 -1이면 밑으로 내리는 것.
+                $("html, body").not(":animated").animate({scrollTop:"+="+scrollHt/3+"px"},{duration:500,easing:"jswing"});
+            }
+            else {
+                $("html, body").not(":animated").animate({scrollTop:"-="+scrollHt/3+"px"},{duration:500,easing:"jswing"});
+            }
+            return false;
+        });
+    });
 });
 		    
 

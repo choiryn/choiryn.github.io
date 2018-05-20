@@ -67,6 +67,11 @@
         height: 535px;
     }
 
+    .visual_text {
+        width: 170px;
+        height: 220px;
+    }
+
     .visual_form {
         width: 160px;
         height: 40px;

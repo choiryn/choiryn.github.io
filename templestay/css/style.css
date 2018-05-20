@@ -1378,8 +1378,8 @@ path:hover {
 	display: inline-block;
 	width: 10px;
 	height: 10px;
-	border-top: 1px solid #4d519e;
-	border-left: 1px solid #4d519e;
+	border-top: 1px solid #cdcdcd;
+	border-left: 1px solid #cdcdcd;
 	margin-top: 20px;
 	transform: rotate(225deg);
 	transition: 0.3s;
@@ -1391,9 +1391,30 @@ path:hover {
 
 .nav_btn {
 	float: right;
-	line-height: 50px;
 	display: none;
 	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	margin-top: 28px;
+}
+
+.nav_btn div {
+	width: 100%;
+	height: 1px;
+	background: #474747;
+	transition: 0.5s;
+}
+
+.nav_btn div:nth-child(2) {
+	margin: 5px 0;
+}
+
+.nav_btn:hover .btn1 {
+	transform: rotate(30deg);
+}
+
+.nav_btn:hover .btn3 {
+	transform: rotate(-30deg);
 }
 
 #mo_nav {
@@ -1404,6 +1425,8 @@ path:hover {
 	right: -100%;
 	z-index: 201;
 	opacity: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+	background: #fff;
 }
 
 .mo_header {
@@ -1441,10 +1464,23 @@ path:hover {
 	width: 100%;
 	height: 50px;
 	line-height: 50px;
-	background: #fff;
+	background: #444;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
 	box-sizing: border-box;
+	position: relative;
+}
+
+.mo_btn:after {
+	display: inline-block;
+	content: '';
+	width: 1px;
+	height: 20px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 
 .mo_btn a {
@@ -1457,17 +1493,16 @@ path:hover {
 }
 
 .mo_btn a span {
-	color: #333;
+	color: #fff;
 }
 
 .mo_wrap {
-	overflow: hidden;
+	overflow: auto;
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	top: 130px;
 	left: 0;
-	bottom: 0;
 	background: #fff;
 }
 
@@ -1475,10 +1510,9 @@ path:hover {
 	position: absolute;
 	top: 0;
 	left: 0;
-	bottom: 0;
 	width: 100%;
 	height: 100%;
-	overflow: scroll;
+	overflow: auto;
 }
 
 .mo_scroll {
@@ -1488,14 +1522,17 @@ path:hover {
 	overflow-y: visible;
 }
 
-.mo_scroll ul li {
+.mo_scroll > ul > li {
 	min-height: 50px;
 	line-height: 50px;
+	border-bottom: 0.5px solid #cdcdcd;
 }
 
 .mo_scroll a {
-	color: #333;
+	color: #5f5f5f;
+	font-size: 16px;
 	margin-left: 15px;
+	font-weight: bold;
 }
 
 .mo_scroll span {
@@ -1505,15 +1542,15 @@ path:hover {
 
 .mo_sub_depth {
 	display: none;
-	font-size: 14px;
-	background: #ededed;
 }
 
 .mo_sub_depth li {
-	border-bottom: 0.5px solid #e7e7e7;
+	margin-left: 50px;
+	border-bottom: 0.5px solid #eee;
 }
 
 .mo_sub_depth li a {
-	color: #555;
-	text-indent: 30px;
+	display: inline-block;
+	color: #a8a8a8;
+	font-size: 14px;
 }

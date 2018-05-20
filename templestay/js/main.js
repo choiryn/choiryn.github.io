@@ -86,7 +86,7 @@ $(document).ready(function(){
 	//window 로드될 때 animation
 
 	$(window).ready(function(){
-		$(".visual_text").animate({"top":"50%","opacity":"1"},2000);
+		$(".visual_text").animate({"top":"45%","opacity":"1"},2000);
 	});
 
 	//배너 슬라이드
@@ -151,8 +151,12 @@ $(document).ready(function(){
        $(this).find("legend").stop().animate({"border-color":"#afadbc"},500); 
     });
     
-    $(".form_toggle_btn").click(function(){
-       $("aside").toggleClass("toggle");
+    $(".visual_form").click(function(){
+       $("aside").addClass("toggle");
+    });
+
+    $(".form_close").click(function(){
+       $("aside").removeClass("toggle");
     });
 
 	//슬라이딩 이미지

@@ -66,6 +66,14 @@
     figure .visual {
         height: 535px;
     }
+
+    .visual_form {
+        width: 160px;
+        height: 40px;
+        line-height: 40px;
+        bottom: 20%;
+        font-size: 15px;
+    }
     
     /*search form*/
 
@@ -440,36 +448,20 @@
     /*header*/
 
     header {
-        height: 110px;
-    }
-
-    .contents_wrap h1 {
-        font-size: 23px;
-    }
-
-    .contents_wrap h1:before {
-        width: 150px;
-    }
-
-    .contents_wrap h1:after {
-        width: 150px;
+        height: 80px;
     }
 
     .top_hd {
         height: 40px;
-    }
-
-    .hd_right li a {
-        font-size: 13px;
-        line-height: 40px;
+        display: none;
     }
 
     .bottom_hd {
-        height: 70px;
+        height: 80px;
     }
     
     .logo {
-        line-height: 80px;
+        line-height: 85px;
     }
 
     .logo img {
@@ -477,40 +469,23 @@
         height: 80%;
     }
 
-     #gnb li {
-        padding: 0 30px;
-        background: url(../img/menudot.png) no-repeat right 34px;
-     }
-
-     #gnb .main_menu {
-        padding-top: 24px;
-     }
-
-     #gnb li a {
-        font-size: 15px;
-     }
-
-     #gnb > ul > li > a:after {
-        margin: 20px auto;
-     }
-
-     #gnb .sub {
-        top: 71px;
-     }
-
-     #gnb .sub li a {
-        text-indent: -17px;
-        font-size: 11px;
-     }
-
-    .menuBg {
-        top: 70px;
-    }
-    
     /*visual*/
 
     figure .visual {
         height: 426.64px;
+    }
+
+    .visual_form {
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        bottom: 15%;
+        font-size: 14px;
+    }
+
+    .visual_text {
+        width: 130px;
+        height: 155px;
     }
     
     /*search form*/
@@ -536,6 +511,18 @@
     .contents_wrap {
         height: 380px;
         margin-top: -190px;
+    }
+
+    .contents_wrap h1 {
+        font-size: 23px;
+    }
+
+    .contents_wrap h1:before {
+        width: 150px;
+    }
+
+    .contents_wrap h1:after {
+        width: 150px;
     }
     
     .notice_wrap {
@@ -884,6 +871,14 @@
         background-size: cover;
     }
 
+    #gnb {
+        display: none;
+    }
+
+    .nav_btn {
+        display: block;
+        line-height: 70px;
+    }
 }
 
 @media screen and (min-width: 780px) and (max-width: 1023px) {
@@ -922,6 +917,14 @@
     .visual_text {
         width: 100px;
         height: 125px;
+    }
+
+    .visual_form {
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        bottom: 18%;
+        font-size: 15px;
     }
     
     /*search form*/
@@ -1392,6 +1395,14 @@
     .visual_text {
         width: 100px;
         height: 125px;
+    }
+
+    .visual_form {
+        width: 120px;
+        height: 30px;
+        line-height: 30px;
+        bottom: 16%;
+        font-size: 12px;
     }
     
     /*search form*/
@@ -1876,6 +1887,16 @@
         width: 100px;
         height: 125px;
     }
+
+    .visual_form {
+        bottom: 10%;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 17px;
+    }
+
+
     
     /*search form*/
     
@@ -2369,6 +2390,14 @@
         height: 125px;
     }
     
+    .visual_form {
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        bottom: 25%;
+        font-size: 16px;
+    }
+
     /*search form*/
     
     aside {
@@ -2895,6 +2924,14 @@
         height: 348px;
         background-image: url(../img/visual3.jpg);
     }
+    
+    .visual_form {
+        width: 130px;
+        height: 30px;
+        line-height: 30px;
+        bottom: 22%;
+        font-size: 14px;
+    }
 
     .visual_text {
         width: 100px;
@@ -2907,8 +2944,12 @@
         top: 0;
     }
 
-    .form_toggle_btn {
-        margin-top: 110px;
+    .form_wrap {
+        width: 100%;
+    }
+
+    .date_wrap {
+        width: 300px;
     }
     
     /*section1*/

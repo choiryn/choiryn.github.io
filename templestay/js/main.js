@@ -199,17 +199,15 @@ $(document).ready(function(){
 	});
 
 	//ease scroll
-    $(document).ready(function(){
-        var scrollHt = $(window).height();
-        $(window).on("mousewheel", function(e){//마우스휠은 독립 이벤트는 안됨(on을 이용하여 종합 이벤트를 해줘야 함.)
-            if(e.originalEvent.wheelDelta < 0) {//휠이 -1이면 밑으로 내리는 것.
-                $("html, body").not(":animated").animate({scrollTop:"+="+scrollHt/2.5+"px"},{duration:500,easing:"jswing"});
-            }
-            else {
-                $("html, body").not(":animated").animate({scrollTop:"-="+scrollHt/2.5+"px"},{duration:500,easing:"jswing"});
-            }
-            return false;
-        });
+	var scrollHt = $(window).height();
+    $(window).on("mousewheel", function(e){//마우스휠은 독립 이벤트는 안됨(on을 이용하여 종합 이벤트를 해줘야 함.)
+        if(e.originalEvent.wheelDelta < 0) {//휠이 -1이면 밑으로 내리는 것.
+            $("html, body").not(":animated").animate({scrollTop:"+="+scrollHt/2.5+"px"},{duration:1000,easing:"easeOutExpo"});
+        }
+        else {
+            $("html, body").not(":animated").animate({scrollTop:"-="+scrollHt/2.5+"px"},{duration:1000,easing:"easeOutExpo"});
+        }
+        return false;
     });
 });
 		    

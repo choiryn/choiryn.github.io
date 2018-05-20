@@ -400,17 +400,6 @@ legend {
     transition: 0.3s;
 }
 
-.check::before {
-    content: '';
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
-    background: rgba(238,238,238,0.8);
-    top: 2px;
-    left: 2px;
-    transition: 0.3s;
-}
 
 .radio_option li:hover label {
     color: rgba(238,238,238,1);
@@ -420,16 +409,9 @@ legend {
     border: 3px solid rgba(238,238,238,1);
 }
 
-.radio_option li:hover .check::before {
-   background: rgba(238,238,238,1);
-}
 
 input[type=radio]:checked ~ .check {
     border: 3px solid #6e6c8e;
-}
-
-input[type=radio]:checked ~ .check::before {
-    background: #6e6c8e;
 }
 
 input[type=radio]:checked ~ label {

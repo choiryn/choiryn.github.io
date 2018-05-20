@@ -209,6 +209,22 @@ $(document).ready(function(){
         }
         return false;
     });
+
+    //section3 scroll event
+
+    var day = $("#day_wrap").offset();
+    var res = $("#res_wrap").offset();
+    var exp = $("#exp_wrap").offset();
+
+    $(".day_slide").click(function(){
+    	$("body,html").animate({scrollTop:day.top},500);
+    });
+    $(".res_slide").click(function(){
+    	$("body,html").animate({scrollTop:res.top},500);
+    });
+    $(".exp_slide").click(function(){
+    	$("body,html").animate({scrollTop:exp.top},500);
+    });   
 });
 		    
 

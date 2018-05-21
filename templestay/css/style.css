@@ -1,7 +1,8 @@
+
+
 @font-face { 
 	font-family: 'KBIZHanmaumMyungjo'; 
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff') 
-	format('woff'); 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff') format('woff'); 
 }
 
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); 
@@ -1024,15 +1025,15 @@ path:hover {
 }
 
 #res_wrap path {
-	stroke-dasharray: 100;
+	stroke-dasharray: 100px;
 }
 
 #exp_wrap path {
-	stroke-dasharray: 40;
+	stroke-dasharray: 40px;
 }
 
 #day_wrap path {
-	stroke-dasharray: 100;
+	stroke-dasharray: 100px;
 }
 
 #exp_wrap svg {

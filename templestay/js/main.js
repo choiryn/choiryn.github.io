@@ -224,13 +224,40 @@ $(document).ready(function(){
     });
     $(".exp_slide").click(function(){
     	$("body,html").animate({scrollTop:exp.top},500);
-    });   
+    });  
+
+    //resize event
+
+    var windowWd = $(window).width();
+
+    $(window).resize(function(){
+    	if(windowWd = 1280) {
+    		location.reload();
+    	}
+
+    	else if(windowWd = 1024) {
+    		location.reload();
+    	}
+
+    	else if(windowWd = 780) {
+    		location.reload();
+    	}
+
+    	else if(windowWd = 640) {
+    		location.reload();
+    	}
+
+    	else if(windowWd = 480) {
+    		location.reload();
+    	}
+
+    	else if(windowWd = 414) {
+    		location.reload();
+    	}    	
+
+    	else if(windowWd = 320) {
+    		location.reload();
+    	}    	    	
+    });
 });
 		    
-
-// CLIENT INFO
-// CLIENT ID	a914cde3849d4e43b01d2d24bca7ac55
-// SUPPORT EMAIL	mamiedoreen@naver.com
-// CLIENT STATUS	Sandbox Mode
-// https://choiryn.github.io/#access_token=3613685325.a914cde.9c57842519da43a188a26aad6d38c63f
-

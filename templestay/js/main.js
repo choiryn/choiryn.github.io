@@ -86,7 +86,7 @@ $(document).ready(function(){
 	//window 로드될 때 animation
 
 	$(window).ready(function(){
-		$(".visual_text").animate({"top":"45%","opacity":"1"},2000);
+		$(".visual_text").animate({"top":"50%","opacity":"1"},2000);
 	});
 
 	//배너 슬라이드
@@ -230,34 +230,34 @@ $(document).ready(function(){
 
     var windowWd = $(window).width();
 
-    $(window).resize(function(){
-    	if(windowWd = 1280) {
-    		location.reload();
-    	}
+    // $(window).resize(function(){
+    // 	if(windowWd = 1280) {
+    // 		location.reload();
+    // 	}
 
-    	else if(windowWd = 1024) {
-    		location.reload();
-    	}
+    // 	else if(windowWd = 1024) {
+    // 		location.reload();
+    // 	}
 
-    	else if(windowWd = 780) {
-    		location.reload();
-    	}
+    // 	else if(windowWd = 780) {
+    // 		location.reload();
+    // 	}
 
-    	else if(windowWd = 640) {
-    		location.reload();
-    	}
+    // 	else if(windowWd = 640) {
+    // 		location.reload();
+    // 	}
 
-    	else if(windowWd = 480) {
-    		location.reload();
-    	}
+    // 	else if(windowWd = 480) {
+    // 		location.reload();
+    // 	}
 
-    	else if(windowWd = 414) {
-    		location.reload();
-    	}    	
+    // 	else if(windowWd = 414) {
+    // 		location.reload();
+    // 	}    	
 
-    	else if(windowWd = 320) {
-    		location.reload();
-    	}    	    	
-    });
+    // 	else if(windowWd = 320) {
+    // 		location.reload();
+    // 	}    	    	
+    // });
 });
 		    

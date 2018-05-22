@@ -67,16 +67,30 @@
         height: 535px;
     }
 
+    .visual_contents {
+        width: 600px;
+        height: 200px;
+    }
+
     .visual_text {
-        width: 170px;
-        height: 220px;
+        width: 200px;
+    }
+
+    .visual_text p {
+        font-size: 30px;
     }
 
     .visual_form {
-        width: 160px;
-        height: 40px;
-        line-height: 40px;
-        bottom: 20%;
+        width: 400px;
+    }
+
+    .visual_form .line {
+        bottom: 35px;
+    }
+
+    .visual_form p {
+        right: 55px;
+        bottom: 50px;
         font-size: 15px;
     }
     
@@ -480,19 +494,33 @@
         height: 426.64px;
     }
 
-    .visual_form {
-        width: 150px;
-        height: 40px;
-        line-height: 40px;
-        bottom: 15%;
-        font-size: 14px;
+    .visual_contents {
+        width: 600px;
+        height: 180px;
     }
 
     .visual_text {
-        width: 130px;
-        height: 155px;
+        width: 200px;
     }
-    
+
+    .visual_text p {
+        font-size: 28px;
+    }
+
+    .visual_form {
+        width: 400px;
+    }
+
+    .visual_form .line {
+        bottom: 35px;
+    }
+
+    .visual_form p {
+        right: 55px;
+        bottom: 50px;
+        font-size: 15px;
+    }
+
     /*search form*/
     
     aside {
@@ -919,17 +947,31 @@
         height: 326px;
     }
 
+   .visual_contents {
+        width: 400px;
+        height: 130px;
+    }
+
     .visual_text {
-        width: 100px;
-        height: 125px;
+        width: 150px;
+    }
+
+    .visual_text p {
+        font-size: 20px;
     }
 
     .visual_form {
-        width: 120px;
-        height: 40px;
-        line-height: 40px;
-        bottom: 18%;
-        font-size: 15px;
+        width: 250px;
+    }
+
+    .visual_form .line {
+        bottom: 25px;
+    }
+
+    .visual_form p {
+        right: 8px;
+        bottom: 35px;
+        font-size: 12px;
     }
     
     /*search form*/
@@ -1397,16 +1439,30 @@
         height: 268px;
     }
 
+   .visual_contents {
+        width: 400px;
+        height: 130px;
+    }
+
     .visual_text {
-        width: 100px;
-        height: 125px;
+        width: 150px;
+    }
+
+    .visual_text p {
+        font-size: 20px;
     }
 
     .visual_form {
-        width: 120px;
-        height: 30px;
-        line-height: 30px;
-        bottom: 16%;
+        width: 250px;
+    }
+
+    .visual_form .line {
+        bottom: 25px;
+    }
+
+    .visual_form p {
+        right: 8px;
+        bottom: 35px;
         font-size: 12px;
     }
     
@@ -1888,20 +1944,32 @@
         height: 268px;
     }
 
+   .visual_contents {
+        width: 400px;
+        height: 130px;
+    }
+
     .visual_text {
-        width: 100px;
-        height: 125px;
+        width: 150px;
+    }
+
+    .visual_text p {
+        font-size: 20px;
     }
 
     .visual_form {
-        bottom: 10%;
-        width: 140px;
-        height: 40px;
-        line-height: 40px;
-        font-size: 17px;
+        width: 250px;
     }
 
+    .visual_form .line {
+        bottom: 25px;
+    }
 
+    .visual_form p {
+        right: 8px;
+        bottom: 35px;
+        font-size: 12px;
+    }
     
     /*search form*/
     
@@ -2390,17 +2458,33 @@
         background-image: url(../img/visual3.jpg);
     }
 
-    .visual_text {
-        width: 100px;
-        height: 125px;
+   .visual_contents {
+        width: 350px;
+        height: 180px;
     }
-    
+
+    .visual_text {
+        width: 160px;
+    }
+
+    .visual_text p {
+        font-size: 30px;
+    }
+
     .visual_form {
-        width: 150px;
-        height: 40px;
-        line-height: 40px;
-        bottom: 25%;
-        font-size: 16px;
+        width: 190px;
+    }
+
+    .visual_form .line {
+        bottom: 25px;
+    }
+
+    .visual_form p {
+        width: 180px;
+        right: 8px;
+        bottom: 35px;
+        font-size: 12px;
+        text-align: center;
     }
 
     /*search form*/
@@ -2930,17 +3014,33 @@
         background-image: url(../img/visual3.jpg);
     }
     
-    .visual_form {
-        width: 130px;
-        height: 30px;
-        line-height: 30px;
-        bottom: 22%;
-        font-size: 14px;
+   .visual_contents {
+        width: 250px;
+        height: 140px;
     }
 
     .visual_text {
-        width: 100px;
-        height: 125px;
+        width: 120px;
+    }
+
+    .visual_text p {
+        font-size: 22px;
+    }
+
+    .visual_form {
+        width: 130px;
+    }
+
+    .visual_form .line {
+        bottom: 25px;
+    }
+
+    .visual_form p {
+        width: 110px;
+        right: 10px;
+        bottom: 35px;
+        font-size: 10px;
+        text-align: center;
     }
     
     /*search form*/

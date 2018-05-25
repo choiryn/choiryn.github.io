@@ -1,0 +1,360 @@
+@import url( "http://fonts.googleapis.com/earlyaccess/notosanskr.css" );
+/*css reset*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ body, html { 
+	width: 100%;
+  }
+
+ ul, li {
+ 	list-style: none;
+ }
+
+ a {
+ 	text-decoration: none;
+ }
+
+ img {
+ 	border: none;
+ }
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 180px;
+    font-family : "Noto Sans KR";
+}
+
+.wrap {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.top_header {
+    width: 100%;
+    height: 40px;
+    background: forestgreen;
+}
+
+.bottom_header {
+    width: 100%;
+    height: 140px;
+}
+
+/*/////////////////////////////////*/
+
+.top_menu { /*top 메뉴모음*/
+    float: left;
+    line-height: 40px;
+}
+
+.top_menu li {
+    float: left;
+    padding-right: 15px;
+}
+
+.top_menu li a {
+    font-size: 14px;
+    color: #f6fcf0;
+    font-family : "Noto Sans KR";
+}
+
+.language { /*언어 선택*/
+    float: right;
+    border: none;
+    background: none;
+    color: #f6fcf0;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.bottom_header > .wrap {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -23.5px;
+    display: inline-block;
+}
+
+#gnb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -70px;
+    margin-left: -370px;
+    width: 850px;
+    height: 100%;
+}
+
+#gnb > ul > li {
+    float: left;
+    width: 14.28%;
+    text-align: center;
+    line-height: 140px;
+    position: relative;
+}
+
+#gnb > ul > li > a {
+    font-size: 18px;
+    color: #444444;
+    font-family : "Noto Sans KR";
+}
+
+.sitemap { /*사이트맵*/
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: url(../img/sitemap.svg) no-repeat;
+    cursor: pointer;
+}
+
+/*depth2*/
+
+.depth2 {
+    position: absolute;
+    width: 1200px;
+    display: none;
+    border-top: 1px solid #efefef;
+    box-sizing: border-box;
+}
+
+.depth2 > .sub_wrap {
+    width: 950px;
+    position: relative;
+    background: #fff;
+}
+
+.depth2 > .sub_wrap > ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.depth2 > .sub_wrap > ul > li {
+    float: left;
+}
+
+.dep_title {
+    width: 250px;
+    height: 100%;
+    background: forestgreen;
+    float: left;
+}
+
+.dep_title p {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+/*sub 위치 조정 & 메뉴 css*/
+
+.sub1 {
+/*    display: block;*/
+    top: 140px;
+    left: -230px;
+    height: 300px;
+}
+
+.sub1 > .sub_wrap {
+    height: 100%;
+    float: left;
+}
+
+.sub1 > .sub_wrap > ul {
+    width: 890px;
+    height: 280px;
+}
+
+
+.sub1 > .sub_wrap > ul > li {
+    width: 155px;
+    height: 50px;
+    margin: 20px;
+    margin-right: 35px;
+    float: left;
+    line-height: 50px;
+}
+
+.sub1 > .sub_wrap > ul > li > a {
+    display: block;
+    color: #666;
+    text-align: left;
+/*    border-bottom: 1px solid #555;*/
+}
+
+.sub1 > .sub_wrap > ul > li > a:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    transform: rotate(45deg);
+    float: right;
+    margin-left: 10px;
+    margin-top: 22px;
+}
+
+.sub2 {
+/*    display: block;*/
+    top: 140px;
+    left: -351px; /*-230*/
+    height: 300px;
+}
+
+.sub2 > .sub_wrap {
+    height: 100%;
+    float: left;
+}
+
+.sub2 > .sub_wrap > ul {
+    width: 890px;
+    height: 280px;
+}
+
+
+.sub2 > .sub_wrap > ul > li {
+    width: 180px;
+    height: 50px;
+    margin: 20px;
+    float: left;
+    line-height: 50px;
+}
+
+.sub2 > .sub_wrap > ul > li > a {
+    display: block;
+    color: #666;
+    text-align: left;
+/*    border-bottom: 1px solid #555;*/
+}
+
+.sub2 > .sub_wrap > ul > li > a:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    transform: rotate(45deg);
+    float: right;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+/*figure*/
+
+#visual {
+    width: 100%;
+    height: 678px;
+}
+
+.main_visual {
+    width: 100%;
+    height: 100%;
+    background: url(../img/main_visual.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*section1*/
+
+#section1 {
+    width: 100%;
+    height: 150px;
+    font-family : "Noto Sans KR";
+}
+
+.sec1_text {
+    width: 300px;
+    height: 100%;
+    background: pink;
+    float: left;
+}
+
+.search_box {
+    width: 600px;
+    height: 100%;
+    float: left;
+}
+
+.search_wrap {
+    margin: 0 auto;
+    width: 450px;
+    height: 50px;
+}
+
+.search {
+    width: 400px;
+    height: 100%;
+    float: left;
+    border: 4px solid #ffa800;
+    box-sizing: border-box;
+}
+
+.search_btn {
+    width: 50px;
+    height: 100%;
+    border: none;
+    background-color: #ffa800;
+    background-image: url(../img/search.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.director_img {
+    width: 300px;
+    height: 100%;
+    background-image: url(../img/han.jpg);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.director_img p {
+    width: 180px;
+    font-size: 15px;
+    color: #5b9b15;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.director_img span {
+    color: #555;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

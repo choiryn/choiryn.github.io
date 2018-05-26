@@ -85,9 +85,9 @@ $(document).ready(function(){
 
 	//window 로드될 때 animation
 
-	$(window).ready(function(){
-		$(".visual_text").animate({"top":"50%","opacity":"1"},2000);
-	});
+	// $(window).ready(function(){
+	// 	$(".visual_text").animate({"top":"50%","opacity":"1"},2000);
+	// });
 
 	//배너 슬라이드
 

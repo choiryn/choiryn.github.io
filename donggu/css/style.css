@@ -268,40 +268,26 @@ header {
     background: url(../img/main_visual.svg) no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-/*section1*/
-
-#section1 {
-    width: 100%;
-    height: 150px;
-    font-family : "Noto Sans KR";
-}
-
-.sec1_text {
-    width: 300px;
-    height: 100%;
-    background: pink;
-    float: left;
-}
-
-.search_box {
-    width: 600px;
-    height: 100%;
-    float: left;
+    position: relative;
 }
 
 .search_wrap {
     margin: 0 auto;
     width: 450px;
     height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 130px;
+    transition: 0.3s;
 }
 
 .search {
     width: 400px;
     height: 100%;
     float: left;
-    border: 4px solid #ffa800;
+    border: 5px solid #ffa800;
+    border-right: none;
     box-sizing: border-box;
 }
 
@@ -317,44 +303,401 @@ header {
     cursor: pointer;
 }
 
-.director_img {
-    width: 300px;
+/*section1*/
+
+#section1 {
+    width: 100%;
+    height: 800px;
+    font-family : "Noto Sans KR";
+    background-color: #fff;
+    /*background-image: url(../img/white_wave.png);*/
+}
+
+.background_title {
+    width: 100%;
+    height: 80px;
+    background: #F7F7F0;
+    position: relative;
+}
+
+.donggu_title_wrap {
+    width: 240px;
+    height: 55px;
+    margin: 0 auto;
+    padding-top: 5px;
+} 
+
+.donggu_title {/*지금 동구는*/ 
+    width: 100%;
     height: 100%;
-    background-image: url(../img/han.jpg);
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
+    background: url(../img/title_donggu.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title_arrow {
+    width: 156px;
+    height: 60px;
+    background: url(../img/title_arrow.svg) no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: -78px;
+    bottom: -60px;
+}
+
+#section1 .wrap {
+    height: 100%;
+    /*background: #f7ebeb;*/
+    margin-top: 100px;
+}
+
+/*tab*/
+
+.tab_wrap {
+    width: 550px;/*반응형 시 변경사항*/
+    height: 300px;
     float: left;
 }
 
-.director_img p {
-    width: 180px;
-    font-size: 15px;
-    color: #5b9b15;
-    font-weight: bold;
-    margin-top: 100px;
-    text-align: center;
+.tab_title_wrap {
+    width: 100%;
+    height: 50px;
 }
 
-.director_img span {
+.tab_title_wrap ul {
+    width: 100%;
+    height: 100%;
+}
+
+.tab_title_wrap ul li {
+    width: 18%;/*ul의 90%를 5로 나눈 사이즈*/
+    height: 100%;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-right: none;
+    background: #f9f9f9;
+}
+
+
+.tab_title_wrap ul li:last-child {
+    width: 10%;/*나머지 10%*/
+    border: 1px solid #f26700;
+    background-image: url(../img/plus.svg);
+    background-color: #f26700;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+    cursor: pointer;
+}
+
+.tab_title_wrap ul li:last-child a {
+    display: none;
+}
+
+.tab_title_wrap ul li a {
+    font-size: 16px;
     color: #555;
+}
+
+.tab_contents {
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+    position: relative;
+    background: #fff;
+}
+
+.tab_element {
+    /*position: absolute;*/
+    /*top: 0;*/
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.element1 {
+    display: block;
+}
+
+.top_element {
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.top_element:after {
+    content: '';
+    display: block;
+    width: 90%;
+    height: 1px;
+    background: transparent;
+    border-top: 1px dashed #ddd;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top_element:before {
+    content: '';
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    float: left;
+    margin-left: 15px;
+    margin-top: 33px;
+    background: url(../img/attachment.svg) no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.top_element ul {
+    width: 450px;/*반응형 시 변경사항*/
+    float: right;
+    padding: 0 30px 0 30px;
+    box-sizing: border-box;
+    margin-top: 18px;/*middle 위치 조절-1*/
+}
+
+.top_element ul li {
+    width: 100%;
+    height: 30px;/*middle 위치 조절-2*/
+}
+
+.top_element ul li a span {
+    font-size: 14px;
+}
+
+.top_element .text {
+    color: #666;
+}
+
+.top_element ul li a:hover .text {
+    text-decoration: underline;
+}
+
+.top_element ul li a:hover .text:before {
+    transform: rotate(35deg);
+}
+
+.text {
+    float: left;
+    width: 70%;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text:before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 1px;
+    transform: rotate(-35deg);
+    background: #ddd;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    transition: 0.3s;
+}
+
+.date {
+    float: right;
+    color: #bcbcbc;
     font-weight: lighter;
 }
 
+.bottom_element ul {
+    padding: 0 30px 0 30px;
+    box-sizing: border-box;
+    margin-top: 24px;
+}
 
+.bottom_element ul li {
+    width: 100%;
+    height: 30px;
+}
 
+.bottom_element ul li a span {
+    font-size: 14px;
+}
 
+.bottom_element .text {
+    color: #777;
+}
 
+.bottom_element ul li a:hover .text {
+    text-decoration: underline;
+}
 
+.bottom_element ul li a:hover .text:before {
+    transform: rotate(35deg);
+}
 
+.tab_element .align {
+    padding: 40px 30px 0 30px;
+    box-sizing: border-box;
+}
 
+.tab_element ul li {
+    height: 30px;
+}
 
+.tab_element ul li a {
+    font-size: 14px;
+    color: #555;
+}
 
+/*pop-up*/
 
+.popup {
+    width: 298px;
+    height: 300px;
+    float: left;
+    margin: 0 30px 0 30px;
+}
 
+.popup_button {
+    width: 100%;
+    height: 50px;
+    background: #84bf37;
+}
 
+.popup_button h3 {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    margin-left: 20px;
+    font-weight: normal;
+    float: left;
+}
 
+.popup_button .button_wrap {
+    margin-top: 10px;
+    float: right;
+}
 
+.button_wrap button {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
 
+.prev {
+    background-image: url(../img/prev.png);
+}
 
+.play {
+    background-image: url(../img/play.png);
+}
 
+.stop {
+    background-image: url(../img/stop.png);
+}
+
+.next {
+    background-image: url(../img/next.png);
+}
+
+.banner_wrap {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.banner_wrap ul {
+    width: 1788px;
+    height: 100%;
+}
+
+.banner_wrap ul li {
+    width: 298px;
+    height: 100%;
+    float: left;
+}
+
+.banner_wrap ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+/*director*/
+
+.director_wrap {
+    float: left;
+    width: 292px;
+    height: 300px;
+/*    background-color: pink;*/
+}
+
+.top_talk, .bottom_talk {
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+.top_talk:before, .bottom_talk:before {
+    display: block;
+    content: '';
+    width: 25px;
+    height: 25px;
+    background: #0090ff;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: -10px;
+    left: 200px;
+    z-index: 1;
+}
+
+.bottom_talk:before {
+    background: #ffc600;
+    left: 70px;
+}
+
+.top_talk {
+    background: #0090ff;
+}
+
+.bottom_talk {
+    background: #ffc600;
+}
+
+.top_talk a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: red;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.director {
+    width: 100%;
+    height: 160px;
+    background: url(../img/han.jpg) no-repeat;
+    background-position: left bottom;
+    background-size: 50%;
+    border: 1px solid #eee;
+    border-top: none;
+}
+
+.director p {
+    float: right;
+    color: #535353;
+    margin-top: 50px;
+}

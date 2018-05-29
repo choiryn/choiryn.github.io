@@ -5,7 +5,8 @@
     <title>대전광역시 동구청</title>
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
     <header id="header">
@@ -323,26 +324,159 @@
         </div>
     </header>
     <figure id="visual">
-        <div class="main_visual"></div>
+        <div class="main_visual">
+            <div class="search_wrap">
+                <input type="search" class="search">
+                <button type="submit" class="search_btn"></button>
+            </div>
+        </div>
     </figure>
     <section id="section1">
+        <div class="background_title">
+            <div class="donggu_title_wrap">
+                <h2 class="donggu_title"></h2>
+            </div>
+            <div class="title_arrow"></div>
+        </div>
         <div class="wrap">
-            <div class="sec1_text">
-                
-            </div>
-            <div class="search_box">
-                <div class="search_wrap">
-                    <input type="search" class="search" placeholder="원하시는 내용을 검색해 주세요.">
-                    <button type="submit" class="search_btn"></button>
+            <article class="tab_wrap">
+                <div class="tab_title_wrap">
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">고시공고</a></li>
+                        <li><a href="#">입법예고</a></li>
+                        <li><a href="#">입찰공고</a></li>
+                        <li><a href="#">채용공고</a></li>
+                        <li><a href="#">더보기</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="director_img">
-                <p><span>안녕하십니까</span><br>동구청장 <span>한현택입니다</span></p>
-            </div>
+                <div class="tab_contents">
+                    <div class="tab_element element1">
+                        <div class="top_element">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span class="text">9월부터 지급되는 아동수당을 아시나요?</span>
+                                        <span class="date">2018-05-16</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="text">2018년 상반기 폐기물 반입실태 특별검사 안내</span>
+                                        <span class="date">2018-05-16</span>
+                                    </a>
+                                </li>
+                              <li>
+                                    <a href="#">
+                                        <span class="text">제7회 전국동시지방선거 거소투표신고 등에 신고절차 및 안내문</span>
+                                        <span class="date">2018-05-13</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="text">에너지도 절감하고 포인트도 받는 2018년 탄소포인트제 운영안내</span>
+                                        <span class="date">2018-04-23</span>
+                                    </a>
+                                </li>
+                            </ul> 
+                        </div> 
+                        <div class="bottom_element">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span class="text">(대구시)남산4-4지구 주택재개발정비사업 보상협의에 따른 공시송달 공고</span>
+                                        <span class="date">2018-05-28</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="text">「대전광역시 동구 통장자녀 장학금 지급조례」일부 개정안 입법예고</span>
+                                        <span class="date">2018-05-13</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>  
+                    </div>
+                    <div class="tab_element">
+                        <ul class="align">
+                            <li>
+                                <a href="#">
+                                    <span class="text">제7회 전국동시지방선거 거소투표신고 등에 신고절차 및 안내문</span>
+                                    <span class="date">2018-05-13</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">제7회 전국동시지방선거 거소투표신고 등에 신고절차 및 안내문</span>
+                                    <span class="date">2018-05-13</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">제7회 전국동시지방선거 거소투표신고 등에 신고절차 및 안내문</span>
+                                    <span class="date">2018-05-13</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">제7회 전국동시지방선거 거소투표신고 등에 신고절차 및 안내문</span>
+                                    <span class="date">2018-05-13</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">제7회 전국동시지방선거 거소투표신고 등에 신고절차 및 안내문</span>
+                                    <span class="date">2018-05-13</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="text">제7회 전국동시지방선거 거소투표신고 등에 신고절차 및 안내문</span>
+                                    <span class="date">2018-05-13</span>
+                                </a>
+                            </li>       
+                        </ul>
+                    </div>
+                    <div class="tab_element"></div>
+                    <div class="tab_element"></div>
+                    <div class="tab_element"></div>
+                </div>
+            </article>
+            <article class="popup">
+                <div class="popup_button">
+                    <h3>팝업존</h3>
+                    <div class="button_wrap">
+                        <button class="prev"></button>
+                        <button class="play"></button>
+                        <button class="stop"></button>
+                        <button class="next"></button>
+                    </div>
+                </div>
+                <figure class="banner_wrap">
+                    <ul class="banner_box">
+                        <li><img src="./img/banner1.png" alt="banner1"></li>
+                        <li><img src="./img/banner2.png" alt="banner2"></li>
+                        <li><img src="./img/banner3.png" alt="banner3"></li>
+                        <li><img src="./img/banner4.png" alt="banner4"></li>
+                        <li><img src="./img/banner5.png" alt="banner5"></li>
+                        <li><img src="./img/banner6.png" alt="banner6"></li>
+                    </ul>
+                </figure>
+            </article>
+            <article class="director_wrap">
+                <div class="top_talk">
+                    <a href="#" class="go">GO</a>
+                </div>
+                <div class="bottom_talk"></div>
+                <div class="director">
+                    <p>안녕하십니까<br>동구청장 한현택입니다.</p>
+                </div>
+            </article>
         </div>
     </section>
 </body>
 </html>
+
 
 
 

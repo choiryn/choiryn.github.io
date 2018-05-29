@@ -1,4 +1,4 @@
-@import url( "http://fonts.googleapis.com/earlyaccess/notosanskr.css" );
+@import url( "https://fonts.googleapis.com/earlyaccess/notosanskr.css" );
 /*css reset*/
 * {
 	margin: 0;
@@ -658,14 +658,23 @@ header {
     background: #0090ff;
     transform: rotate(45deg);
     position: absolute;
-    bottom: -10px;
+    bottom: 10px;
     left: 200px;
     z-index: 1;
+    transition: 0.5s;
 }
 
 .bottom_talk:before {
     background: #ffc600;
     left: 70px;
+}
+
+.top_talk:hover:before {
+    bottom: -10px;
+}
+
+.bottom_talk:hover:before {
+    bottom: -10px;
 }
 
 .top_talk {

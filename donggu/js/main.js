@@ -52,10 +52,5 @@ $(document).ready(function(){
 
 	 // -----------------------------------------------------------------------
 
-	 //날짜 span 추가
 
-	 var month = date.getMonth();+1;
-	 var day = date.getDate();
-
-	 
 });

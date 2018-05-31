@@ -351,6 +351,84 @@ header {
     margin-top: 100px;
 }
 
+.clearfix {
+    width: 100%;
+    height: 330px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*director*/
+
+.director_wrap {
+    float: left;
+    width: 292px;
+    height: 300px;
+    margin: 0 30px 0 30px;
+    box-shadow: 3px 3px 15px rgba(229,229,229,1);
+}
+
+.director_wrap figure {
+    width: 100%;
+    height: 100%;
+    background: pink;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-perspective-origin: 0 50%;
+    -moz-perspective-origin: 0 50%;
+    perspective-origin: 0 50%;
+}
+
+.director_wrap figure figcaption {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    background: #6600ff;
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: rotateY(-90deg);
+    -moz-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.director_wrap figure:hover figcaption {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+}
+
+figcaption::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+}
+
 /*tab*/
 
 /*/////탭 active 속성/////*/
@@ -549,79 +627,75 @@ header {
     height: 100%;
 }
 
-/*director*/
+/*sns*/
 
-.director_wrap {
-    float: left;
-    width: 292px;
-    height: 300px;
-    margin: 0 30px 0 30px;
-    box-shadow: 3px 3px 15px rgba(229,229,229,1);
+.sns_wrap {
+    width: 872px;
+    height: 350px;
+    background: #fff;
 }
 
-.top_talk, .bottom_talk {
+.sns_title {
     width: 100%;
-    height: 70px;
-    position: relative;
+    height: 50px;
 }
 
-.top_talk:before, .bottom_talk:before {
-    display: block;
-    content: '';
+.sns_title div {
+    width: 33.3333%;
+    height: 100%;
+    float: left;
+}
+
+.sns_title > div > span {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+.sns_title > div > a {
+    display: inline-block;
+    float: right;
     width: 25px;
     height: 25px;
-    background: #0090ff;
-    transform: rotate(45deg);
-    position: absolute;
-    bottom: 10px;
-    left: 200px;
-    z-index: 1;
-    transition: 0.5s;
+    margin-right: 15px;
+    margin-top: 13px;
 }
 
-.bottom_talk:before {
-    background: #ffc600;
-    left: 70px;
+.sns_facebook {
+    border-bottom: 1px solid #3b5998;
 }
 
-.top_talk:hover:before {
-    bottom: -10px;
+.sns_twitter {
+    border-bottom: 1px solid #00aced;
 }
 
-.bottom_talk:hover:before {
-    bottom: -10px;
+.sns_naver {
+    border-bottom: 1px solid #3eaf02;
 }
 
-.top_talk {
-    background: #0090ff;
+.sns_facebook span {
+    color: #3b5998;
 }
 
-.bottom_talk {
-    background: #ffc600;
+.sns_twitter span {
+    color: #00aced;
 }
 
-.top_talk a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: red;
-    text-align: center;
-    vertical-align: middle;
+.sns_naver span {
+    color: #3eaf02;
 }
 
-.director {
-    width: 100%;
-    height: 160px;
-    background: url(../img/han.jpg) no-repeat;
-    background-position: left bottom;
-    background-size: 50%;
-    border: 1px solid #eee;
-    border-top: none;
+.sns_facebook a {
+    background: url(../img/sns_fb.svg) no-repeat center;
 }
 
-.director p {
-    float: right;
-    color: #535354;
-    margin-top: 50px;
+.sns_twitter a {
+    background: url(../img/sns_tw.svg) no-repeat center;
+}
+
+.sns_naver a {
+    background: url(../img/sns_nv.svg) no-repeat center;
+    background-size: 100%;
 }

@@ -40,4 +40,22 @@ $(document).ready(function(){
 	});
 
 	// ------------------------------------------------------------------------
+
+	//탭 이벤트
+	 $(".tab_title li").click(function() {
+	 	var tab_index = parseInt($(this).attr("tab-item"));
+	 	$(".tab_title li").removeClass("active");
+	 	$(this).addClass("active");
+	 	$(".tab_element").removeClass("active");
+	 	$(".tab_element").eq(tab_index).addClass("active");
+	 });
+
+	 // -----------------------------------------------------------------------
+
+	 //날짜 span 추가
+
+	 var month = date.getMonth();+1;
+	 var day = date.getDate();
+
+	 
 });

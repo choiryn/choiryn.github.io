@@ -42,15 +42,23 @@ $(document).ready(function(){
 	// ------------------------------------------------------------------------
 
 	//탭 이벤트
-	 $(".tab_title li").click(function() {
-	 	var tab_index = parseInt($(this).attr("tab-item"));
+	$(".tab_title li").click(function() {
+		var tab_index = parseInt($(this).attr("tab-item"));
 	 	$(".tab_title li").removeClass("active");
 	 	$(this).addClass("active");
 	 	$(".tab_element").removeClass("active");
 	 	$(".tab_element").eq(tab_index).addClass("active");
-	 });
+	});
 
 	 // -----------------------------------------------------------------------
 
+	 //서브 메뉴
+	$(".sub_hover").mouseover(function(){
+		$(this).find(".depth2").css("display","block");
+	});
+	$(".sub_hover").mouseout(function(){
+		$(this).find(".depth2").css("display","none");
+	});
 
+	// -----------------------------------------------------------------------
 });

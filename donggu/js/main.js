@@ -1,5 +1,7 @@
 $(document).ready(function(){
+
 	// 배너 슬라이드
+
 	var wd = $(".banner_wrap").width();
 	var cnt = $(".banner_box li").length;
 	var intv = setInterval(function(){ bannerSlide(); }, 3000);
@@ -42,6 +44,7 @@ $(document).ready(function(){
 	// ------------------------------------------------------------------------
 
 	//탭 이벤트
+
 	$(".tab_title li").click(function() {
 		var tab_index = parseInt($(this).attr("tab-item"));
 	 	$(".tab_title li").removeClass("active");
@@ -53,7 +56,9 @@ $(document).ready(function(){
 	 // -----------------------------------------------------------------------
 
 	 //서브 메뉴
+
 	$(".sub_hover").mouseover(function(){
+		$(this).find(".depth2").css("display","block");
 		$(this).find(".depth2").css("display","block");
 	});
 	$(".sub_hover").mouseout(function(){
@@ -61,4 +66,42 @@ $(document).ready(function(){
 	});
 
 	// -----------------------------------------------------------------------
+
+	// slope background 속성 변경
+
+	$(".visual_length .slope:odd").css("background","#f5f5f5");
+
+	// -----------------------------------------------------------------------
+
+	// section2 슬라이드
+
+	var wd = $(".now_visual").width();
+	var indexNum = 0;
+
+	$(".now_btn_box button").click(function(){
+		$(".now_btn_box button").removeClass("active");
+		$(this).addClass("active");
+		indexNum = $(this).attr("data-val");
+		$(".visual_length").not(":animated").animate({"margin-left":indexNum*wd*-1},500);
+	});
+
+	// -----------------------------------------------------------------------
+
+	//모달 
+
+	var $visual_length = $(".visual_length li");
+
+	$visual_length.each(function(){
+		$(this).click(function(){
+			var modal_img = $(this).find("img").attr("src");
+			var modal_text = $(this).find("p").text();
+			$(".modal_box_wrap").slideDown(300);
+			$(".modal_img").attr("src",modal_img);
+			$(".modal_text").text(modal_text);
+		});
+	});
+
+	$(".modal_box_wrap").click(function(){
+		$(this).slideUp(300);
+	})
 });

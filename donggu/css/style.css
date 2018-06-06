@@ -658,7 +658,7 @@ header {
     position: relative;
     width: 70%;
     height: 100%;
-    background: #2282b9;
+    background: #323330;
     opacity: 0.9;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
@@ -886,6 +886,6 @@ figcaption div a:hover {
 
 #section2 {
     width: 100%;
-    height: 500px;
+    height: 800px;
     background: #f4f4f4;
 }

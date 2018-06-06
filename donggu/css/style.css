@@ -889,8 +889,7 @@ figcaption div a:hover {
     width: 100%;
     height: 700px;
     background: url(../img/section2_bg.svg) no-repeat;
-    background-size: contain;
-    font-family : "Noto Sans KR";
+    font-family : "Noto Sans KR";    
 }
 
 /*modal 속성*/
@@ -977,7 +976,7 @@ figcaption div a:hover {
     font-weight: bold;
     color: #1088ff;
     border: 2px solid #1088ff;
-    border-radius: 50%;
+    border-radius: 50% 0 50% 50%;
     box-sizing: border-box;
     background: none;
     cursor: pointer;

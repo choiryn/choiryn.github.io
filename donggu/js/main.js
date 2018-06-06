@@ -67,22 +67,24 @@ $(document).ready(function(){
 
 	// -----------------------------------------------------------------------
 
-	// slope background 속성 변경
+	// nowadays controls
 
-	$(".visual_length .slope:odd").css("background","#f5f5f5");
+	$(".visual_length .slope:odd").css("background","#f5f5f5");/*slope*/ 
+	$(".visual_length li").prepend("<div class='opacity_more'></div>"); /*more box*/
+	$(".opacity_more").append("<p class='opacity_plus'>+</p>")
 
 	// -----------------------------------------------------------------------
 
 	// section2 슬라이드
 
-	var wd = $(".now_visual").width();
+	var now_wd = $(".now_visual").width();
 	var indexNum = 0;
 
 	$(".now_btn_box button").click(function(){
 		$(".now_btn_box button").removeClass("active");
 		$(this).addClass("active");
 		indexNum = $(this).attr("data-val");
-		$(".visual_length").not(":animated").animate({"margin-left":indexNum*wd*-1},500);
+		$(".visual_length").not(":animated").animate({"margin-left":indexNum*now_wd*-1},{duration:2000, easing:"easeOutQuart"});
 	});
 
 	// -----------------------------------------------------------------------
@@ -103,5 +105,8 @@ $(document).ready(function(){
 
 	$(".modal_box_wrap").click(function(){
 		$(this).slideUp(300);
-	})
+	});
+
+	// -----------------------------------------------------------------------
+
 });

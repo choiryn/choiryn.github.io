@@ -16,7 +16,7 @@ $(document).ready(function(){
 	function reverseSlide() {
 		$(".banner_box").css("marginLeft", -wd+"px");
 		$(".banner_box li").eq(cnt-1).prependTo($(".banner_box"));
-		$(".imgBox").not(":animated").animate({"marginLeft":"0px"}, 1000);
+		$(".banner_box").not(":animated").animate({"marginLeft":"0px"}, 1000);
 	}
 
 	$(".prev").click(function(){
@@ -109,4 +109,46 @@ $(document).ready(function(){
 
 	// -----------------------------------------------------------------------
 
+	//section6 banner slide 
+
+	var item_intv = setInterval(function(){ itemSlide(); }, 3000);
+
+	function itemSlide() {
+		var item_wd = $(".item_banner li").eq(0).width();
+
+		$(".item_banner").not(":animated").animate({"marginLeft":-item_wd}, 800, function(){
+			$(".item_banner li").eq(0).appendTo($(".item_banner"));
+			$(".item_banner").css("margin-left","0px");
+		});
+	}
+
+	function itemReverseSlide() {
+		var item_wd = $(".item_banner li").eq(0).width();
+
+		$(".item_banner").css("marginLeft", -item_wd+"px");
+		$(".item_banner li").eq(cnt-1).prependTo($(".item_banner"));
+		$(".item_banner").not(":animated").animate({"marginLeft":"0px"}, 1000);
+	}
+
+	$(".item_prev").click(function(){
+		clearInterval(item_intv);
+		itemReverseSlide();
+		item_intv = setInterval(function(){ itemSlide(); }, 3000);
+	});
+
+	$(".item_next").click(function(){
+		clearInterval(item_intv);
+		itemSlide();
+		item_intv = setInterval(function(){ itemSlide(); }, 3000);
+	});
+
+	$(".item_banner_wrap").mouseover(function(){
+		clearInterval(item_intv);
+		$(".item_banner").clearQueue().stop();
+	});
+
+	$(".item_banner_wrap").mouseout(function(){
+		itemSlide();
+		item_intv = setInterval(function(){ itemSlide(); }, 3000);
+	});
 });

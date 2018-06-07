@@ -1157,8 +1157,21 @@ button.active {
 }
 
 .quick_title {
+    position: relative;
     width: 150px;
     float: left;
+}
+
+.quick_title:after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 80px;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    border-right: 1px dashed #ccc;
+    box-sizing: border-box;
 }
 
 .quick_title h3 {
@@ -1372,10 +1385,135 @@ button.active {
     right: 80px;
 }
 
+/*section5*/
 
+#section5 {
+    width: 100%;
+    height: 400px;
+    background: #3b3b3b;
+    position: relative;
+}
 
+#section5 > .wrap > ul {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    height: 300px;
+}
 
+#section5 > .wrap > ul > li {
+    float: left;
+    margin-right: 85px;
+}
 
+#section5 > .wrap > ul > li:nth-child(6) {
+    margin: 0;
+}
 
+#section5 > .wrap > ul > li > span {
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+} 
 
+#section5 .s5_sub li {
+    margin-bottom: 5px;
+}
+
+#section5 .s5_sub li a {
+    color: rgba(255,255,255,0.8);
+    font-size: 15px;
+}
+
+#section5 .s5_sub li a:hover {
+    color: #e73b2e; 
+}
+
+/*section6*/
+
+#section6 {
+    width: 100%;
+    height: 80px;
+    background: #fefefe;
+}
+
+.item_title {
+    width: 200px;
+    height: 100%;
+    float: left;
+    border-right: 1px dashed #ddd;
+    box-sizing: border-box; 
+}
+
+.item_title h3 {
+    margin-top: 25px;
+    width: 100px;
+    float: left;
+    font-size: 18px;
+    color: #555;
+}
+
+.item_title button {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 5px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.item_prev {
+    background: url(../img/prev.png) no-repeat center;
+    background-size: 15px; 
+}
+
+.item_next {
+    background: url(../img/next.png) no-repeat center;
+    background-size: 15px; 
+}
+
+.item_banner_wrap {
+    width: 1000px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.item_banner {
+    width: 2500px;
+}
+
+.item_banner li {
+    float: left;
+    margin-top: 30px;
+}
+
+.item_banner li:after {
+    content: "|";
+    display: inline-block;
+    color: #d3d3d3;
+}
+
+.item_banner li a {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #4c4c4c;
+}
+
+.item_banner li a:hover {
+    color: #5baa0f;
+}
 

@@ -956,6 +956,7 @@ figcaption div a:hover {
     width: 100%;
     height: 700px;
     background: url(../img/section2_bg.svg) no-repeat;
+    background-size: 102%;
     font-family : "Noto Sans KR";    
 }
 

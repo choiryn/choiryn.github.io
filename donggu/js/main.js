@@ -75,7 +75,7 @@ $(document).ready(function(){
 
 	// -----------------------------------------------------------------------
 
-	// section2 슬라이드
+	// section3 슬라이드
 
 	var now_wd = $(".now_visual").width();
 	var indexNum = 0;

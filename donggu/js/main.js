@@ -151,4 +151,17 @@ $(document).ready(function(){
 		itemSlide();
 		item_intv = setInterval(function(){ itemSlide(); }, 3000);
 	});
+
+	// -----------------------------------------------------------------------
+
+	//page_switch
+
+	$(".page_switch_wrap li").mouseover(function() {
+		$(".page_sub").css("display","none");
+		$(this).find(".page_sub").css("display","block");
+	});
+
+	$(".page_switch_wrap li").mouseout(function() {
+		$(".page_sub").css("display","none");
+	})
 });

@@ -1407,7 +1407,7 @@ button.active {
 
 #section5 > .wrap > ul > li {
     float: left;
-    margin-right: 85px;
+    margin-right: 100px;
 }
 
 #section5 > .wrap > ul > li:nth-child(6) {
@@ -1418,7 +1418,7 @@ button.active {
     display: block;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: #fff;
     border-bottom: 1px solid rgba(255,255,255,0.5);
@@ -1431,7 +1431,7 @@ button.active {
 
 #section5 .s5_sub li a {
     color: rgba(255,255,255,0.8);
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #section5 .s5_sub li a:hover {
@@ -1455,10 +1455,10 @@ button.active {
 }
 
 .item_title h3 {
-    margin-top: 25px;
+    margin-top: 30px;
     width: 100px;
     float: left;
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
 }
 
@@ -1505,7 +1505,7 @@ button.active {
 }
 
 .item_banner li a {
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 20px;
     padding-right: 20px;
     color: #fff;
@@ -1619,7 +1619,7 @@ button.active {
 
 .donggu_inf li a {
     color: #444;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .donggu_inf li .color {
@@ -1629,4 +1629,5 @@ button.active {
 .donggu_inf p {
     clear: both;
     color: #444;
+    font-size: 15px;
 }

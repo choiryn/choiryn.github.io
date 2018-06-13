@@ -202,10 +202,10 @@ $(document).ready(function(){
 	var scrollHt = $(window).height();
     $(window).on("mousewheel", function(e){//마우스휠은 독립 이벤트는 안됨(on을 이용하여 종합 이벤트를 해줘야 함.)
         if(e.originalEvent.wheelDelta < 0) {//휠이 -1이면 밑으로 내리는 것.
-            $("html, body").not(":animated").animate({scrollTop:"+="+scrollHt/1.5+"px"},{duration:700,easing:"easeOutExpo"});
+            $("html, body").not(":animated").animate({scrollTop:"+="+scrollHt/1.1+"px"},{duration:1800,easing:"easeOutExpo"});
         }
         else {
-            $("html, body").not(":animated").animate({scrollTop:"-="+scrollHt/1.5+"px"},{duration:700,easing:"easeOutExpo"});
+            $("html, body").not(":animated").animate({scrollTop:"-="+scrollHt/1.1+"px"},{duration:1800,easing:"easeOutExpo"});
         }
         return false;
     });

@@ -163,5 +163,39 @@ $(document).ready(function(){
 
 	$(".page_switch_wrap li").mouseout(function() {
 		$(".page_sub").css("display","none");
-	})
+	});
+
+	// -----------------------------------------------------------------------
+
+	//aside 
+
+    $(".skipBtn .aside_btn").click(function(){
+       var ht = parseInt($(this).attr("data-ht")); 
+       $("html, body").not(":animated").animate({"scrollTop":ht+"px"}, {duration:1000, easing:"easeOutQuart"});
+    });
+    
+    
+    $(window).scroll(function(){
+        var ht2 = $(window).scrollTop();
+
+        $(".skipBtn div").removeClass("active");
+        if(ht2<858){
+            $(".skipBtn div").eq(0).addClass("active");
+        }
+        else if(ht2<1058){
+            $(".skipBtn div").eq(1).addClass("active");
+        }
+        else if(ht2<1858){
+            $(".skipBtn div").eq(2).addClass("active");
+        }
+        else if(ht2<2558){
+            $(".skipBtn div").eq(3).addClass("active");
+        }
+        else if(ht2<3364){
+            $(".skipBtn div").eq(4).addClass("active");
+        }
+        else {
+            $(".skipBtn div").eq(5).addClass("active");
+        }
+    });		
 });

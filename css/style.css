@@ -54,12 +54,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-body,html {
-	/*background: #f5fcff;*/
-	background: #fffdfa;
-	/*#5141d6*/
-	opacity: 1;
+a:link,a:visited,a:hover,a:active{
+	text-decoration:none;
+}
+a,button,input[type='submit'],input[type='button'],input[type='reset'] {
+	border: 0;
+	background: transparent;
+	cursor:pointer;
+	text-align:center;
 }
 
 /*global*/
@@ -68,9 +70,10 @@ body,html {
 	visibility: hidden;
 }
 
-/*layout*/
+/*intro*/
 
 #intro {
+	position: relative;
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
@@ -89,4 +92,41 @@ body,html {
 	top: 0;
 	right: 0;
 	width: 36%;
+}
+
+#center_box {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+}
+
+#center_box a {
+	position: relative;
+	font-size: 40px;
+	color: #013dfd;
+	cursor: pointer;
+}
+
+#center_box a:before {
+	content: "";
+	display: inline-block;
+	width: 0px;
+	height: 16px;
+	position: absolute;
+	bottom: 21px;
+	left: -10px;
+	background: #FDB801;
+	transition: 0.3s;
+	z-index: -1;
+}
+
+#center_box a:hover:before {
+	width: 145px;
 }

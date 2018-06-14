@@ -24,5 +24,50 @@ $(document).ready(function(){
 		duration: 3000,
 		loop: true
 	});
+    
+    //intro number event
+    
+    var $randomnbr = $('.nbr');
+    var $timer = 40;
+    var $it;
+    var $data = 0;
+    var index;
+    var change;
+    var letters = ["H", "o", "l", "a", "!"];
+    
+    $randomnbr.each(function() {
+        change = Math.round(Math.random()*30);
+        $(this).attr('data-change', change);
+    });
+    
+    function random() {
+        return Math.round(Math.random()*9);
+    };
+    
+    function select() {
+        return Math.round(Math.random()*$randomnbr.length+1);
+    };
+    
+    function value() {
+        $('.nbr:nth-child('+select()+')').html(''+random()+'');
+        $('.nbr:nth-child('+select()+')').attr('data-number', $data);
+        $data++;
+        
+        $randomnbr.each(function() {
+           if(parseInt($(this).attr('data-number')) > parseInt($(this).attr('data-change'))) {
+               index = $('.ltr').index(this);
+               $(this).html(letters[index]);
+               $(this).removeClass('nbr');
+           } 
+        });
+    };
+    
+    $it = setInterval(value, $timer);
+    
+//    //center_box p event
+//    
+//    $(".anim").
+    
+    
 });
 

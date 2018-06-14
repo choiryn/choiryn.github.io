@@ -62,6 +62,7 @@ $(document).ready(function(){
         });
     };
     
+    $it = setInterval(value, $timer);    
 
     //anim animation
 

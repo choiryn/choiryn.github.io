@@ -33,7 +33,7 @@ $(document).ready(function(){
     var $data = 0;
     var index;
     var change;
-    var letters = ["H", "o", "l", "a", "!"];
+    var letters = ["h", "o", "l", "a", "!"];
     
     $randomnbr.each(function() {
         change = Math.round(Math.random()*30);
@@ -62,12 +62,10 @@ $(document).ready(function(){
         });
     };
     
-    $it = setInterval(value, $timer);
-    
-//    //center_box p event
-//    
-//    $(".anim").
-    
-    
+
+    //anim animation
+
+    $(".anim").delay(1000).animate({"bottom":"10px"},400);
 });
+
 

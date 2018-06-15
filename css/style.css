@@ -1,13 +1,5 @@
 @charset "UTF-8";
-@font-face {
-  font-family: Mont-Heavy;
-  src: url(../font/Mont-Heavy.otf);
-}
-@font-face {
-  font-family: Mont-ExtraLight;
-  src: url(../font/Mont-ExtraLight.otf);
-}
-/*@import url('https://fonts.googleapis.com/css?family=Poppins');*/
+
 /*css reset*/
 
 html, body, div, span, applet, object, iframe,
@@ -28,7 +20,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: 'Poppins', sans-serif;
+	font-family: GothamBold;
+	/*font-family: 'Poppins', sans-serif;*/
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -65,146 +58,112 @@ a,button,input[type='submit'],input[type='button'],input[type='reset'] {
 
 /*global*/
 
-.hidden {
-	visibility: hidden;
+body {
+	background: #020202;
 }
 
-/*intro*/
-
-#intro {
-	position: relative;
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-	background: #013dfd;
-}
-
-#left_wave {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 52%;
-}
-
-#right_wave{
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 36%;
-}
-
-#center_box {
+#constellation_box {
+	width: 50%;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	z-index: 100;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 
-#center_box .random {
-    padding-bottom: 20px;
+.star line {
+	stroke: #2883e3;
 }
 
-#center_box .random span {
-    font-size: 200px;
-    font-weight: 600;
-    color: #fffdfa;
-    margin: 0;
-    padding: 0;
+polygon {
+	fill: #3a58ed;
 }
 
-.anim_box {
-    position: relative;
-    width: 400px;
-    height: 40px;
-    margin: 0 auto;
-    margin-bottom: 130px;
-    overflow: hidden;
-    background: transparent;
+.line {
+	stroke: #fff;
+	stroke-width: 1.5;
 }
 
-.anim_box .anim {
-    position: absolute;
-    left: 0;
-    bottom: -40px;
-    text-align: center;
-    font-size: 28px;
-    font-weight: lighter;
-    color: #fffdfa;
+.line1 {
+	stroke-dasharray: 100;
+	stroke-dashoffset: 100;
 }
 
-#center_box a {
-    padding: 5px 20px 5px 20px;
-	font-size: 30px;
-	font-weight: 100;
-	color: #fffdfa;
-	cursor: pointer;
-    border: 1px solid #fffdfa;
+.line2 {
+	stroke-dasharray: 110;
+	stroke-dashoffset: 110;
 }
 
-#center_box a:hover {
-    color: #fff;
-    font-weight: 400;
-    background: #67D116;
-    border: 2px solid #67D116;
+.line3 {
+	stroke-dasharray: 200;
+	stroke-dashoffset: 200;
 }
 
-.loader{
-  position: fixed;
-  width:100%;
-  height:100%;
-  top:0;
-  left:0; 
-  opacity: 1;
-  z-index:99;
-  width:100%;
-  height:100%;
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  -webkit-transition-property:  all;
-  transition-property: all; 
-  -moz-transition-duration: 2s;
-  -o-transition-duration: 2s;
-  -webkit-transition-duration: 2s;
-  transition-duration: 2s;
-  transition-timing-function: cubic-bezier(.645,.045,.355,1);
+.line4 {
+	stroke-dasharray: 200;
+	stroke-dashoffset: 200;
 }
-.loader .svg-wrap,
-.loader .circle{
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  -moz-transition-duration: 2s;
-  -o-transition-duration: 2s;
-  -webkit-transition-duration: 2s;
-  transition-duration: 2s;
-  transition-timing-function: cubic-bezier(.645,.045,.355,1);
+
+.line5 {
+	stroke-dasharray: 100;
+	stroke-dashoffset: 100;
 }
-.loader .circle{
-  cx:50%;
-  cy:50%;
-  -webkit-transition-property:  all;
-  transition-property: all; 
+
+.line6 {
+	stroke-dasharray: 150;
+	stroke-dashoffset: 150;
 }
-.loader.end{
-  z-index:-1;
+
+.line7 {
+	stroke-dasharray: 200;
+	stroke-dashoffset: 200;
 }
-.loader.end .circle{
-  r:0;
+
+.line8 {
+	stroke-dasharray: 130;
+	stroke-dashoffset: 130;
 }
-.loader.end .svg-wrap{
-  -ms-transform: scale(0,0);
+
+.line9 {
+	stroke-dasharray: 60;
+	stroke-dashoffset: 60;
 }
-.loader.exit{
-  z-index:100;
+
+.line10 {
+	stroke-dasharray: 180;
+	stroke-dashoffset: 180;
 }
-.loader.exit .circle{
-  r:100%;
+
+.line11 {
+	stroke-dasharray: 100;
+	stroke-dashoffset: 100;
 }
-.loader.exit .svg-wrap{
-  -ms-transform: scale(1,1);
+
+.line12 {
+	stroke-dasharray: 50;
+	stroke-dashoffset: 50;
+}
+
+.line13 {
+	stroke-dasharray: 60;
+	stroke-dashoffset: 60;
+}
+
+.line14 {
+	stroke-dasharray: 60;
+	stroke-dashoffset: 60;
+}
+
+.line15 {
+	stroke-dasharray: 50;
+	stroke-dashoffset: 50;
+}
+
+.line16 {
+	stroke-dasharray: 60;
+	stroke-dashoffset: 60;
+}
+
+.line17 {
+	stroke-dasharray: 80;
+	stroke-dashoffset: 80;
 }

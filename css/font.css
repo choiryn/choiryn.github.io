@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: GothamBold;
+  src: url(../font/GothamBold.eot);
+}
+@font-face {
+  font-family: GothamBold;
+  src: url(../font/GothamBold.fft);
+}
+@font-face {
+  font-family: GothamBold;
+  src: url(../font/GothamBold.woff);
+}
+@font-face {
+  font-family: GothamMedium;
+  src: url(../font/GothamMedium.eot);
+}
+@font-face {
+  font-family: GothamMedium;
+  src: url(../font/GothamMedium.fft);
+}
+@font-face {
+  font-family: GothamLight;
+  src: url(../font/GothamLight.woff);
+}
+@font-face {
+  font-family: GothamLight;
+  src: url(../font/GothamLight.eot);
+}
+@font-face {
+  font-family: GothamLight;
+  src: url(../font/GothamBold.fft);
+}
+@font-face {
+  font-family: GothamLight;
+  src: url(../font/GothamBold.woff);
+}

@@ -20,8 +20,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: GothamBold;
-	/*font-family: 'Poppins', sans-serif;*/
+	font-family: PlayfairDisplay-Black;
+	font-family: PlayfairDisplay-Regular;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -58,9 +59,49 @@ a,button,input[type='submit'],input[type='button'],input[type='reset'] {
 
 /*global*/
 
-body {
+.all_wrap {
+	display: block;
+}
+
+.intro {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
 	background: #020202;
 }
+
+.hidden {
+	display: none;
+}
+/*/////*/
+
+.intro_text_box {
+	position: absolute;
+	top: 50%;
+	left: 200px;
+	margin-top: -60px;
+	z-index: 100;
+}
+
+.intro_text_box > div {
+	position: relative;
+	width: 700px;
+	height: 60px;
+	overflow: hidden;
+}
+
+.intro_text {
+	position: absolute;
+	left: 0;
+	bottom: -60px;
+	color: #fff;
+	opacity: 0;
+	font-size: 45px;
+	font-family: PlayfairDisplay-Bold;
+
+}
+
+/*svg box 위치*/
 
 #constellation_box {
 	width: 50%;
@@ -68,15 +109,13 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
 }
 
-.star line {
-	stroke: #2883e3;
-}
-
-polygon {
-	fill: #3a58ed;
-}
+/*svg line element*/
 
 .line {
 	stroke: #fff;
@@ -167,3 +206,62 @@ polygon {
 	stroke-dasharray: 80;
 	stroke-dashoffset: 80;
 }
+
+/*circle, polygon - 로딩 시 opacity 1*/
+
+.display {
+	opacity: 0;
+	animation: visible 3s forwards;
+}
+
+@keyframes visible {
+	to {
+		opacity: 1;
+	}
+}
+
+/*a link*/
+
+.link {
+	display: block;
+	width: 4em;
+	height: 4em;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	color: rgba(255,255,255,0);
+	font-size: 1em;
+	font-family: PlayfairDisplay-Italic;
+	animation: link 0.5s forwards;
+	animation-delay: 1s;
+}
+
+@keyframes link {
+	to {
+		color: rgba(255,255,255,0.8);
+	}
+}
+
+.link:after {
+	content: '';
+	/*display: block;*/
+	width: 0.8px;
+	height: 0rem;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	background: rgba(255,255,255,0.8);
+	animation: linkLine 1s forwards;
+}
+
+@keyframes linkLine {
+	to {
+		height: 2rem;
+	}
+}
+

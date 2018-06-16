@@ -11,11 +11,13 @@ $(document).ready(function(){
 		else {
 			clearInterval(constellation);
 		}
-	}, 400);
+	}, 300);
 
 	function strokeAni(a) {
-		$("#constellation_box .line").eq(a).delay(2000).animate({"stroke-dashoffset":"0"},700);
+		$("#constellation_box .line").eq(a).delay(2000).animate({"stroke-dashoffset":"0"},400);
 	}
+
+	$(".intro_text").delay(7300).animate({"bottom":"10px","opacity":"1"},1500);
 });
 
 

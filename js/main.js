@@ -5,12 +5,11 @@ $(document).ready(function(){
 	$(".link").on("click", function(e){
 		e.preventDefault();
 		var link_location = $(this).attr("href");
-		var link_target = $(this).attr("data-link");
 
 		$(".loading").removeClass("out");
 		setTimeout(function(){
 			window.location = link_location;
-		},1800);
+		},2000);
 	});
 
 	//line animation
@@ -36,7 +35,7 @@ $(document).ready(function(){
 
 	function afterAni()
 	 {
-		$("#constellation_box .line").animate({"opacity":"0.1"},2000);
+		$("#constellation_box .line").animate({"opacity":"0.2"},2000);
 
 		$(".intro_text").animate({"bottom":"10px","opacity":"1"},1500);
 	}

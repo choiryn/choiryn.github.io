@@ -214,11 +214,16 @@
 	left: 50%;
 	background: rgba(255,255,255,1);
 	animation: moreLine 1.5s forwards;
+	-moz-animation: moreLine 1.5s forwards;
+	-webkit-animation: moreLine 1.5s forwards;
+	-o-animation: moreLine 1.5s forwards;
+	-ms-animation: moreLine 1.5s forwards;
 }
 
-@keyframes moreLine {
-	to { height: 2.5rem; }
-}
+@keyframes moreLine { to { height: 2.5rem; } }
+@-webkit-keyframes moreLine { to { height: 2.5rem; } }
+@-moz-keyframes moreLine { to { height: 2.5rem; } }
+@-o-keyframes moreLine { to { height: 2.5rem; } }
 
 /*meteor animation*/
 

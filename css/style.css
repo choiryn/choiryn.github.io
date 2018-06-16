@@ -18,14 +18,31 @@
 	display: none;
 }
 
-/*---------*/
+/*loading*/
+
+.loading {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 100;
+	background: red;
+}
+
+.loading.out {
+	display: none;
+}
+
+/*intro*/
 
 .intro_text_box {
 	position: absolute;
 	top: 50%;
 	left: 10%;
 	margin-top: -60px;
-	z-index: 100;
+	z-index: 50;
 }
 
 .intro_text_box > div {
@@ -91,7 +108,7 @@
 
 /*a link*/
 
-.link {
+.see_more {
 	display: block;
 	position: absolute;
 	bottom: 0;
@@ -106,15 +123,15 @@
 	color: rgba(255,255,255,0);
 	font-size: 1rem;
 	font-family: PlayfairDisplay-Italic;
-	animation: link 0.5s forwards;
+	animation: seeMore 0.5s forwards;
 	animation-delay: 1s;
 }
 
-@keyframes link {
+@keyframes seeMore {
 	to { color: rgba(255,255,255,0.8); }
 }
 
-.link:after {
+.see_more:after {
 	content: '';
 	width: 0.8px;
 	height: 0rem;
@@ -122,10 +139,10 @@
 	bottom: 0;
 	left: 50%;
 	background: rgba(255,255,255,0.8);
-	animation: linkLine 1s forwards;
+	animation: moreLine 1s forwards;
 }
 
-@keyframes linkLine {
+@keyframes moreLine {
 	to { height: 2.5rem; }
 }
 
@@ -146,10 +163,10 @@
 	to { top: 50%; right: 50%; opacity: 0; }
 }
 
-.star1 {
+.star {
 	position: absolute;
-	top: 35%;
-	right: 16%;
+	top: 40%;
+	right: 10%;
 	width: 80px;
 	height: 80px;
 	background: url(../img/star.svg) no-repeat center;
@@ -164,21 +181,4 @@
 	100% { opacity: 0.5; background-size: 50%; }
 }
 
-.star2 {
-	position: absolute;
-	top: 35%;
-	right: 13%;
-	width: 70px;
-	height: 70px;
-	opacity: 0.6;
-	background: url(../img/star.svg) no-repeat center;
-}
-
-.star3 {
-	position: absolute;
-	top: 35%;
-	right: 10%;
-	width: 50px;
-	height: 50px;
-	background: url(../img/star.svg) no-repeat center;
-}
+/*-----------------intro-------------------*/

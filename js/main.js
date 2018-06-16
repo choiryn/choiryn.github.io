@@ -1,5 +1,18 @@
 $(document).ready(function(){
 
+	//loading
+
+	$(".link").on("click", function(e){
+		e.preventDefault();
+		var link_location = $(this).attr("href");
+		var link_target = $(this).attr("data-link");
+
+		$(".loading").removeClass("out");
+		setTimeout(function(){
+			window.location = link_location;
+		},1800);
+	});
+
 	//line animation
 
 	var num = 0;
@@ -13,6 +26,8 @@ $(document).ready(function(){
 		}
 	}, 200);
 
+	// text, line opacity
+
 	setTimeout( function() { afterAni(); }, 5200 );
 
 	function strokeAni(a) {
@@ -25,8 +40,6 @@ $(document).ready(function(){
 
 		$(".intro_text").animate({"bottom":"10px","opacity":"1"},1500);
 	}
-
-	
 });
 
 

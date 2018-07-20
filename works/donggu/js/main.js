@@ -97,14 +97,14 @@ $(document).ready(function(){
 		$(this).click(function(){
 			var modal_img = $(this).find("img").attr("src");
 			var modal_text = $(this).find("p").text();
-			$(".modal_box_wrap").slideDown(300);
+			$(".modal_box_wrap").fadeIn(300);
 			$(".modal_img").attr("src",modal_img);
 			$(".modal_text").text(modal_text);
 		});
 	});
 
 	$(".modal_box_wrap").click(function(){
-		$(this).slideUp(300);
+		$(this).fadeOut(300);
 	});
 
 	// -----------------------------------------------------------------------

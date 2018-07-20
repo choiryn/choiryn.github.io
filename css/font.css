@@ -21,6 +21,7 @@
        url('../font/PlayfairDisplay-Italic.eot');
 }
 
+
 @font-face {
   font-family: PlayfairDisplay-Regular;
   src: url('../font/PlayfairDisplay-Regular.ttf'),
@@ -28,3 +29,31 @@
        url('../font/PlayfairDisplay-Regular.eot');
 }
 
+
+@font-face {
+  font-family: 'Spoqa Han Sans Bold';
+  src: url('../font/Spoqa Han Sans Bold.ttf'),
+       url('../font/Spoqa Han Sans Bold.woff'),
+       url('../font/Spoqa Han Sans Bold.eot');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Light';
+  src: url('../font/Spoqa Han Sans Light.ttf'),
+       url('../font/Spoqa Han Sans Light.woff'),
+       url('../font/Spoqa Han Sans Light.eot');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Thin';
+  src: url('../font/Spoqa Han Sans Thin.ttf'),
+       url('../font/Spoqa Han Sans Thin.woff'),
+       url('../font/Spoqa Han Sans Thin.eot');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Regular';
+  src: url('../font/Spoqa Han Sans Regular.ttf'),
+       url('../font/Spoqa Han Sans Regular.woff'),
+       url('../font/Spoqa Han Sans Regular.eot');
+}

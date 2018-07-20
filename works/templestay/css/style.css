@@ -51,12 +51,12 @@ header {
  }
 
  .hd_right li a {
- 	color: rgba(255,255,255,0.8);
  	display: block;
  	width: 100px;
  	height: 100%;
  	text-align: center;
  	line-height: 50px;
+ 	color: rgba(255,255,255,0.8);
  	border-left: 1px solid #fff;
  	font-size: 15px;
  	font-family: 'Noto Sans KR', sans-serif;
@@ -100,7 +100,7 @@ header {
  }
 
  #gnb .main_menu {
- 	padding-top: 36px;
+ 	padding-top: 40px;
  }
 
  #gnb li:hover .sub {
@@ -126,7 +126,7 @@ header {
  	height: 6px;
  	width: 0px;
  	display: block;
- 	margin: 28px auto;
+ 	margin: 32px auto;
  	transition: 0.3s;
 
  }
@@ -142,7 +142,7 @@ header {
 
  #gnb .sub {
  	position: absolute;
- 	top: 91px;
+ 	top: 101px;
  	left: 0;
  	width: 99.6%;
  	height: 200px;
@@ -177,7 +177,7 @@ header {
 	background: #fff;
 	height: 200px;
 	position:absolute;
-	top: 90px;
+	top: 100px;
 	left: 0;
 	display:none;
 	z-index: 100;

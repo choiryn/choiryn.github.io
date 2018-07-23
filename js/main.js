@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
 	//loading
 
@@ -35,9 +35,9 @@ $(document).ready(function(){
 
 	function afterAni()
 	 {
-		$("#constellation_box .line").animate({"opacity":"0.2"},2000);
+		$("#constellation_box .line").animate({"opacity":"0.2"},1800);
 
-		$(".intro_text").animate({"bottom":"10px","opacity":"1"},1500);
+		$(".intro_text").animate({"bottom":"10px","opacity":"1"},1200);
 	}
 });
 

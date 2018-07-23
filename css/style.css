@@ -188,9 +188,7 @@
 	height: 100vh;
 	overflow: hidden;
     background: #000000; 
-    background: -moz-linear-gradient(top, #000000 0%, #0f0b19 100%); 
-    background: linear-gradient(to bottom, #000000 0%,#0f0b19 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0f0b19',GradientType=0 );
+
 }
 
 .intro_text_box {
@@ -214,7 +212,7 @@
 	bottom: -60px;
 	color: #fff;
 	opacity: 0;
-	font-size: 45px;
+	font-size: 50px;
 	font-family: PlayfairDisplay-Black;
 }
 
@@ -318,24 +316,6 @@
 
 @keyframes meteor {
 	to { top: 50%; right: 50%; opacity: 0; } }
-
-.star {
-	position: absolute;
-	top: 40%;
-	right: 10%;
-	width: 80px;
-	height: 80px;
-	background: url(../img/star.svg) no-repeat center;
-	background-size: 50%;
-	opacity: 0.5;
-	animation: starshine 2s infinite;
-}
-
-@keyframes starshine {
-	0% { opacity: 0.5; background-size: 50%; }
-	50% { opacity: 1; background-size: 58%;	}
-	100% { opacity: 0.5; background-size: 50%; }
-}
 
 /*home*/
 

@@ -334,8 +334,8 @@
 .random_move2 { top: 35%; left: 50%; width: 3px; height: 3px; }
 .random_move3 { top: 10%; left: 80%; width: 3px; height: 3px; }
 .random_move4 { top: 40%; left: 60%; width: 2px; height: 2px; }
-.random_move5 { top: 40%; left: 90%; width: 1px; height: 2px; }
-.random_move6 { top: 90%; left: 30%; width: 3px; height: 3px; }
+.random_move5 { top: 40%; left: 90%; width: 5px; height: 5px; filter: blur(1.3px); }
+.random_move6 { top: 90%; left: 30%; width: 5px; height: 5px; filter: blur(1.3px); }
 .random_move7 { top: 80%; left: 66%; width: 3px; height: 3px; }
 .random_move8 { top: 78%; left: 88%; width: 3px; height: 3px; }
 

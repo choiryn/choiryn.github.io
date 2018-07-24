@@ -187,7 +187,7 @@
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
-    background: #000000;
+    background: #130c49;
 }
 
 .intro_text_box {
@@ -218,6 +218,12 @@
 	text-align: center;
 	font-size: 40px;
 	font-family: PlayfairDisplay-Black;
+	animation: textUp 0.7s forwards ease-out;
+	animation-delay: 5.2s;
+}
+
+@keyframes textUp {
+	100% {bottom: 10px; opacity: 1;}
 }
 
 #constellation_box {
@@ -245,6 +251,15 @@
 @keyframes circleAni {
 	25% {stroke-dashoffset: 0;}
 	100% {stroke-dashoffset: 0; fill-opacity: 1;}
+}
+
+.opc1 {
+	animation: opacity 2s infinite;
+	animation-delay: 5s;
+}
+
+@keyframes opacity {
+	100% {fill: yellow;}
 }
 
 /*svg line element*/

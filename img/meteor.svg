@@ -1,11 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="0 0 141 85" enable-background="new 0 0 141 85" xml:space="preserve">
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="247.0745" y1="-691.7921" x2="329.2195" y2="-691.7921" gradientTransform="matrix(0.887 -0.4617 0.4617 0.887 125.3213 793.1805)">
-	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.9"/>
-	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	 y="0px" width="370px" height="127px" viewBox="0 0 370 127" enable-background="new 0 0 370 127" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-26.4004" y1="63.5249" x2="323.9873" y2="63.5249">
+	<stop  offset="0" style="stop-color:#469BDA"/>
+	<stop  offset="0.2995" style="stop-color:#578AE3;stop-opacity:0.7005"/>
+	<stop  offset="0.893" style="stop-color:#825DFA;stop-opacity:0.107"/>
+	<stop  offset="1" style="stop-color:#8B54FF;stop-opacity:0"/>
 </linearGradient>
-<path fill="url(#SVGID_1_)" d="M96.5,30.5L28.6,66.6c-1.3,0.7-2.9,0.2-3.5-1.1h0c-0.7-1.3-0.2-2.9,1.1-3.5l68.5-35
-	c1.3-0.7,2.6-0.7,3.2,0.6l0,0C98.6,28.8,97.8,29.9,96.5,30.5z"/>
+<path fill="url(#SVGID_1_)" d="M270.75,78.442h83.147c1.566-3.427,2.534-7.196,2.767-11.167H296.25c-2.071,0-3.75-1.679-3.75-3.75
+	s1.679-3.75,3.75-3.75h60.341c-0.353-3.954-1.442-7.646-3.132-10.967H282.75c-2.071,0-3.75-1.679-3.75-3.75s1.679-3.75,3.75-3.75
+	h65.271C342.265,35.513,334.14,32,325.127,32L37.872,31C20.422,31,6.276,45.146,6.276,62.596v2.809
+	C6.276,82.854,20.422,97,37.872,96h287.255c9.562,0.548,18.125-3.458,23.919-10.058H270.75c-2.071,0-3.75-1.679-3.75-3.75
+	S268.679,78.442,270.75,78.442z M266.39,63.525c0-1.885,1.528-3.413,3.414-3.413h10.726c1.885,0,3.414,1.528,3.414,3.413
+	c0,1.884-1.528,3.413-3.414,3.413h-10.726C267.918,66.938,266.39,65.409,266.39,63.525z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-14.9795" y1="64" x2="215.6377" y2="64">
+	<stop  offset="0" style="stop-color:#5BBDEC"/>
+	<stop  offset="0.2577" style="stop-color:#59BAEA;stop-opacity:0.7423"/>
+	<stop  offset="0.4475" style="stop-color:#54B1E4;stop-opacity:0.5525"/>
+	<stop  offset="0.6156" style="stop-color:#4BA1D9;stop-opacity:0.3844"/>
+	<stop  offset="0.7711" style="stop-color:#3F8ACA;stop-opacity:0.2289"/>
+	<stop  offset="0.9166" style="stop-color:#2F6DB7;stop-opacity:0.0834"/>
+	<stop  offset="1" style="stop-color:#2459AA;stop-opacity:0"/>
+</linearGradient>
+<path fill="url(#SVGID_2_)" d="M39.872,92.085c-14.711,0-26.681-11.969-26.681-26.681v-2.809c0-14.712,11.969-26.681,26.681-26.681
+	l177.255,2c14.712,0,26.681,9.969,26.681,24.681v2.809c0,14.712-11.969,24.681-26.681,24.681L39.872,92.085z"/>
+<g>
+	<g>
+		<circle fill="#FF0000" cx="43.277" cy="64" r="22.468"/>
+		<circle fill="#FF0100" cx="43.277" cy="64" r="22.368"/>
+		<circle fill="#FF0200" cx="43.277" cy="64" r="22.269"/>
+		<circle fill="#FF0300" cx="43.277" cy="64" r="22.169"/>
+		<circle fill="#FF0400" cx="43.277" cy="64" r="22.07"/>
+		<circle fill="#FF0500" cx="43.277" cy="64" r="21.969"/>
+		<circle fill="#FF0600" cx="43.277" cy="64" r="21.87"/>
+		<circle fill="#FF0700" cx="43.277" cy="64" r="21.77"/>
+		<circle fill="#FF0800" cx="43.277" cy="64" r="21.671"/>
+		<circle fill="#FF0900" cx="43.277" cy="64" r="21.571"/>
+		<circle fill="#FF0A00" cx="43.277" cy="64" r="21.471"/>
+		<circle fill="#FF0B00" cx="43.277" cy="64" r="21.372"/>
+		<circle fill="#FF0C00" cx="43.277" cy="64" r="21.272"/>
+		<circle fill="#FF0D00" cx="43.276" cy="64" r="21.172"/>
+		<circle fill="#FF0E00" cx="43.277" cy="64" r="21.073"/>
+		<circle fill="#FF0F00" cx="43.277" cy="64" r="20.973"/>
+		<circle fill="#FF1000" cx="43.277" cy="64" r="20.873"/>
+		<circle fill="#FF1100" cx="43.277" cy="64" r="20.774"/>
+		<circle fill="#FF1200" cx="43.277" cy="64" r="20.674"/>
+		<circle fill="#FF1300" cx="43.277" cy="64" r="20.574"/>
+		<circle fill="#FF1400" cx="43.277" cy="64" r="20.475"/>
+		<circle fill="#FF1500" cx="43.276" cy="64" r="20.375"/>
+		<circle fill="#FF1600" cx="43.276" cy="64" r="20.275"/>
+		<circle fill="#FF1700" cx="43.277" cy="64" r="20.176"/>
+		<circle fill="#FF1800" cx="43.277" cy="64" r="20.076"/>
+		<circle fill="#FF1900" cx="43.277" cy="64" r="19.976"/>
+		<circle fill="#FF1A00" cx="43.277" cy="64" r="19.877"/>
+		<circle fill="#FF1B00" cx="43.277" cy="64" r="19.777"/>
+		<circle fill="#FF1C00" cx="43.277" cy="64" r="19.677"/>
+		<circle fill="#FF1D00" cx="43.276" cy="64" r="19.578"/>
+		<circle fill="#FF1E00" cx="43.276" cy="64" r="19.478"/>
+		<circle fill="#FF1F00" cx="43.276" cy="64" r="19.378"/>
+		<circle fill="#FF2000" cx="43.277" cy="64" r="19.279"/>
+		<circle fill="#FF2100" cx="43.277" cy="64" r="19.179"/>
+		<circle fill="#FF2200" cx="43.277" cy="64" r="19.079"/>
+		<circle fill="#FF2300" cx="43.277" cy="64" r="18.98"/>
+		<circle fill="#FF2400" cx="43.277" cy="64" r="18.88"/>
+		<circle fill="#FF2400" cx="43.276" cy="64" r="18.78"/>
+		<circle fill="#FF2500" cx="43.276" cy="64" r="18.681"/>
+		<circle fill="#FF2600" cx="43.276" cy="64" r="18.581"/>
+		<circle fill="#FF2700" cx="43.276" cy="64" r="18.481"/>
+		<circle fill="#FF2800" cx="43.276" cy="64" r="18.382"/>
+		<circle fill="#FF2900" cx="43.277" cy="64" r="18.282"/>
+		<circle fill="#FF2A00" cx="43.277" cy="64" r="18.182"/>
+		<circle fill="#FF2B00" cx="43.277" cy="64" r="18.083"/>
+		<circle fill="#FF2C00" cx="43.276" cy="64" r="17.983"/>
+		<circle fill="#FF2D00" cx="43.276" cy="64" r="17.883"/>
+		<circle fill="#FF2E00" cx="43.276" cy="64" r="17.784"/>
+		<circle fill="#FF2F00" cx="43.276" cy="64" r="17.684"/>
+		<circle fill="#FF3000" cx="43.276" cy="64" r="17.584"/>
+		<circle fill="#FF3100" cx="43.276" cy="64" r="17.485"/>
+		<circle fill="#FF3200" cx="43.277" cy="64" r="17.385"/>
+		<circle fill="#FF3300" cx="43.277" cy="64" r="17.285"/>
+		<circle fill="#FF3400" cx="43.276" cy="64" r="17.186"/>
+		<circle fill="#FF3500" cx="43.276" cy="64" r="17.086"/>
+		<circle fill="#FF3600" cx="43.276" cy="64" r="16.986"/>
+		<circle fill="#FF3700" cx="43.276" cy="64" r="16.887"/>
+		<circle fill="#FF3800" cx="43.276" cy="64" r="16.787"/>
+		<circle fill="#FF3900" cx="43.276" cy="64" r="16.688"/>
+		<circle fill="#FF3A00" cx="43.276" cy="64" r="16.588"/>
+		<circle fill="#FF3B00" cx="43.277" cy="64" r="16.488"/>
+		<circle fill="#FF3C00" cx="43.276" cy="64" r="16.388"/>
+		<circle fill="#FF3D00" cx="43.276" cy="64" r="16.289"/>
+		<circle fill="#FF3E00" cx="43.276" cy="64" r="16.189"/>
+		<circle fill="#FF3F00" cx="43.276" cy="64" r="16.089"/>
+		<circle fill="#FF4000" cx="43.276" cy="64" r="15.99"/>
+		<circle fill="#FF4100" cx="43.276" cy="64" r="15.89"/>
+		<circle fill="#FF4200" cx="43.276" cy="64" r="15.791"/>
+		<circle fill="#FF4300" cx="43.276" cy="64" r="15.691"/>
+		<circle fill="#FF4400" cx="43.276" cy="64" r="15.591"/>
+		<circle fill="#FF4500" cx="43.276" cy="64" r="15.491"/>
+		<circle fill="#FF4600" cx="43.276" cy="64" r="15.392"/>
+		<circle fill="#FF4700" cx="43.276" cy="64" r="15.292"/>
+		<circle fill="#FF4800" cx="43.276" cy="64" r="15.192"/>
+	</g>
+</g>
+<polygon fill="#FFFFFF" points="102.815,6.177 108.343,7.311 111.404,5.407 111.356,9.011 115.185,13.157 109.657,12.024 
+	106.596,13.928 106.644,10.324 "/>
+<polygon fill="#FFFFFF" points="15.43,24.149 17.322,23.23 17.795,21.973 18.6,23.049 20.673,23.407 18.78,24.326 18.308,25.584 
+	17.503,24.507 "/>
+<polygon fill="#FFFFFF" points="62.16,115.745 64.962,115.155 66.001,113.649 66.708,115.337 69.329,116.493 66.526,117.083 
+	65.486,118.588 64.78,116.901 "/>
 </svg>

@@ -31,13 +31,12 @@ $(document).ready(function() {
 });
 
 	function strokeAni(a) {
-		$("#constellation_box .line").eq(a).delay(2000).animate({"stroke-dashoffset":"0"},300);
+		$("#constellation_box .line").eq(a).delay(1800).animate({"stroke-dashoffset":"0"},300);
 	}
 
 	function afterAni()
 	 {
-		$("#constellation_box .line").animate({"opacity":"0.2"},1800);
-
+		$("#constellation_box .line").animate({"opacity":"0"},1800);
 		$(".intro_text").animate({"bottom":"10px","opacity":"1"},1200);
 	}
 

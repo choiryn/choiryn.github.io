@@ -187,7 +187,7 @@
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
-    background: #130c49;
+    background: #1c135e;
 }
 
 .intro_text_box {
@@ -244,6 +244,7 @@
 	stroke-dasharray: 50;
 	stroke-dashoffset: 50;
 	fill-opacity: 0;
+	opacity: 0.9;
 	animation: circleAni 5s forwards;
 	animation-delay: 0.5s;
 }
@@ -251,15 +252,6 @@
 @keyframes circleAni {
 	25% {stroke-dashoffset: 0;}
 	100% {stroke-dashoffset: 0; fill-opacity: 1;}
-}
-
-.opc1 {
-	animation: opacity 2s infinite;
-	animation-delay: 5s;
-}
-
-@keyframes opacity {
-	100% {fill: yellow;}
 }
 
 /*svg line element*/

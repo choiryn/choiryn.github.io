@@ -37,6 +37,7 @@ $(document).ready(function() {
 	function afterAni()
 	 {
 		$("#constellation_box .line").animate({"opacity":"0"},1800);
+		$(".opc").animate({"opacity":"0.5"},1000);
 		// $(".intro_text").animate({"bottom":"10px","opacity":"1"},1200);
 	}
 

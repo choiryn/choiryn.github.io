@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /*global*/
 
@@ -12,6 +11,13 @@
 .hidden {
 	display: none;
 }
+
+/*scroll*/
+
+::-webkit-scrollbar { width: 12px; }
+::-webkit-scrollbar-track { background-color: #f2f6f9; }
+::-webkit-scrollbar-thumb { background: #4200d7; }
+::-webkit-scrollbar-button { display: none; }
 
 /*layout*/
 
@@ -34,7 +40,6 @@
     height: 180px;
     margin-left: -42.5%;
     z-index: 200;
-
 }
 
 .header_wrap > .header {
@@ -75,8 +80,25 @@
 }
 
 .gnb:hover .wave {
-	stroke: #0778aa;
+	stroke: #4200d7;
 }
+
+.gnb_open {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 1000;
+	background: #4200d7;
+}
+
+.gnb_open ul li a {
+	font-family: PlayfairDisplay-Black;
+	font-size: 50px;
+	color: #fff;
+}
+
 
 section {
 	width: 100%;
@@ -175,7 +197,8 @@ section {
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
-    background: #0778aa;
+    background: #4200d7;
+    /*background: -webkit-linear-gradient(-45deg, #2e188d 1%,#4200d7 100%);*/
 }
 
 .intro_text_box {
@@ -227,8 +250,8 @@ section {
 }
 
 #constellation_box > circle {
-	stroke: #d7ebf4;
-	fill: #d7ebf4;
+	stroke: #eee7ff;
+	fill: #eee7ff;
 	stroke-dasharray: 50;
 	stroke-dashoffset: 50;
 	fill-opacity: 0;
@@ -334,27 +357,92 @@ section {
 
 /*home*/
 
+/*about*/
+
 .about {
 	background: #f2f6f9;
 	position: relative;
 }
 
 .about_text_box {
+	width: 100%;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	-webkit-transform: translate(-50%,-50%);
-	-o-transform: translate(-50%,-50%);
-	-ms-transform: translate(-50%,-50%);
-	-moz-transform: translate(-50%,-50%);
+	top: 35%;
 }
 
 .about_text_box .about_en {
 	font-family: PlayfairDisplay-Black;
-	font-size: 40px;
+	font-size: 53px;
+	padding-bottom: 50px;
+	text-align: center;
 	color: #1d2123;
+	margin-top: 30px;
+	opacity: 0;
+	animation: textReveal 1s forwards;
 }
+
+.about_text_box .about_kr {
+	width: 45%;
+	margin: 0 auto;
+	line-height: 1.6;
+	font-family: 'Spoqa Han Sans Regular';
+	font-size: 17px;
+	font-weight: 600;
+	text-align: justify;
+	color: #414141;
+	margin-top: 30px;
+	opacity: 0;
+	animation: textReveal 1s forwards;
+	animation-delay: 0.2s;
+}
+
+@keyframes textReveal {
+	100% {margin-top: 0; opacity: 1;}
+}
+
+.resume_box {
+	position: absolute;
+	bottom: 25%;
+	right: 18%;
+	width: 180px;
+	height: 40px;
+	cursor: pointer;
+	opacity: 0;
+	animation: textSlide 1s forwards;
+	animation-delay: 0.4s;
+}
+
+@keyframes textSlide {
+	100% {right: 20%; opacity: 1;}
+}
+
+.resume_check {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 15px;
+	border: 2px solid #3c3b3f;
+	box-sizing: border-box;
+}
+
+.resume_anim {
+	stroke-dasharray: 350;
+	stroke-dashoffset: 350;
+	transition: 1.5s;
+}
+
+.resume_text {
+	font-size: 23px;
+	font-family: PlayfairDisplay-Italic;
+	font-weight: bold;
+	line-height: 35px;
+}
+
+.resume_box:hover .resume_anim {
+	stroke-dashoffset: 0;
+}
+
+/*skill*/
 
 .chart_box {
 	width: 400px;

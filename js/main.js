@@ -28,6 +28,19 @@ $(document).ready(function() {
 			clearInterval(constellation);
 		}
 	}, 200);
+
+	//menu open
+
+	$(".gnb").click(function() {
+		$(".gnb_open").addClass("active");
+	});
+
+
+	// menu close
+
+	$(".gnb_open").click(function() {
+		$(this).removeClass("active");
+	});
 });
 
 	function strokeAni(a) {

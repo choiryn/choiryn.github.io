@@ -285,37 +285,38 @@ section {
 .intro_text_box {
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	-webkit-transform: translate(-50%,-50%);
-	-o-transform: translate(-50%,-50%);
-	-ms-transform: translate(-50%,-50%);
-	-moz-transform: translate(-50%,-50%);
+	width: 100%;
+	text-align: center;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
 	z-index: 50;
 }
 
 .intro_text_box > div {
-	position: relative;
-	width: 580px;
-	height: 60px;
+	padding: 5px 0;
+	font-size: 40px;
+	color: #fff;
 	overflow: hidden;
 }
 
+.intro_text_box > div:nth-child(1) {
+	font-size: 70px;
+}
+
 .intro_text {
-	position: absolute;
-	left: 0;
-	bottom: -60px;
-	color: #fff;
+	display: block;
 	opacity: 0;
-	text-align: center;
-	font-size: 40px;
+	transform: translateY(100%);
 	font-family: PlayfairDisplay-Black;
 	animation: textUp 0.7s forwards ease-out;
 	animation-delay: 5.2s;
 }
 
 @keyframes textUp {
-	100% {bottom: 10px; opacity: 1;}
+	to {transform: translateY(0px); opacity: 1;}
 }
 
 #constellation_box {
@@ -743,7 +744,7 @@ section {
 
 .about_explain {
 	padding-top: 15px;
-	text-indent: 38px;
+	margin-left: 35px;
 	font-family: 'Spoqa Han Sans Regular';
 	font-weight: 600;
 	font-size: 15px;
@@ -844,8 +845,7 @@ section {
 
 .work_img {
 	position: relative;
-	width: 660px;
-	height: 330px;
+	width: calc(100% - 150px);
 	margin: 30px auto;
 }
 

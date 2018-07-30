@@ -58,7 +58,7 @@ $(document).ready(function() {
 
 	$(window).on("scroll",function() {
 		
-		chartHt = $(".skill_explain").offset().top;
+		chartHt = $(".skill_chart").offset().top;
 		docuHt = $(document).scrollTop();
 
 		if(docuHt >= chartHt) {

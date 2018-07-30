@@ -1,0 +1,275 @@
+@media screen and (max-width: 1280px) {
+	/*about*/
+
+	.about_text_box .about_en {
+		font-size: 45px;
+	}
+
+	.about_text_box .about_kr {
+		width: 55%;
+		font-size: 15px;
+	}
+
+	/*skill*/
+
+	.chart_box {
+		width: 380px;
+		height: 380px;
+	}
+
+	.skill_name {
+		font-size: 20px;
+	}
+
+	.explain_wrap {
+		left: 50px;
+	}
+
+	.about_explain {
+		width: 85%;
+		margin-left: 30px;
+		font-size: 13px;
+		line-height: 1.6;
+	}
+
+	.contact_wrap {
+		width: 70%;
+	}
+
+	.contact span {
+		font-size: 14px;
+	}
+
+	.work {
+		height: 1400px;
+	}
+
+	.work_layout h2 {
+		font-size: 70px;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+
+	#constellation_box {
+		width: 80%;
+	}
+
+	/*about*/
+
+	.about_text_box .about_kr {
+		width: 65%;
+	}
+
+	/*skill*/
+
+	.skill_chart, .skill_explain {
+		width: 100%;
+	}
+
+	.chart_box {
+		width: 400px;
+		height: 400px;
+	}
+
+	.explain_wrap {
+		left: 100px;
+	}
+
+	.skill_name {
+		font-size: 25px;
+	}
+
+	.about_explain {
+		margin-left: 35px;
+		font-size: 18px;
+	}
+
+	.work {
+		height: 2300px;
+	}
+
+	.work_wrap li {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	#constellation_box {
+		transform: translate(-50%,-50%) rotate(-80deg);
+		width: 120%;
+	}
+
+	.meteor {
+		top: -100px;
+		left: 50%;
+		margin-left: -115px;
+		transform: rotate(180deg);
+	}
+
+	@keyframes meteor {
+		to { top: 110%; right: 40%; } }
+
+	/*about*/
+
+	.about_text_box .about_en {
+		font-size: 40px;
+		padding-bottom: 70px;
+	}
+
+	.about_text_box .about_kr {
+		font-size: 18px;
+		width: 85%;
+	}
+
+	.contact_wrap {
+		width: 80%;
+	}
+
+	.work {
+		height: 1900px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	.header_wrap {
+	    height: 120px;
+	}
+
+	.gnb_open ul li a {
+		font-size: 35px;
+	}
+
+	.intro_text_box > div {
+		font-size: 25px;
+	}
+
+	.intro_text_box > div:nth-child(1) {
+		font-size: 50px;
+	}
+
+	#constellation_box {
+		transform: translate(-50%,-50%) rotate(100deg);
+		width: 110%;
+	}
+
+	.line {
+		stroke-width: 3px;
+	}
+
+	.see_more:after {
+		width: 1px;
+	}
+
+	.meteor {
+		width: 200px;
+		height: 200px;
+	}
+
+	@keyframes meteor {
+		to { top: 110%; right: 40%; } }
+
+	/*about*/
+
+	.about_text_box {
+		top: 30%;
+	}
+
+	.about_text_box .about_en {
+		font-size: 35px;
+		padding-bottom: 40px;
+	}
+
+	.about_text_box .about_kr {
+		font-size: 14px;
+	}
+
+	.resume_box {
+		right: 0%;
+	}
+
+	@keyframes textSlide {
+		100% {right: 3%; opacity: 1;}
+	}
+
+	.resume_check {
+		width: 25px;
+		height: 25px;
+		border: 1px solid #3c3b3f;
+	}
+
+	.resume_text {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.chart_wrap {
+		top: 30%;
+	}
+
+	.chart_box {
+		width: 200px;
+		height: 200px;
+	}
+
+	.text_left, .text_right {
+		font-size: 5px;
+	}
+
+	.explain_wrap {
+		left: 50px;
+	}
+
+	.skill_name {
+		font-size: 18px;
+	}
+
+	.about_explain {
+		margin-left: 30px;
+		font-size: 13px;
+	}
+	
+	#map {
+		height: 50%;
+	}
+
+	.contact {
+		height: 50%;
+	}
+
+	.contact_wrap {
+		width: 100%;
+	}
+
+	.contact span {
+		display: block;
+		width: 100%;
+		height: 33.333%;
+		float: none;
+		font-size: 16px;
+		line-height: 5;
+	}
+
+	.work {
+		height: 1700px;
+	}
+
+	.work_layout:before {
+		height: 150px;
+	}
+
+	.work_layout h2 {
+		font-size: 60px;
+	}
+
+	.work_color {
+		font-size: 60px;
+	}
+
+	.work_img {
+		width: calc(100% - 10px);
+	}
+}

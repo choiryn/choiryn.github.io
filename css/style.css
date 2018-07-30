@@ -811,6 +811,13 @@ section {
 	font-family: PlayfairDisplay-Black;
 	font-size: 80px;
 	text-align: center;
+	line-height: 0.9;
+}
+
+.work_color {
+	color: #6000ff;
+	font-family: PlayfairDisplay-Black;
+	font-size: 80px;
 }
 
 .work_wrap {
@@ -890,4 +897,5 @@ section {
 .work_explain p:nth-child(2) {
 	font-size: 14px;
 	color: #555;
+	line-height: 1.6;
 }

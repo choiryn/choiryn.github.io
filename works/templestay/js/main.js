@@ -226,38 +226,5 @@ $(document).ready(function(){
     	$("body,html").animate({scrollTop:exp.top},500);
     });  
 
-    //resize event
-
-    var windowWd = $(window).width();
-
-    // $(window).resize(function(){
-    // 	if(windowWd = 1280) {
-    // 		location.reload();
-    // 	}
-
-    // 	else if(windowWd = 1024) {
-    // 		location.reload();
-    // 	}
-
-    // 	else if(windowWd = 780) {
-    // 		location.reload();
-    // 	}
-
-    // 	else if(windowWd = 640) {
-    // 		location.reload();
-    // 	}
-
-    // 	else if(windowWd = 480) {
-    // 		location.reload();
-    // 	}
-
-    // 	else if(windowWd = 414) {
-    // 		location.reload();
-    // 	}    	
-
-    // 	else if(windowWd = 320) {
-    // 		location.reload();
-    // 	}    	    	
-    // });
 });
 		    

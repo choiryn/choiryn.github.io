@@ -52,7 +52,7 @@ $(document).ready(function() {
 		$(this).removeClass("active");
 	});
 
-	//
+	//logo color change
 
 	var chartHt, docuHt = 0;
 
@@ -63,11 +63,27 @@ $(document).ready(function() {
 
 		if(docuHt >= chartHt) {
 			$(".logo").css("fill","#fff");
+			$(".explain_wrap li").addClass("active");
 		}
 		else {
 			$(".logo").css("fill","#1b1b1d");
+			$(".explain_wrap li").removeClass("active");
 		}
 	});	
+
+	//ease scroll
+
+	var scrollHt = $(window).height();
+    $(window).on("mousewheel", function(e){
+        if(e.originalEvent.wheelDelta < 0) {
+            $("html, body").not(":animated").animate({scrollTop:"+="+scrollHt+"px"},800);
+        }
+        else {
+            $("html, body").not(":animated").animate({scrollTop:"-="+scrollHt+"px"},800);
+        }
+        return false;
+    });
+
 });
 
 

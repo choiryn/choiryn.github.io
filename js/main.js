@@ -85,9 +85,16 @@ $(document).ready(function() {
     });
 
     //map
+    var position = new naver.maps.LatLng(36.2832250, 127.4774750);
     var map = new naver.maps.Map('map', {
-   		center: new naver.maps.LatLng(36.2832250, 127.4774750),
+   		center: position,
     	zoom: 10
+	});
+
+	var marker = new naver.maps.Marker({
+	    position: position,
+	    map: map,
+	    icon: '../img/marker.svg'
 	});
 });
 

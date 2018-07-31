@@ -147,7 +147,7 @@ header {
  	height: 200px;
  	display: block;
  	background: #fff;
- 	z-index: 9999;
+ 	z-index: 1000;
  	display: none;
  }
 
@@ -274,7 +274,7 @@ aside {
     top: 100px;
     right: -400px;  
     transition: 0.5s;
-    z-index: 500;
+    z-index: 5000;
 }
 
 .form_wrap {

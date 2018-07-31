@@ -516,6 +516,11 @@ section {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
 	line-height: 35px;
+	color: #222;
+}
+
+.resume_text:hover {
+	color: #5b0eff;
 }
 
 .resume_box:hover .resume_anim {

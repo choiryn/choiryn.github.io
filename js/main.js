@@ -71,19 +71,6 @@ $(document).ready(function() {
 		}
 	});	
 
-	//ease scroll
-
-	var scrollHt = $(window).height();
-    $(window).on("mousewheel", function(e){
-        if(e.originalEvent.wheelDelta < 0) {
-            $("html, body").not(":animated").animate({scrollTop:"+="+scrollHt+"px"},800);
-        }
-        else {
-            $("html, body").not(":animated").animate({scrollTop:"-="+scrollHt+"px"},800);
-        }
-        return false;
-    });
-
     //map
     var position = new naver.maps.LatLng(36.2832250, 127.4774750);
     var map = new naver.maps.Map('map', {

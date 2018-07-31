@@ -49,7 +49,7 @@
 	}
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1024px) {
 
 	#constellation_box {
 		width: 80%;
@@ -68,8 +68,8 @@
 	}
 
 	.chart_box {
-		width: 400px;
-		height: 400px;
+		width: 600px;
+		height: 600px;
 	}
 
 	.explain_wrap {
@@ -122,6 +122,11 @@
 	.about_text_box .about_kr {
 		font-size: 18px;
 		width: 85%;
+	}
+
+	.chart_box {
+		width: 400px;
+		height: 400px;
 	}
 
 	.contact_wrap {
@@ -207,12 +212,18 @@
 	}
 
 	.chart_wrap {
-		top: 30%;
+		top: 25%;
+	}
+
+	.skill_chart > h2 {
+		bottom: 140px;
+		margin-left: -80px;
+		font-size: 20px;
 	}
 
 	.chart_box {
-		width: 200px;
-		height: 200px;
+		width: 300px;
+		height: 300px;
 	}
 
 	.text_left, .text_right {

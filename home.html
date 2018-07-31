@@ -22,9 +22,9 @@
 
         $(document).SmoothScrollWheel({
             debug: false,
-            defaultDetailDelta: 1,
-            defaultWheelDelta: 30,
-            defaultSpeed: 100,
+            defaultDetailDelta: 10,
+            defaultWheelDelta: 20,
+            defaultSpeed: 50,
             defaultAnimationTime: 1200
         });
 
@@ -155,5 +155,29 @@
             </main>
         </div>
 	</div>
+    <script>
+     $(document).ready(function() {
+        
+        //logo color change
+
+        var chartHt, docuHt = 0;
+
+        $(window).on("scroll",function() {
+            
+            chartHt = $(".skill_chart").offset().top;
+            docuHt = $(document).scrollTop();
+
+            if(docuHt >= chartHt) {
+                $(".logo").css("fill","#fff");
+                $(".explain_wrap li").addClass("active");
+            }
+            else {
+                $(".logo").css("fill","#1b1b1d");
+                $(".explain_wrap li").removeClass("active");
+            }
+        }); 
+     });
+    </script>
+    
 </body>
 </html>

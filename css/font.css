@@ -1,36 +1,6 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: PlayfairDisplay-Black;
-  src: url('../font/PlayfairDisplay-Black.ttf'),
-       url('../font/PlayfairDisplay-Black.woff'),
-       url('../font/PlayfairDisplay-Black.eot');
-}
-
-@font-face {
-  font-family: PlayfairDisplay-Bold;
-  src: url('../font/PlayfairDisplay-Bold.ttf'),
-       url('../font/PlayfairDisplay-Bold.woff'),
-       url('../font/PlayfairDisplay-Bold.eot');
-}
-
-@font-face {
-  font-family: PlayfairDisplay-Italic;
-  src: url('../font/PlayfairDisplay-Italic.ttf'),
-       url('../font/PlayfairDisplay-Italic.woff'),
-       url('../font/PlayfairDisplay-Italic.eot');
-}
-
-
-@font-face {
-  font-family: PlayfairDisplay-Regular;
-  src: url('../font/PlayfairDisplay-Regular.ttf'),
-       url('../font/PlayfairDisplay-Regular.woff'),
-       url('../font/PlayfairDisplay-Regular.eot');
-}
-
-
-@font-face {
   font-family: 'Spoqa Han Sans Bold';
   src: url('../font/Spoqa Han Sans Bold.ttf'),
        url('../font/Spoqa Han Sans Bold.woff'),

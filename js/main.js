@@ -52,25 +52,6 @@ $(document).ready(function() {
 		$(this).removeClass("active");
 	});
 
-	//logo color change
-
-	var chartHt, docuHt = 0;
-
-	$(window).on("scroll",function() {
-		
-		chartHt = $(".skill_chart").offset().top;
-		docuHt = $(document).scrollTop();
-
-		if(docuHt >= chartHt) {
-			$(".logo").css("fill","#fff");
-			$(".explain_wrap li").addClass("active");
-		}
-		else {
-			$(".logo").css("fill","#1b1b1d");
-			$(".explain_wrap li").removeClass("active");
-		}
-	});	
-
     //map
     var position = new naver.maps.LatLng(36.2832250, 127.4774750);
     var map = new naver.maps.Map('map', {
